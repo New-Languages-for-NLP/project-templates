@@ -1,0 +1,120 @@
+# sent_id = 1
+# text = On January 14, 1923, Olin Gilfillan (my most trusted field lieutenant and a brilliant, hard-working man) and I set out on horseback from Lovington, New Mexico, and headed toward the Mescalero Ridge.
+1	On	on	ADP	IN	_	26	prep	_	_
+2	January	January	PROPN	NNP	Number=Sing	1	pobj	_	_
+3	14	14	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+5	1923	1923	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+7	Olin	Olin	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Gilfillan	Gilfillan	PROPN	NNP	Number=Sing	26	nsubj	_	_
+9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	poss	_	_
+11	most	most	ADV	RBS	Degree=Sup	12	advmod	_	_
+12	trusted	trust	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	amod	_	_
+13	field	field	NOUN	NN	Number=Sing	14	compound	_	_
+14	lieutenant	lieutenant	NOUN	NN	Number=Sing	8	appos	_	_
+15	and	and	CCONJ	CC	ConjType=Cmp	14	cc	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+17	brilliant	brilliant	ADJ	JJ	Degree=Pos	22	amod	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
+19	hard	hard	ADV	RB	_	21	advmod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	working	work	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	22	amod	_	_
+22	man	man	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	_
+24	and	and	CCONJ	CC	ConjType=Cmp	8	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	set	set	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
+27	out	out	ADP	RP	_	26	prt	_	_
+28	on	on	ADP	IN	_	26	prep	_	_
+29	horseback	horseback	NOUN	NN	Number=Sing	28	pobj	_	_
+30	from	from	ADP	IN	_	26	prep	_	_
+31	Lovington	Lovington	PROPN	NNP	Number=Sing	30	pobj	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
+33	New	New	PROPN	NNP	Number=Sing	34	compound	_	_
+34	Mexico	Mexico	PROPN	NNP	Number=Sing	31	appos	_	SpaceAfter=No
+35	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+36	and	and	CCONJ	CC	ConjType=Cmp	26	cc	_	_
+37	headed	head	VERB	VBD	Tense=Past|VerbForm=Fin	26	conj	_	_
+38	toward	toward	ADP	IN	_	37	prep	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+40	Mescalero	Mescalero	PROPN	NNP	Number=Sing	41	compound	_	_
+41	Ridge	Ridge	PROPN	NNP	Number=Sing	38	pobj	_	SpaceAfter=No
+42	.	.	PUNCT	.	PunctType=Peri	26	punct	_	_
+
+# sent_id = 2
+# text = We had with us a couple of pack mules bearing camping equipment and grub for a week.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
+3	with	with	ADP	IN	_	2	prep	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	pobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	couple	couple	NOUN	NN	Number=Sing	2	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	pack	pack	NOUN	NN	Number=Sing	9	compound	_	_
+9	mules	mule	NOUN	NNS	Number=Plur	7	pobj	_	_
+10	bearing	bear	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	acl	_	_
+11	camping	camping	NOUN	NN	Number=Sing	12	compound	_	_
+12	equipment	equipment	NOUN	NN	Number=Sing	10	dobj	_	_
+13	and	and	CCONJ	CC	ConjType=Cmp	12	cc	_	_
+14	grub	grub	NOUN	NN	Number=Sing	12	conj	_	_
+15	for	for	ADP	IN	_	10	prep	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	week	week	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 3
+# text = It was our intention to scout the southeast part of the Ridge, and report certain findings to the company.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	poss	_	_
+4	intention	intention	NOUN	NN	Number=Sing	2	attr	_	_
+5	to	to	PART	TO	_	6	aux	_	_
+6	scout	scout	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	southeast	southeast	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	part	part	NOUN	NN	Number=Sing	6	dobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Ridge	Ridge	PROPN	NNP	Number=Sing	10	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+14	and	and	CCONJ	CC	ConjType=Cmp	2	cc	_	_
+15	report	report	VERB	VB	VerbForm=Inf	2	conj	_	_
+16	certain	certain	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	findings	finding	NOUN	NNS	Number=Plur	15	dobj	_	_
+18	to	to	ADP	IN	_	17	prep	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	company	company	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 4
+# text = I shall not here relate any technical description of our route, inasmuch as my complete report is on file with the company in their Chicago office.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	shall	shall	AUX	MD	VerbType=Mod	5	aux	_	_
+3	not	not	PART	RB	Polarity=Neg	5	neg	_	_
+4	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+5	relate	relate	VERB	VB	VerbForm=Inf	0	ROOT	_	_
+6	any	any	DET	DT	_	8	det	_	_
+7	technical	technical	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	description	description	NOUN	NN	Number=Sing	5	dobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	poss	_	_
+11	route	route	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+13	inasmuch	inasmuch	ADV	RB	_	18	advmod	_	_
+14	as	as	SCONJ	IN	_	18	mark	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	poss	_	_
+16	complete	complete	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	report	report	NOUN	NN	Number=Sing	18	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+19	on	on	ADP	IN	_	18	prep	_	_
+20	file	file	NOUN	NN	Number=Sing	19	pobj	_	_
+21	with	with	ADP	IN	_	20	prep	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	company	company	NOUN	NN	Number=Sing	21	pobj	_	_
+24	in	in	ADP	IN	_	18	prep	_	_
+25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	poss	_	_
+26	Chicago	Chicago	PROPN	NNP	Number=Sing	27	compound	_	_
+27	office	office	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	5	punct	_	SpaceAfter=No

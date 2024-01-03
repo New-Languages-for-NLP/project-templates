@@ -1,8 +1,8 @@
 <!-- WEASEL: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 Weasel Project: Train new language model from cadet and inception data
+# 🪐 Weasel Project: Train new language core model with Cadet and INCEpTION
 
-This project template lets you train a part-of-speech tagger, morphologizer and dependency parser from your cadet and inception data.
+This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data.
 
 ## 📋 project.yml
 
@@ -18,16 +18,17 @@ Commands are only re-run if their inputs have changed.
 
 | Command | Description |
 | --- | --- |
-| `install` | Install the new language object from Cadet |
-| `prep-rawtext` | Process raw texts in the 0_original_texts folder and convert them to raw_text.spacy |
-| `check-conll` | Look for errors in CoNLL-2002 files |
-| `convert` | Convert the data to spaCy's format |
-| `split` | Split the data into train, validation, and test |
-| `debug` | Assess data for training using spaCy's debug data |
-| `train` | Train urban-giggle |
-| `evaluate` | Evaluate on the test data and save the metrics |
-| `package` | Package the trained model so it can be installed |
-| `document` | Generate project documentation |
+| `install-dependencies` | Install python dependencies |
+| `install-language-object` | Install the language object from Cadet |
+| `convert-raw-text` | Convert raw text files to spaCy's format |
+| `convert-annotations` | Convert annotated data from INCEpTION to spaCy's format |
+| `split-data` | Split the data into training, validation, and test sets |
+| `debug-data` | Validate the training data |
+| `debug-config` | Validate the selected spaCy config file |
+| `pretrain-model` | Pretrain context for the language model |
+| `train-model` | Train the language model |
+| `evaluate-model` | Evaluate on the test data and save the metrics |
+| `package-model` | Package the trained model so it can be installed |
 
 ### ⏭ Workflows
 
@@ -38,7 +39,10 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `install` &rarr; `prep-rawtext` &rarr; `check-conll` &rarr; `convert` &rarr; `split` &rarr; `debug` &rarr; `train` &rarr; `evaluate` &rarr; `package` &rarr; `document` |
+| `all` | `install-dependencies` &rarr; `install-language-object` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` &rarr; `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
+| `install` | `install-dependencies` &rarr; `install-language-object` |
+| `setup` | `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` |
+| `train` | `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
 
 ### 🗂 Assets
 
@@ -48,6 +52,8 @@ in the project directory.
 
 | File | Source | Description |
 | --- | --- | --- |
-| `assets/urban-giggle` | Git |  |
+| [`assets/lang/zxx`](assets/lang/zxx) | Local | New language object from Cadet |
+| [`assets/text`](assets/text) | Local | Raw text files for pretraining |
+| [`assets/annotations`](assets/annotations) | Local | Annotated text files from INCEpTION |
 
 <!-- WEASEL: AUTO-GENERATED DOCS END (do not remove) -->

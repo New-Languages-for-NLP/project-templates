@@ -1,54 +1,47 @@
+"""Split the corpus into train, dev, and test sets"""
 
-"""Load inception conllu data and split into train and test files"""
-import srsly
+
 import typer
-import warnings
 from pathlib import Path
 import random
 
-import spacy
 from spacy.tokens import DocBin
-from spacy.util import filter_spans, get_lang_class
+from spacy.util import get_lang_class
 from sklearn.model_selection import train_test_split
 
 
-def split(test_size:float, random_state:int, lang:str):
+def split(input_path: Path, output_path: Path, split_size: float, lang: str):
+    # make sure corpus file and output dir exist
+    assert input_path.is_file()
+    assert output_path.is_dir()
 
+    # load custom language model for its vocab
     lang = get_lang_class(lang)
     nlp = lang()
 
-    corpus_path = Path.cwd() / "corpus" / "converted"
-    assert corpus_path.exists()
+    # load all the docs from the input file and shuffle them
+    all_docs = list(DocBin().from_disk(input_path).get_docs(nlp.vocab))
+    random.shuffle(all_docs)
 
-    doc_bin = DocBin()
-    for spacy_file in corpus_path.iterdir():
-        doc_bin.merge(DocBin().from_bytes(spacy_file.read_bytes()))
-    docs = [doc for doc in doc_bin.get_docs(nlp.vocab)]
-    random.shuffle(docs)
-    train_set, validation_set = train_test_split(docs, test_size=test_size, random_state=random_state)
-    validation_set, test_set = train_test_split(validation_set, test_size=test_size, random_state=random_state)
-    
-    # the DocBin will store the training documents
-    train_db = DocBin()
-    for doc in train_set:
-        train_db.add(doc)
-    train_db.to_disk((corpus_path /"train.spacy"))
+    # split the docs into train and validation sets
+    train_docs, validation_docs = train_test_split(all_docs, test_size=split_size)
 
-    # Save the validation Docs to disk 
-    validation_db = DocBin()
-    for doc in validation_set:
-        validation_db.add(doc)
-    validation_db.to_disk((corpus_path / "dev.spacy"))
-    
-    # Save the test Docs to disk 
-    test_db = DocBin()
-    for doc in test_set:
-        test_db.add(doc)
-    test_db.to_disk((corpus_path / "test.spacy"))
+    # split the validation docs into dev and test sets
+    dev_docs, test_docs = train_test_split(validation_docs, test_size=split_size)
 
-    print(f'🚂 Created {len(train_set)} training docs')
-    print(f'😊 Created {len(validation_set)} validation docs')
-    print(f'🧪  Created {len(test_set)} test docs')
+    # save all of the sets to disk
+    train_db = DocBin(docs=train_docs)
+    train_db.to_disk(output_path / "train.spacy")
+    typer.echo(f"Wrote 'train.spacy' ({len(train_docs)} docs)")
+
+    dev_db = DocBin(docs=dev_docs)
+    dev_db.to_disk(output_path / "dev.spacy")
+    typer.echo(f"Wrote 'dev.spacy' ({len(dev_docs)} docs)")
+
+    test_db = DocBin(docs=test_docs)
+    test_db.to_disk(output_path / "test.spacy")
+    typer.echo(f"Wrote 'test.spacy' ({len(test_docs)} docs)")
+
 
 if __name__ == "__main__":
     typer.run(split)

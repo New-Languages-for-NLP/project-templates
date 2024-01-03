@@ -1,0 +1,7 @@
+# python stuff
+*.egg-info
+__pycache__/
+
+# spacy stuff
+project.lock
+training/
