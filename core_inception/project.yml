@@ -4,8 +4,8 @@ description: "This project template lets you train a part-of-speech tagger, depe
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
   lang: "zxx"               # two- or three-letter ISO 639 code
-  pipeline_type: "core"     # "core" = tagger + parser + ner
-  data_source: "lit"        # literature (e.g. novels), or "news", "web", etc.
+  data_source: "lit"        # "lit" (e.g. novels), "news", "web", etc.
+  model_size: "sm"          # "sm", "md", "lg", "trf" (relative size of model)
   package_version: "1.0.0"  # update this when you make a new version
   test_size: 0.2            # size of corpus to reserve for testing (20%)
   n_sents: 10               # number of sentences per generated document
@@ -121,5 +121,5 @@ commands:
   - name: package-model
     help: "Package the trained model so it can be installed"
     script:
-      - "python -m spacy package training/model-best packages --name ${vars.pipeline_type}_${vars.data_source} --version ${vars.package_version} --force"
+      - "python -m spacy package training/model-best packages --name core_${vars.data_source}_${vars.model_size} --version ${vars.package_version} --force"
     deps: ["training/model-best"]
