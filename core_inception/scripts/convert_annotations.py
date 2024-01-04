@@ -8,6 +8,7 @@ import os
 import typer
 from spacy.tokens import DocBin
 from spacy.util import get_lang_class
+from wasabi import msg
 
 
 def convert(
@@ -67,6 +68,7 @@ def convert(
     matched_filenames = conllu_filenames & conll_filenames
 
     # if the file has both conllu and conll versions, join them, otherwise copy
+    msg.info(f"Grouping {len(all_filenames)} files into a corpus.")
     out_docs = DocBin()
     for filename in all_filenames:
         if filename in matched_filenames:
@@ -83,24 +85,21 @@ def convert(
             for base_doc, ner_doc in zip(conllu_docs, conll_docs):
                 base_doc.ents = ner_doc.ents
                 out_docs.add(base_doc)
-            typer.echo(
-                f"Combined and converted '{filename}.conllu' and '{filename}.conll' ({len(conllu_docs)} docs)"
+            msg.info(
+                f"Combined '{filename}.conllu' and '{filename}.conll' ({len(conllu_docs)} docs)"
             )
         else:
             if filename in conllu_filenames:
-                ext = "conllu"
                 file = tmpdir / "conllu" / f"{filename}.spacy"
             if filename in conll_filenames:
-                ext = "conll"
                 file = tmpdir / "conll" / f"{filename}.spacy"
             docs = list(DocBin().from_disk(file).get_docs(nlp.vocab))
             for doc in docs:
                 out_docs.add(doc)
-            typer.echo(f"Converted '{filename}.{ext}' ({len(docs)} docs)")
 
     # write the combined corpus to disk
     out_docs.to_disk(output_path / "all.spacy")
-    typer.echo(f"Wrote 'all.spacy' ({len(out_docs)} docs)")
+    msg.good(f"Generated corpus ({len(out_docs)} documents): {output_path / 'all.spacy'}")
 
     # cleanup temporary directory
     tmpdir_handle.cleanup()
