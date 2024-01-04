@@ -8,7 +8,7 @@ vars:
   package_name: "spacy-${vars.lang}"
   package_version: "1.0.0"
   test_size: 0.2
-  n_sents: 1
+  n_sents: 10
   random_state: 11
   gpu: -1
 
