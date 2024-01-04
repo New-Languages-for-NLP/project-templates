@@ -3,3 +3,5 @@
 
 # spacy stuff
 corpus/
+packages/
+metrics.json
