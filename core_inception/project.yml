@@ -95,24 +95,25 @@ commands:
 
   - name: pretrain-model
     help: "Pretrain context for the language model"
-    script: ["python -m spacy pretrain configs/${vars.config} --output pretrain --gpu=id ${vars.gpu} --nlp.lang=${vars.lang}"]
+    script: ["python -m spacy pretrain configs/${vars.config} pretrain --gpu-id ${vars.gpu} --nlp.lang ${vars.lang}"]
     deps:
       - "configs/${vars.config}"
       - "corpus/pretrain.spacy"
-    outputs: ["pretrain/"]
+    outputs: ["pretrain/model-last.bin"]
 
   - name: train-model
     help: "Train the language model"
-    script: ["python -m spacy train configs/${vars.config} --output training --gpu-id ${vars.gpu} --nlp.lang=${vars.lang}"]
+    script: ["python -m spacy train configs/${vars.config} --output training --gpu-id ${vars.gpu} --nlp.lang ${vars.lang}"]
     deps:
       - "configs/${vars.config}"
-      - "corpus/converted/train.spacy"
-      - "corpus/converted/dev.spacy"
+      - "pretrain/model-last.bin"
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
     outputs: ["training/model-best"]
 
   - name: evaluate-model
     help: "Evaluate on the test data and save the metrics"
-    script: ["python -m spacy evaluate ./training/model-best ./corpus/converted/test.spacy --output ./metrics.json --gpu-id ${vars.gpu}"]
+    script: ["python -m spacy evaluate ./training/model-best ./corpus/test.spacy --output ./metrics.json --gpu-id ${vars.gpu}"]
     deps:
       - "training/model-best"
       - "corpus/test.spacy"

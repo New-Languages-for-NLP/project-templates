@@ -5,3 +5,4 @@ __pycache__/
 # spacy stuff
 project.lock
 training/
+pretrain/
