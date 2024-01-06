@@ -16830,7 +16830,7 @@
 3	*	*	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 697
-# text = The reference is to one of Rudyard Kipling’s early stories called “The Phantom Rickshaw.” 
+# text = The reference is to one of Rudyard Kipling’s early stories called “The Phantom Rickshaw.”
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	reference	reference	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -16848,4 +16848,4 @@
 15	Phantom	Phantom	PROPN	NNP	Number=Sing	16	compound	_	_
 16	Rickshaw	Rickshaw	PROPN	NNP	Number=Sing	12	oprd	_	SpaceAfter=No
 17	.	.	PUNCT	.	PunctType=Peri	3	punct	_	SpaceAfter=No
-18	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	3	punct	_	_
+18	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	3	punct	_	SpaceAfter=No
