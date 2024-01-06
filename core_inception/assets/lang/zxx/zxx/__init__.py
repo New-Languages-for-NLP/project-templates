@@ -8,7 +8,7 @@ class NewLanguage(Language):
     """Placeholder language class representing your new language."""
 
     lang = "zxx"
-    defaults = EnglishDefaults
+    Defaults = EnglishDefaults
 
 
 __all__ = ["NewLanguage"]
