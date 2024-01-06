@@ -2,7 +2,7 @@
 
 # 🪐 Weasel Project: Train new language core model with Cadet and INCEpTION
 
-This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data.
+This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data. It includes configuration for pretraining your model on raw text to improve its accuracy.
 
 ## 📋 project.yml
 
@@ -19,7 +19,8 @@ Commands are only re-run if their inputs have changed.
 | Command | Description |
 | --- | --- |
 | `install-dependencies` | Install python dependencies |
-| `install-language-object` | Install the language object from Cadet |
+| `install-language` | Install the language module from Cadet |
+| `validate-annotations` | Validate the files exported from INCEpTION |
 | `convert-raw-text` | Convert raw text files to spaCy's format |
 | `convert-annotations` | Convert annotated data from INCEpTION to spaCy's format |
 | `split-data` | Split the data into training, validation, and test sets |
@@ -27,7 +28,7 @@ Commands are only re-run if their inputs have changed.
 | `debug-config` | Validate the selected spaCy config file |
 | `pretrain-model` | Pretrain context for the language model |
 | `train-model` | Train the language model |
-| `evaluate-model` | Evaluate on the test data and save the metrics |
+| `evaluate-model` | Evaluate the model using test data and save the metrics |
 | `package-model` | Package the trained model so it can be installed |
 
 ### ⏭ Workflows
@@ -39,9 +40,9 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `install-dependencies` &rarr; `install-language-object` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` &rarr; `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
-| `install` | `install-dependencies` &rarr; `install-language-object` |
-| `setup` | `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` |
+| `all` | `install-dependencies` &rarr; `install-language` &rarr; `validate-annotations` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` &rarr; `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
+| `install` | `install-dependencies` &rarr; `install-language` |
+| `setup` | `validate-annotations` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` |
 | `train` | `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
 
 ### 🗂 Assets
@@ -52,7 +53,7 @@ in the project directory.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/lang/zxx`](assets/lang/zxx) | Local | New language object from Cadet |
+| [`assets/lang/zxx`](assets/lang/zxx) | Local | New language module from Cadet |
 | [`assets/text`](assets/text) | Local | Raw text files for pretraining |
 | [`assets/annotations`](assets/annotations) | Local | Annotated text files from INCEpTION |
 

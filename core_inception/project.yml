@@ -1,5 +1,5 @@
 title: "Train new language core model with Cadet and INCEpTION"
-description: "This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data."
+description: "This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data. It includes configuration for pretraining your model on raw text to improve its accuracy."
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
@@ -18,7 +18,7 @@ directories:
 
 assets:
   - dest: "assets/lang/${vars.lang}"
-    description: "New language object from Cadet"
+    description: "New language module from Cadet"
   - dest: "assets/text"
     description: "Raw text files for pretraining"
   - dest: "assets/annotations"
@@ -27,7 +27,7 @@ assets:
 workflows:
   all:
     - install-dependencies
-    - install-language-object
+    - install-language
     - validate-annotations
     - convert-raw-text
     - convert-annotations
@@ -38,7 +38,7 @@ workflows:
     - train-model
   install:
     - install-dependencies
-    - install-language-object
+    - install-language
   setup:
     - validate-annotations
     - convert-raw-text
@@ -55,8 +55,8 @@ commands:
     help: "Install python dependencies"
     script: ["pip install -r requirements.txt"]
 
-  - name: install-language-object
-    help: "Install the language object from Cadet"
+  - name: install-language
+    help: "Install the language module from Cadet"
     deps: ["assets/lang/${vars.lang}"]
     script: ["pip install -e assets/lang/${vars.lang}"]
 
@@ -118,7 +118,7 @@ commands:
     outputs: ["training/model-best"]
 
   - name: evaluate-model
-    help: "Evaluate on the test data and save the metrics"
+    help: "Evaluate the model using test data and save the metrics"
     script: ["python -m spacy evaluate ./training/model-best ./corpus/test.spacy --output ./metrics.json --gpu-id ${vars.gpu}"]
     deps:
       - "training/model-best"
@@ -127,6 +127,5 @@ commands:
 
   - name: package-model
     help: "Package the trained model so it can be installed"
-    script:
-      - "python -m spacy package training/model-best packages --name core_${vars.data_source}_${vars.model_size} --version ${vars.package_version} --force"
+    script: ["python -m spacy package training/model-best packages --name core_${vars.data_source}_${vars.model_size} --version ${vars.package_version} --force"]
     deps: ["training/model-best"]
