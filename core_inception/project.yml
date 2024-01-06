@@ -28,6 +28,7 @@ workflows:
   all:
     - install-dependencies
     - install-language-object
+    - validate-annotations
     - convert-raw-text
     - convert-annotations
     - split-data
@@ -39,6 +40,7 @@ workflows:
     - install-dependencies
     - install-language-object
   setup:
+    - validate-annotations
     - convert-raw-text
     - convert-annotations
     - split-data
@@ -57,6 +59,11 @@ commands:
     help: "Install the language object from Cadet"
     deps: ["assets/lang/${vars.lang}"]
     script: ["pip install -e assets/lang/${vars.lang}"]
+
+  - name: validate-annotations
+    help: "Validate the files exported from INCEpTION"
+    deps: ["assets/annotations"]
+    script: ["python scripts/validate_annotations.py assets/annotations"]
 
   - name: convert-raw-text
     help: "Convert raw text files to spaCy's format"
