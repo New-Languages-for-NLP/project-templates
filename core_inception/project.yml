@@ -102,7 +102,7 @@ commands:
 
   - name: train-model
     help: "Train the language model"
-    script: ["python -m spacy train configs/config.cfg --output training --gpu-id ${vars.gpu} --nlp.lang ${vars.lang}"]
+    script: ["python -m spacy train configs/config.cfg --output training --gpu-id ${vars.gpu} --nlp.lang ${vars.lang} --paths.init_tok2vec pretrain/model-last.bin"]
     deps:
       - "configs/config.cfg"
       - "pretrain/model-last.bin"
