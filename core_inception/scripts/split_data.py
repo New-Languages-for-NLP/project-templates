@@ -1,13 +1,14 @@
 """Split the corpus into train, dev, and test sets"""
 
 
-import typer
 from pathlib import Path
 import random
 
+import typer
 from spacy.tokens import DocBin
 from spacy.util import get_lang_class
 from sklearn.model_selection import train_test_split
+from wasabi import msg
 
 
 def split(input_path: Path, output_path: Path, split_size: float, lang: str):
@@ -22,6 +23,8 @@ def split(input_path: Path, output_path: Path, split_size: float, lang: str):
     # load all the docs from the input file and shuffle them
     all_docs = list(DocBin().from_disk(input_path).get_docs(nlp.vocab))
     random.shuffle(all_docs)
+    msg.info(f"Loaded full corpus ({len(all_docs)} documents)")
+    msg.info(f"Reserving {split_size:.0%} of the corpus for evaluation")
 
     # split the docs into train and validation sets
     train_docs, validation_docs = train_test_split(all_docs, test_size=split_size)
@@ -31,16 +34,19 @@ def split(input_path: Path, output_path: Path, split_size: float, lang: str):
 
     # save all of the sets to disk
     train_db = DocBin(docs=train_docs)
-    train_db.to_disk(output_path / "train.spacy")
-    typer.echo(f"Wrote 'train.spacy' ({len(train_docs)} docs)")
+    train_path = (output_path / "train.spacy").resolve()
+    train_db.to_disk(train_path)
+    msg.good(f"Generated training set ({len(train_docs)} documents): {train_path}")
 
     dev_db = DocBin(docs=dev_docs)
-    dev_db.to_disk(output_path / "dev.spacy")
-    typer.echo(f"Wrote 'dev.spacy' ({len(dev_docs)} docs)")
+    dev_path = (output_path / "dev.spacy").resolve()
+    dev_db.to_disk(dev_path)
+    msg.good(f"Generated development set ({len(dev_docs)} documents): {dev_path}")
 
     test_db = DocBin(docs=test_docs)
-    test_db.to_disk(output_path / "test.spacy")
-    typer.echo(f"Wrote 'test.spacy' ({len(test_docs)} docs)")
+    test_path = (output_path / "test.spacy").resolve()
+    test_db.to_disk(test_path)
+    msg.good(f"Generated test set ({len(test_docs)} documents): {test_path}")
 
 
 if __name__ == "__main__":

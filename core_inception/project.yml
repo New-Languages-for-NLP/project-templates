@@ -60,7 +60,7 @@ commands:
 
   - name: convert-raw-text
     help: "Convert raw text files to spaCy's format"
-    script: ["python scripts/convert_text.py assets/text corpus/ ${vars.lang}"]
+    script: ["python scripts/convert_text.py assets/text corpus/ ${vars.n_sents} ${vars.lang}"]
     deps: ["assets/text"]
     outputs: ["corpus/pretrain.spacy"]
 
@@ -72,7 +72,7 @@ commands:
 
   - name: split-data
     help: "Split the data into training, validation, and test sets"
-    script: ["python scripts/split.py corpus/all.spacy corpus/ ${vars.test_size} ${vars.lang}"]
+    script: ["python scripts/split_data.py corpus/all.spacy corpus/ ${vars.test_size} ${vars.lang}"]
     deps: ["corpus/all.spacy"]
     outputs:
       - "corpus/train.spacy"

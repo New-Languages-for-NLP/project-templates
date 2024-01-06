@@ -11,12 +11,7 @@ from spacy.util import get_lang_class
 from wasabi import msg
 
 
-def convert(
-    input_path: Path,
-    output_path: Path,
-    n_sents: int,
-    lang: str,
-):
+def convert(input_path: Path, output_path: Path, n_sents: int, lang: str):
     # make sure the input and output directories exist
     assert input_path.is_dir()
     assert output_path.is_dir()
@@ -98,8 +93,9 @@ def convert(
                 out_docs.add(doc)
 
     # write the combined corpus to disk
-    out_docs.to_disk(output_path / "all.spacy")
-    msg.good(f"Generated corpus ({len(out_docs)} documents): {output_path / 'all.spacy'}")
+    out_file_path = (output_path / "all.spacy").resolve()
+    out_docs.to_disk(out_file_path)
+    msg.good(f"Generated corpus ({len(out_docs)} documents): {out_file_path}")
 
     # cleanup temporary directory
     tmpdir_handle.cleanup()
