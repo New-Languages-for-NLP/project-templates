@@ -1,5 +1,7 @@
 # python stuff
 .python-version
+.pytest_cache/
+__pycache__/
 
 # spacy stuff
 corpus/

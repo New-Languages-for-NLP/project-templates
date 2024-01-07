@@ -7,6 +7,7 @@ vars:
   data_source: "lit"        # "lit" (e.g. novels), "news", "web", etc.
   model_size: "sm"          # "sm", "md", "lg", "trf" (relative size of model)
   package_version: "1.0.0"  # update this when you make a new version
+  max_epochs: 100           # when to force an end to training/pretraining
   test_size: 0.2            # size of corpus to reserve for testing (20%)
   n_sents: 10               # number of sentences per generated document
   gpu: -1                   # set to 0 to use your GPU if you have one
@@ -101,7 +102,7 @@ commands:
 
   - name: pretrain-model
     help: "Pretrain context for the language model"
-    script: ["python -m spacy pretrain configs/config.cfg pretrain --gpu-id ${vars.gpu} --nlp.lang ${vars.lang}"]
+    script: ["python -m spacy pretrain configs/config.cfg pretrain --gpu-id ${vars.gpu} --nlp.lang ${vars.lang} --pretraining.max_epochs ${vars.max_epochs}"]
     deps:
       - "configs/config.cfg"
       - "corpus/pretrain.spacy"
@@ -109,7 +110,7 @@ commands:
 
   - name: train-model
     help: "Train the language model"
-    script: ["python -m spacy train configs/config.cfg --output training --gpu-id ${vars.gpu} --nlp.lang ${vars.lang} --paths.init_tok2vec pretrain/model-last.bin"]
+    script: ["python -m spacy train configs/config.cfg --output training --gpu-id ${vars.gpu} --nlp.lang ${vars.lang} --training.max_epochs ${vars.max_epochs} --paths.init_tok2vec pretrain/model-last.bin"]
     deps:
       - "configs/config.cfg"
       - "pretrain/model-last.bin"

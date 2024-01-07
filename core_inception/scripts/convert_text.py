@@ -28,7 +28,7 @@ def convert(input_path: Path, output_path: Path, n_sents: int, lang: str):
     db = DocBin()
     text_files = list(input_path.glob("*.txt"))
     for text_file in text_files:
-        doc = nlp(text_file.read_text())
+        doc = nlp(text_file.read_text("utf8"))
         try:
             sentences = list(doc.sents)
             total_sentences = len(sentences)
