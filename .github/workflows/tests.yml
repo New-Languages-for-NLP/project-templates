@@ -1,19 +1,42 @@
 name: tests
 
+# Run on pushes and PRs; ignore updates to docs only
 on:
   push:
+    paths-ignore: ["*.md"]
     branches: [main]
   pull_request:
+    paths-ignore: ["*.md"]
     branches: ["*"]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+      - run: pip install black
+      - run: python -m black --check .
+
+  test:
+    needs: lint
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            python_version: "3.10"
+          - os: macos-latest
+            python_version: "3.10"
+          - os: ubuntu-latest
+            python_version: "3.10"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python_version }}
           cache: "pip"
       - run: pip install -r requirements.txt
-      - run: python -m black --check .
+      - run: python -m pytest -s

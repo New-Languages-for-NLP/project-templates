@@ -17,7 +17,7 @@ def check(in_dir: Path):
     conll_files = list(in_dir.glob("*.conll"))
     conllu_files = list(in_dir.glob("*.conllu"))
     for file in conll_files + conllu_files:
-        input_data = file.read_text().strip()
+        input_data = file.read_text("utf8").strip()
 
         # iterate over sentences and attempt to make a Doc from each
         # if there's an error, print the file, sentence, and the error
