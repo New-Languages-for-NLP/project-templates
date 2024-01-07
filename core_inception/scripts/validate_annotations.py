@@ -33,7 +33,7 @@ def check(in_dir: Path):
                 msg.fail(f"Sentence:")
                 print(sent)
                 exit(1)
-        
+
         # if we get here, the file is valid
         msg.good(f"File is valid: {file.resolve()}")
 

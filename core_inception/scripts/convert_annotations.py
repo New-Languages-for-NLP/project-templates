@@ -69,16 +69,8 @@ def convert(input_path: Path, output_path: Path, n_sents: int, lang: str):
         conllu_file = tmpdir / "conllu" / f"{filename}.spacy"
         if filename in matched_filenames:
             msg.info(f"Combining '{filename}.conllu' and '{filename}.conll'")
-            conllu_docs = list((
-                DocBin()
-                .from_disk(conllu_file)
-                .get_docs(nlp.vocab)
-            ))
-            conll_docs = list((
-                DocBin()
-                .from_disk(conll_file)
-                .get_docs(nlp.vocab)
-            ))
+            conllu_docs = list((DocBin().from_disk(conllu_file).get_docs(nlp.vocab)))
+            conll_docs = list((DocBin().from_disk(conll_file).get_docs(nlp.vocab)))
             for base_doc, ner_doc in zip(conllu_docs, conll_docs):
                 try:
                     base_doc.ents = ner_doc.ents
