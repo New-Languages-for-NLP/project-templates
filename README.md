@@ -19,10 +19,14 @@ This repository contains starter templates published by the New Languages for NL
 > `pip install spacy` and you're ready to get started. Make
 > sure to use a fresh virtual environment.
 
+[![tests](https://github.com/New-Languages-for-NLP/project-templates/actions/workflows/tests.yml/badge.svg)](https://github.com/New-Languages-for-NLP/project-templates/actions/workflows/tests.yml)
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![spaCy](https://img.shields.io/static/v1?label=made%20with%20%E2%9D%A4%20and&message=spaCy&color=09a3d5&style=flat-square)](https://spacy.io)
+
 ## 🗃 Templates
 
-| Template | Description |
-| --- | --- |
+| Template                           | Description                                            |
+| ---------------------------------- | ------------------------------------------------------ |
 | [`core_inception`](core_inception) | Train new language core model with Cadet and INCEpTION |
 
 ## 🚀 Quickstart
