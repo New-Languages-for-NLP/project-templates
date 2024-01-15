@@ -3,42 +3,42 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	VANGUARD	VANGUARD	PROPN	NNP	Number=Sing	0	ROOT	_	_
 3	of	of	ADP	IN	_	2	prep	_	_
-4	VENUS	VENUS	PROPN	NNP	Number=Sing	3	pobj	_	_
+4	VENUS	VENUS	PROPN	NNP	Number=Sing	3	pobj	_	NE=B-ORG
 5	By	by	ADP	IN	_	2	prep	_	_
-6	LANDELL	LANDELL	PROPN	NNP	Number=Sing	7	compound	_	_
-7	BARTLETT	bartlett	NOUN	NN	Number=Sing	5	pobj	_	_
+6	LANDELL	LANDELL	PROPN	NNP	Number=Sing	7	compound	_	NE=B-ORG
+7	BARTLETT	bartlett	NOUN	NN	Number=Sing	5	pobj	_	NE=I-ORG
 8	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
 9	Extract	extract	NOUN	NN	Number=Sing	2	appos	_	_
 10	from	from	ADP	IN	_	9	prep	_	_
 11	letter	letter	NOUN	NN	Number=Sing	10	pobj	_	_
 12	dated	date	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
-13	February	February	PROPN	NNP	Number=Sing	12	npadvmod	_	_
-14	16	16	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
-15	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
-16	1927	1927	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+13	February	February	PROPN	NNP	Number=Sing	12	npadvmod	_	NE=B-DATE
+14	16	16	NUM	CD	NumType=Card	13	nummod	_	NE=I-DATE|SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	13	punct	_	NE=I-DATE
+16	1927	1927	NUM	CD	NumType=Card	13	nummod	_	NE=I-DATE|SpaceAfter=No
 17	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
 18	from	from	ADP	IN	_	12	prep	_	_
-19	Oliver	Oliver	PROPN	NNP	Number=Sing	20	compound	_	_
-20	Robertson	Robertson	PROPN	NNP	Number=Sing	18	pobj	_	SpaceAfter=No
+19	Oliver	Oliver	PROPN	NNP	Number=Sing	20	compound	_	NE=B-PERSON
+20	Robertson	Robertson	PROPN	NNP	Number=Sing	18	pobj	_	NE=I-PERSON|SpaceAfter=No
 21	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
 22	banker	banker	NOUN	NN	Number=Sing	20	appos	_	_
 23	of	of	ADP	IN	_	22	prep	_	_
-24	Calcutta	Calcutta	PROPN	NNP	Number=Sing	23	pobj	_	SpaceAfter=No
+24	Calcutta	Calcutta	PROPN	NNP	Number=Sing	23	pobj	_	NE=B-GPE|SpaceAfter=No
 25	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
-26	India	India	PROPN	NNP	Number=Sing	24	appos	_	SpaceAfter=No
+26	India	India	PROPN	NNP	Number=Sing	24	appos	_	NE=B-GPE|SpaceAfter=No
 27	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
 28	to	to	ADP	IN	_	22	prep	_	_
-29	J.	J.	PROPN	NNP	Number=Sing	31	compound	_	_
-30	B.	B.	PROPN	NNP	Number=Sing	31	compound	_	_
-31	Cardigan	Cardigan	PROPN	NNP	Number=Sing	28	pobj	_	SpaceAfter=No
+29	J.	J.	PROPN	NNP	Number=Sing	31	compound	_	NE=B-ORG
+30	B.	B.	PROPN	NNP	Number=Sing	31	compound	_	NE=I-ORG
+31	Cardigan	Cardigan	PROPN	NNP	Number=Sing	28	pobj	_	NE=I-ORG|SpaceAfter=No
 32	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
 33	President	President	PROPN	NNP	Number=Sing	31	appos	_	_
 34	of	of	ADP	IN	_	33	prep	_	_
-35	Cardigan	Cardigan	PROPN	NNP	Number=Sing	37	compound	_	_
-36	Press	Press	PROPN	NNP	Number=Sing	37	compound	_	_
-37	Service	Service	PROPN	NNP	Number=Sing	34	pobj	_	SpaceAfter=No
-38	,	,	PUNCT	,	PunctType=Comm	37	punct	_	_
-39	Inc.	Inc.	PROPN	NNP	Number=Sing	37	appos	_	SpaceAfter=No
+35	Cardigan	Cardigan	PROPN	NNP	Number=Sing	37	compound	_	NE=B-ORG
+36	Press	Press	PROPN	NNP	Number=Sing	37	compound	_	NE=I-ORG
+37	Service	Service	PROPN	NNP	Number=Sing	34	pobj	_	NE=I-ORG|SpaceAfter=No
+38	,	,	PUNCT	,	PunctType=Comm	37	punct	_	NE=I-ORG
+39	Inc.	Inc.	PROPN	NNP	Number=Sing	37	appos	_	NE=I-ORG|SpaceAfter=No
 40	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	37	punct	_	_
 41	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 42	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
@@ -71,19 +71,19 @@
 3	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	thought	think	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-6	Morrison	Morrison	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	Morrison	Morrison	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-PERSON
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	kidding	kid	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	5	ccomp	_	_
 9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	dobj	_	_
 10	at	at	ADP	IN	_	8	prep	_	_
-11	first	first	ADV	RB	_	10	pcomp	_	SpaceAfter=No
+11	first	first	ADV	RB	_	10	pcomp	_	NE=B-ORDINAL|SpaceAfter=No
 12	;	;	PUNCT	:	_	5	punct	_	_
 13	but	but	CCONJ	CC	ConjType=Cmp	5	cc	_	_
 14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	kept	keep	VERB	VBD	Tense=Past|VerbForm=Fin	5	conj	_	_
 16	insisting	insist	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	15	xcomp	_	_
 17	that	that	SCONJ	IN	_	22	mark	_	_
-18	Murdock	Murdock	PROPN	NNP	Number=Sing	22	nsubj	_	_
+18	Murdock	Murdock	PROPN	NNP	Number=Sing	22	nsubj	_	NE=B-PERSON
 19	would	would	AUX	MD	VerbForm=Fin	22	aux	_	SpaceAfter=No
 20	n’t	not	PART	RB	Polarity=Neg	22	neg	_	_
 21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
@@ -109,7 +109,7 @@
 2	told	tell	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	dobj	_	_
 4	that	that	SCONJ	IN	_	8	mark	_	_
-5	Murdock	Murdock	PROPN	NNP	Number=Sing	8	nsubj	_	_
+5	Murdock	Murdock	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-PERSON
 6	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
 7	probably	probably	ADV	RB	_	8	advmod	_	_
 8	had	have	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
@@ -219,7 +219,7 @@
 4	quite	quite	ADV	RB	_	5	advmod	_	_
 5	exasperated	exasperated	ADJ	JJ	Degree=Pos	2	acomp	_	_
 6	at	at	ADP	IN	_	5	prep	_	_
-7	Morrison	Morrison	PROPN	NNP	Number=Sing	6	pobj	_	_
+7	Morrison	Morrison	PROPN	NNP	Number=Sing	6	pobj	_	NE=B-ORG
 8	for	for	ADP	IN	_	5	prep	_	_
 9	believing	believe	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	pcomp	_	_
 10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
@@ -231,7 +231,7 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	knew	know	VERB	VBD	Tense=Past|VerbForm=Fin	10	ccomp	_	_
 3	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
-4	Stanley	Stanley	PROPN	NNP	Number=Sing	2	dobj	_	_
+4	Stanley	Stanley	PROPN	NNP	Number=Sing	2	dobj	_	NE=B-ORG
 5	better	well	ADV	RBR	Degree=Cmp	2	advmod	_	_
 6	than	than	ADP	IN	_	5	prep	_	_
 7	I	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	pobj	_	SpaceAfter=No
@@ -291,7 +291,7 @@
 
 # sent_id = 11
 # text = Morrison argued that the notarial seal and the definite instructions on the envelope showed Murdock meant business--that he wasn’t the kind to clutter up a strong box with junk.
-1	Morrison	Morrison	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Morrison	Morrison	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-PERSON
 2	argued	argue	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	that	that	SCONJ	IN	_	14	mark	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -305,7 +305,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	envelope	envelope	NOUN	NN	Number=Sing	11	pobj	_	_
 14	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	2	ccomp	_	_
-15	Murdock	Murdock	PROPN	NNP	Number=Sing	16	nsubj	_	_
+15	Murdock	Murdock	PROPN	NNP	Number=Sing	16	nsubj	_	NE=B-PERSON
 16	meant	mean	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	amod	_	_
 17	business	business	NOUN	NN	Number=Sing	14	dobj	_	SpaceAfter=No
 18	--	--	PUNCT	:	_	17	punct	_	SpaceAfter=No
@@ -331,20 +331,20 @@
 2	reminded	remind	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	dobj	_	_
 4	that	that	SCONJ	IN	_	7	mark	_	_
-5	Murdock	Murdock	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	Murdock	Murdock	PROPN	NNP	Number=Sing	7	nsubj	_	NE=B-PERSON
 6	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
 7	chucked	chuck	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 9	fine	fine	ADJ	JJ	Degree=Pos	10	amod	_	_
 10	position	position	NOUN	NN	Number=Sing	7	dobj	_	_
 11	in	in	ADP	IN	_	10	prep	_	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
-13	United	United	PROPN	NNP	Number=Sing	14	compound	_	_
-14	States	States	PROPN	NNP	Number=Sing	11	pobj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	NE=B-GPE
+13	United	United	PROPN	NNP	Number=Sing	14	compound	_	NE=I-GPE
+14	States	States	PROPN	NNP	Number=Sing	11	pobj	_	NE=I-GPE
 15	to	to	PART	TO	_	16	aux	_	_
 16	come	come	VERB	VB	VerbForm=Inf	7	advcl	_	_
 17	to	to	ADP	IN	_	16	prep	_	_
-18	India	India	PROPN	NNP	Number=Sing	17	pobj	_	_
+18	India	India	PROPN	NNP	Number=Sing	17	pobj	_	NE=B-GPE
 19	on	on	ADP	IN	_	16	prep	_	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
 21	smaller	small	ADJ	JJR	Degree=Cmp	22	amod	_	_
@@ -371,7 +371,7 @@
 
 # sent_id = 13
 # text = Murdock was unimaginative as far as I know, but this story seems to indicate otherwise.
-1	Murdock	Murdock	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Murdock	Murdock	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-PERSON
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	unimaginative	unimaginative	ADJ	JJ	Degree=Pos	2	acomp	_	_
 4	as	as	ADV	RB	_	5	advmod	_	_
@@ -414,15 +414,15 @@
 8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
 9	wreck	wreck	NOUN	NN	Number=Sing	7	pobj	_	_
 10	of	of	ADP	IN	_	9	prep	_	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-12	Central	Central	PROPN	NNP	Number=Sing	10	pobj	_	_
-13	of	of	ADP	IN	_	12	prep	_	_
-14	India	India	PROPN	NNP	Number=Sing	13	pobj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	NE=B-ORG
+12	Central	Central	PROPN	NNP	Number=Sing	10	pobj	_	NE=I-ORG
+13	of	of	ADP	IN	_	12	prep	_	NE=I-ORG
+14	India	India	PROPN	NNP	Number=Sing	13	pobj	_	NE=I-ORG
 15	at	at	ADP	IN	_	9	prep	_	_
-16	Coomptah	Coomptah	PROPN	NNP	Number=Sing	15	pobj	_	_
-17	ten	ten	NUM	CD	NumType=Card	18	nummod	_	_
-18	days	day	NOUN	NNS	Number=Plur	19	npadvmod	_	_
-19	ago	ago	ADV	RB	_	6	advmod	_	_
+16	Coomptah	Coomptah	PROPN	NNP	Number=Sing	15	pobj	_	NE=B-GPE
+17	ten	ten	NUM	CD	NumType=Card	18	nummod	_	NE=B-DATE
+18	days	day	NOUN	NNS	Number=Plur	19	npadvmod	_	NE=I-DATE
+19	ago	ago	ADV	RB	_	6	advmod	_	NE=I-DATE
 20	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 21	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 22	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
@@ -452,7 +452,7 @@
 21	of	of	ADP	IN	_	20	prep	_	_
 22	sending	send	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	21	pcomp	_	_
 23	you	you	PRON	PRP	Person=2|PronType=Prs	22	dative	_	_
-24	Murdock	Murdock	PROPN	NNP	Number=Sing	27	poss	_	SpaceAfter=No
+24	Murdock	Murdock	PROPN	NNP	Number=Sing	27	poss	_	NE=B-PERSON|SpaceAfter=No
 25	’s	’s	PART	POS	_	24	case	_	_
 26	document	document	NOUN	NN	Number=Sing	27	compound	_	_
 27	herewith	herewith	ADV	RB	_	22	dobj	_	SpaceAfter=No
@@ -491,7 +491,7 @@
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 20	event	event	NOUN	NN	Number=Sing	18	pobj	_	_
 21	of	of	ADP	IN	_	20	prep	_	_
-22	Murdock	Murdock	PROPN	NNP	Number=Sing	24	poss	_	SpaceAfter=No
+22	Murdock	Murdock	PROPN	NNP	Number=Sing	24	poss	_	NE=B-PERSON|SpaceAfter=No
 23	’s	’s	PART	POS	_	22	case	_	_
 24	death	death	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
 25	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
@@ -504,10 +504,10 @@
 32	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	pobj	_	SpaceAfter=No
 33	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 34	on	on	ADP	IN	_	16	prep	_	_
-35	June	June	PROPN	NNP	Number=Sing	34	pobj	_	_
-36	21	21	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
-37	,	,	PUNCT	,	PunctType=Comm	35	punct	_	_
-38	1931	1931	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+35	June	June	PROPN	NNP	Number=Sing	34	pobj	_	NE=B-DATE
+36	21	21	NUM	CD	NumType=Card	35	nummod	_	NE=I-DATE|SpaceAfter=No
+37	,	,	PUNCT	,	PunctType=Comm	35	punct	_	NE=I-DATE
+38	1931	1931	NUM	CD	NumType=Card	35	nummod	_	NE=I-DATE|SpaceAfter=No
 39	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 18
@@ -604,7 +604,7 @@
 14	for	for	SCONJ	IN	_	16	mark	_	_
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
-17	Stanley	Stanley	PROPN	NNP	Number=Sing	19	poss	_	SpaceAfter=No
+17	Stanley	Stanley	PROPN	NNP	Number=Sing	19	poss	_	NE=B-ORG|SpaceAfter=No
 18	’s	’s	PART	POS	_	17	case	_	_
 19	wish	wish	NOUN	NN	Number=Sing	16	attr	_	_
 20	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
@@ -621,16 +621,16 @@
 6	headed	head	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	amod	_	_
 7	cousin	cousin	NOUN	NN	Number=Sing	0	ROOT	_	SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
-9	Oliver	Oliver	PROPN	NNP	Number=Sing	10	compound	_	_
-10	Robertson	Robertson	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	Oliver	Oliver	PROPN	NNP	Number=Sing	10	compound	_	NE=B-PERSON
+10	Robertson	Robertson	PROPN	NNP	Number=Sing	7	appos	_	NE=I-PERSON|SpaceAfter=No
 11	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
 
 # sent_id = 23
 # text = (Stanley Murdock’s document, enclosed with the above letter, printed just as he himself wrote it.
 1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	5	punct	_	SpaceAfter=No
-2	Stanley	Stanley	PROPN	NNP	Number=Sing	3	compound	_	_
-3	Murdock	Murdock	PROPN	NNP	Number=Sing	5	poss	_	SpaceAfter=No
-4	’s	’s	PART	POS	_	3	case	_	_
+2	Stanley	Stanley	PROPN	NNP	Number=Sing	3	compound	_	NE=B-PERSON
+3	Murdock	Murdock	PROPN	NNP	Number=Sing	5	poss	_	NE=I-PERSON|SpaceAfter=No
+4	’s	’s	PART	POS	_	3	case	_	NE=I-PERSON
 5	document	document	NOUN	NN	Number=Sing	0	ROOT	_	SpaceAfter=No
 6	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 7	enclosed	enclose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	acl	_	_
@@ -653,7 +653,7 @@
 1	Pursuant	pursuant	ADJ	JJ	Degree=Pos	19	advcl	_	_
 2	to	to	ADP	IN	_	1	prep	_	_
 3	Mr.	Mr.	PROPN	NNP	Number=Sing	4	compound	_	_
-4	Robertson	Robertson	PROPN	NNP	Number=Sing	6	poss	_	SpaceAfter=No
+4	Robertson	Robertson	PROPN	NNP	Number=Sing	6	poss	_	NE=B-PERSON|SpaceAfter=No
 5	’s	’s	PART	POS	_	4	case	_	_
 6	instructions	instruction	NOUN	NNS	Number=Plur	2	pobj	_	SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
@@ -680,24 +680,24 @@
 
 # sent_id = 25
 # text = September 18, 1923.
-1	September	September	PROPN	NNP	Number=Sing	0	ROOT	_	_
-2	18	18	NUM	CD	NumType=Card	1	nummod	_	SpaceAfter=No
-3	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
-4	1923	1923	NUM	CD	NumType=Card	1	nummod	_	SpaceAfter=No
+1	September	September	PROPN	NNP	Number=Sing	0	ROOT	_	NE=B-DATE
+2	18	18	NUM	CD	NumType=Card	1	nummod	_	NE=I-DATE|SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	1	punct	_	NE=I-DATE
+4	1923	1923	NUM	CD	NumType=Card	1	nummod	_	NE=I-DATE|SpaceAfter=No
 5	.	.	PUNCT	.	PunctType=Peri	1	punct	_	_
 
 # sent_id = 26
 # text = 47 Victoria Drive, Rajput Gardens, Calcutta, India, TO WHOM THIS MAY CONCERN:
-1	47	47	NUM	CD	NumType=Card	3	nummod	_	_
-2	Victoria	Victoria	PROPN	NNP	Number=Sing	3	compound	_	_
-3	Drive	Drive	PROPN	NNP	Number=Sing	0	ROOT	_	SpaceAfter=No
+1	47	47	NUM	CD	NumType=Card	3	nummod	_	NE=B-CARDINAL
+2	Victoria	Victoria	PROPN	NNP	Number=Sing	3	compound	_	NE=B-PERSON
+3	Drive	Drive	PROPN	NNP	Number=Sing	0	ROOT	_	NE=I-PERSON|SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
-5	Rajput	Rajput	PROPN	NNP	Number=Sing	6	compound	_	_
-6	Gardens	Gardens	PROPN	NNPS	Number=Plur	3	appos	_	SpaceAfter=No
+5	Rajput	Rajput	PROPN	NNP	Number=Sing	6	compound	_	NE=B-LOC
+6	Gardens	Gardens	PROPN	NNPS	Number=Plur	3	appos	_	NE=I-LOC|SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
-8	Calcutta	Calcutta	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+8	Calcutta	Calcutta	PROPN	NNP	Number=Sing	6	conj	_	NE=B-GPE|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
-10	India	India	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	India	India	PROPN	NNP	Number=Sing	8	appos	_	NE=B-GPE|SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
 12	TO	to	PART	TO	_	13	aux	_	_
 13	WHOM	whom	PRON	WP	_	6	relcl	_	_
@@ -719,11 +719,11 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	officials	official	NOUN	NNS	Number=Plur	8	pobj	_	_
 11	of	of	ADP	IN	_	10	prep	_	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-13	Calcutta	Calcutta	PROPN	NNP	Number=Sing	14	compound	_	_
-14	Traders	Traders	PROPN	NNPS	Number=Plur	16	nmod	_	SpaceAfter=No
-15	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	16	punct	_	_
-16	Bank	Bank	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NE=B-ORG
+13	Calcutta	Calcutta	PROPN	NNP	Number=Sing	14	compound	_	NE=I-ORG
+14	Traders	Traders	PROPN	NNPS	Number=Plur	16	nmod	_	NE=I-ORG|SpaceAfter=No
+15	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	16	punct	_	NE=I-ORG
+16	Bank	Bank	PROPN	NNP	Number=Sing	11	pobj	_	NE=I-ORG|SpaceAfter=No
 17	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
 19	document	document	NOUN	NN	Number=Sing	0	ROOT	_	SpaceAfter=No
@@ -743,10 +743,10 @@
 33	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	34	poss	_	_
 34	death	death	NOUN	NN	Number=Sing	32	pobj	_	_
 35	before	before	ADP	IN	_	25	prep	_	_
-36	June	June	PROPN	NNP	Number=Sing	35	pobj	_	_
-37	21	21	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
-38	,	,	PUNCT	,	PunctType=Comm	36	punct	_	_
-39	1931	1931	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
+36	June	June	PROPN	NNP	Number=Sing	35	pobj	_	NE=B-DATE
+37	21	21	NUM	CD	NumType=Card	36	nummod	_	NE=I-DATE|SpaceAfter=No
+38	,	,	PUNCT	,	PunctType=Comm	36	punct	_	NE=I-DATE
+39	1931	1931	NUM	CD	NumType=Card	36	nummod	_	NE=I-DATE|SpaceAfter=No
 40	,	,	PUNCT	,	PunctType=Comm	36	punct	_	_
 41	or	or	CCONJ	CC	ConjType=Cmp	35	cc	_	_
 42	by	by	ADP	IN	_	35	conj	_	_
@@ -758,7 +758,7 @@
 48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
 49	presence	presence	NOUN	NN	Number=Sing	47	pobj	_	_
 50	of	of	ADP	IN	_	49	prep	_	_
-51	three	three	NUM	CD	NumType=Card	52	nummod	_	_
+51	three	three	NUM	CD	NumType=Card	52	nummod	_	NE=B-CARDINAL
 52	officers	officer	NOUN	NNS	Number=Plur	50	pobj	_	_
 53	of	of	ADP	IN	_	52	prep	_	_
 54	the	the	DET	DT	Definite=Def|PronType=Art	56	det	_	_
@@ -792,11 +792,11 @@
 7	geological	geological	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	work	work	NOUN	NN	Number=Sing	6	dobj	_	_
 9	in	in	ADP	IN	_	8	prep	_	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-11	United	United	PROPN	NNP	Number=Sing	12	compound	_	_
-12	States	States	PROPN	NNP	Number=Sing	9	pobj	_	_
-13	of	of	ADP	IN	_	12	prep	_	_
-14	America	America	PROPN	NNP	Number=Sing	13	pobj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	NE=B-GPE
+11	United	United	PROPN	NNP	Number=Sing	12	compound	_	NE=I-GPE
+12	States	States	PROPN	NNP	Number=Sing	9	pobj	_	NE=I-GPE
+13	of	of	ADP	IN	_	12	prep	_	NE=I-GPE
+14	America	America	PROPN	NNP	Number=Sing	13	pobj	_	NE=I-GPE
 15	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
 16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	profoundly	profoundly	ADV	RB	_	18	advmod	_	_
@@ -806,9 +806,9 @@
 21	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
 22	and	and	CCONJ	CC	ConjType=Cmp	6	cc	_	_
 23	by	by	ADP	IN	_	6	prep	_	_
-24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
-25	year	year	NOUN	NN	Number=Sing	23	pobj	_	_
-26	1931	1931	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	NE=B-DATE
+25	year	year	NOUN	NN	Number=Sing	23	pobj	_	NE=I-DATE
+26	1931	1931	NUM	CD	NumType=Card	25	nummod	_	NE=I-DATE|SpaceAfter=No
 27	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 28	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
 29	alter	alter	VERB	VB	VerbForm=Inf	3	conj	_	_
@@ -1060,12 +1060,12 @@
 12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
 13	be	be	AUX	VB	VerbForm=Inf	4	conj	_	_
 14	not	not	PART	RB	Polarity=Neg	13	neg	_	_
-15	later	late	ADJ	JJR	Degree=Cmp	13	acomp	_	_
-16	than	than	ADP	IN	_	15	prep	_	_
-17	August	August	PROPN	NNP	Number=Sing	16	pobj	_	_
-18	21	21	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
-19	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
-20	1931	1931	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+15	later	late	ADJ	JJR	Degree=Cmp	13	acomp	_	NE=B-DATE
+16	than	than	ADP	IN	_	15	prep	_	NE=I-DATE
+17	August	August	PROPN	NNP	Number=Sing	16	pobj	_	NE=I-DATE
+18	21	21	NUM	CD	NumType=Card	17	nummod	_	NE=I-DATE|SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	17	punct	_	NE=I-DATE
+20	1931	1931	NUM	CD	NumType=Card	17	nummod	_	NE=I-DATE|SpaceAfter=No
 21	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
 
 # sent_id = 39
@@ -1119,13 +1119,13 @@
 15	--	--	PUNCT	:	_	8	punct	_	SpaceAfter=No
 16	foretelling	foretell	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	17	amod	_	_
 17	happenings	happening	NOUN	NNS	Number=Plur	8	appos	_	_
-18	years	year	NOUN	NNS	Number=Plur	19	npadvmod	_	_
-19	ahead	ahead	ADV	RB	_	17	advmod	_	SpaceAfter=No
+18	years	year	NOUN	NNS	Number=Plur	19	npadvmod	_	NE=B-DATE
+19	ahead	ahead	ADV	RB	_	17	advmod	_	NE=I-DATE|SpaceAfter=No
 20	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 21	to	to	ADP	IN	_	4	prep	_	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
-23	very	very	ADJ	JJ	Degree=Pos	24	amod	_	_
-24	day	day	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	NE=B-DATE
+23	very	very	ADJ	JJ	Degree=Pos	24	amod	_	NE=I-DATE
+24	day	day	NOUN	NN	Number=Sing	21	pobj	_	NE=I-DATE|SpaceAfter=No
 25	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
 26	to	to	ADP	IN	_	4	prep	_	_
 27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
@@ -1134,9 +1134,9 @@
 30	bound	bind	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	29	acl	_	_
 31	by	by	ADP	IN	_	30	agent	_	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
-33	age	age	NOUN	NN	Number=Sing	35	npadvmod	_	SpaceAfter=No
-34	-	-	PUNCT	HYPH	PunctType=Dash	35	punct	_	SpaceAfter=No
-35	old	old	ADJ	JJ	Degree=Pos	36	amod	_	_
+33	age	age	NOUN	NN	Number=Sing	35	npadvmod	_	NE=B-DATE|SpaceAfter=No
+34	-	-	PUNCT	HYPH	PunctType=Dash	35	punct	_	NE=I-DATE|SpaceAfter=No
+35	old	old	ADJ	JJ	Degree=Pos	36	amod	_	NE=I-DATE
 36	dictum	dictum	NOUN	NN	Number=Sing	31	pobj	_	_
 37	of	of	ADP	IN	_	36	prep	_	_
 38	common	common	ADJ	JJ	Degree=Pos	39	amod	_	_
@@ -1189,9 +1189,9 @@
 16	largest	large	ADJ	JJS	Degree=Sup	17	amod	_	_
 17	banks	bank	NOUN	NNS	Number=Plur	14	pobj	_	_
 18	in	in	ADP	IN	_	17	prep	_	_
-19	Bombay	Bombay	PROPN	NNP	Number=Sing	18	pobj	_	_
+19	Bombay	Bombay	PROPN	NNP	Number=Sing	18	pobj	_	NE=B-GPE
 20	and	and	CCONJ	CC	ConjType=Cmp	19	cc	_	_
-21	Madras	Madras	PROPN	NNP	Number=Sing	19	conj	_	SpaceAfter=No
+21	Madras	Madras	PROPN	NNP	Number=Sing	19	conj	_	NE=B-GPE|SpaceAfter=No
 22	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
 
 # sent_id = 43
@@ -1205,10 +1205,10 @@
 7	to	to	ADP	IN	_	6	prep	_	_
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	pobj	_	_
 9	on	on	ADP	IN	_	6	prep	_	_
-10	June	June	PROPN	NNP	Number=Sing	9	pobj	_	_
-11	21	21	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
-12	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
-13	1931	1931	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	June	June	PROPN	NNP	Number=Sing	9	pobj	_	NE=B-DATE
+11	21	21	NUM	CD	NumType=Card	10	nummod	_	NE=I-DATE|SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	10	punct	_	NE=I-DATE
+13	1931	1931	NUM	CD	NumType=Card	10	nummod	_	NE=I-DATE|SpaceAfter=No
 14	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
 15	or	or	CCONJ	CC	ConjType=Cmp	6	cc	_	_
 16	in	in	ADP	IN	_	23	prep	_	_
@@ -1236,8 +1236,8 @@
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
 4	avoid	avoid	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 5	practically	practically	ADV	RB	_	6	advmod	_	_
-6	eight	eight	NUM	CD	NumType=Card	7	nummod	_	_
-7	years	year	NOUN	NNS	Number=Plur	4	dobj	_	_
+6	eight	eight	NUM	CD	NumType=Card	7	nummod	_	NE=B-DATE
+7	years	year	NOUN	NNS	Number=Plur	4	dobj	_	NE=I-DATE
 8	of	of	ADP	IN	_	7	prep	_	_
 9	derision	derision	NOUN	NN	Number=Sing	8	pobj	_	_
 10	with	with	ADP	IN	_	4	prep	_	_
@@ -1293,10 +1293,10 @@
 3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 4	alive	alive	ADJ	JJ	Degree=Pos	3	acomp	_	_
 5	on	on	ADP	IN	_	3	prep	_	_
-6	June	June	PROPN	NNP	Number=Sing	5	pobj	_	_
-7	21	21	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
-8	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
-9	1931	1931	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	June	June	PROPN	NNP	Number=Sing	5	pobj	_	NE=B-DATE
+7	21	21	NUM	CD	NumType=Card	6	nummod	_	NE=I-DATE|SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	6	punct	_	NE=I-DATE
+9	1931	1931	NUM	CD	NumType=Card	6	nummod	_	NE=I-DATE|SpaceAfter=No
 10	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	shall	shall	AUX	MD	VerbType=Mod	13	aux	_	_
@@ -1311,8 +1311,8 @@
 21	date	date	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
 22	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
 23	allowing	allow	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	13	advcl	_	_
-24	two	two	NUM	CD	NumType=Card	25	nummod	_	_
-25	months	month	NOUN	NNS	Number=Plur	23	dobj	_	_
+24	two	two	NUM	CD	NumType=Card	25	nummod	_	NE=B-DATE
+25	months	month	NOUN	NNS	Number=Plur	23	dobj	_	NE=I-DATE
 26	for	for	ADP	IN	_	23	prep	_	_
 27	those	those	PRON	DT	Number=Plur|PronType=Dem	26	pobj	_	_
 28	who	who	PRON	WP	_	29	nsubj	_	_
@@ -1334,14 +1334,14 @@
 5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	poss	_	_
 6	position	position	NOUN	NN	Number=Sing	4	dobj	_	_
 7	in	in	ADP	IN	_	6	prep	_	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-9	United	United	PROPN	NNP	Number=Sing	10	compound	_	_
-10	States	States	PROPN	NNP	Number=Sing	7	pobj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	NE=B-GPE
+9	United	United	PROPN	NNP	Number=Sing	10	compound	_	NE=I-GPE
+10	States	States	PROPN	NNP	Number=Sing	7	pobj	_	NE=I-GPE
 11	and	and	CCONJ	CC	ConjType=Cmp	4	cc	_	_
 12	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	now	now	ADV	RB	_	12	advmod	_	_
 14	in	in	ADP	IN	_	12	prep	_	_
-15	India	India	PROPN	NNP	Number=Sing	14	pobj	_	_
+15	India	India	PROPN	NNP	Number=Sing	14	pobj	_	NE=B-GPE
 16	will	will	AUX	MD	VerbForm=Fin	18	aux	_	_
 17	be	be	AUX	VB	VerbForm=Inf	18	auxpass	_	_
 18	disclosed	disclose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
@@ -1355,9 +1355,9 @@
 1	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	in	in	ADP	IN	_	2	prep	_	_
-4	January	January	PROPN	NNP	Number=Sing	3	pobj	_	SpaceAfter=No
-5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
-6	1923	1923	NUM	CD	NumType=Card	4	appos	_	SpaceAfter=No
+4	January	January	PROPN	NNP	Number=Sing	3	pobj	_	NE=B-DATE|SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	NE=I-DATE
+6	1923	1923	NUM	CD	NumType=Card	4	appos	_	NE=I-DATE|SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 8	that	that	SCONJ	IN	_	10	mark	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
@@ -1377,18 +1377,18 @@
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	auxpass	_	_
 6	employed	employ	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 7	by	by	ADP	IN	_	6	agent	_	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-9	Southwestern	Southwestern	PROPN	NNP	Number=Sing	10	compound	_	_
-10	Syndicate	Syndicate	PROPN	NNP	Number=Sing	7	pobj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	NE=B-ORG
+9	Southwestern	Southwestern	PROPN	NNP	Number=Sing	10	compound	_	NE=I-ORG
+10	Syndicate	Syndicate	PROPN	NNP	Number=Sing	7	pobj	_	NE=I-ORG
 11	as	as	ADP	IN	_	6	prep	_	_
 12	chief	chief	NOUN	NN	Number=Sing	13	compound	_	_
 13	geologist	geologist	NOUN	NN	Number=Sing	11	pobj	_	_
 14	for	for	ADP	IN	_	13	prep	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
-16	Arizona	Arizona	PROPN	NNP	Number=Sing	19	compound	_	SpaceAfter=No
+16	Arizona	Arizona	PROPN	NNP	Number=Sing	19	compound	_	NE=B-GPE|SpaceAfter=No
 17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
-18	New	New	PROPN	NNP	Number=Sing	19	compound	_	_
-19	Mexico	Mexico	PROPN	NNP	Number=Sing	20	compound	_	_
+18	New	New	PROPN	NNP	Number=Sing	19	compound	_	NE=B-GPE
+19	Mexico	Mexico	PROPN	NNP	Number=Sing	20	compound	_	NE=I-GPE
 20	district	district	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
 21	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
 
@@ -1399,17 +1399,17 @@
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	ROOT	_	_
 4	with	with	ADP	IN	_	3	prep	_	_
 5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	pobj	_	_
-6	almost	almost	ADV	RB	_	7	advmod	_	_
-7	fifteen	fifteen	NUM	CD	NumType=Card	8	nummod	_	_
-8	years	year	NOUN	NNS	Number=Plur	3	npadvmod	_	SpaceAfter=No
+6	almost	almost	ADV	RB	_	7	advmod	_	NE=B-DATE
+7	fifteen	fifteen	NUM	CD	NumType=Card	8	nummod	_	NE=I-DATE
+8	years	year	NOUN	NNS	Number=Plur	3	npadvmod	_	NE=I-DATE|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 10	going	go	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	advcl	_	_
 11	to	to	ADP	IN	_	10	prep	_	_
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	pobj	_	_
 13	from	from	ADP	IN	_	10	prep	_	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-15	Concord	Concord	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Company	Company	PROPN	NNP	Number=Sing	13	pobj	_	SpaceAfter=No
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NE=B-ORG
+15	Concord	Concord	PROPN	NNP	Number=Sing	16	compound	_	NE=I-ORG
+16	Company	Company	PROPN	NNP	Number=Sing	13	pobj	_	NE=I-ORG|SpaceAfter=No
 17	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 18	with	with	ADP	IN	_	23	prep	_	_
 19	whom	whom	PRON	WP	_	18	pobj	_	_
@@ -1421,11 +1421,11 @@
 25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	poss	_	_
 26	graduation	graduation	NOUN	NN	Number=Sing	24	pobj	_	_
 27	from	from	ADP	IN	_	26	prep	_	_
-28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
-29	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	30	compound	_	_
-30	Institute	Institute	PROPN	NNP	Number=Sing	27	pobj	_	_
-31	of	of	ADP	IN	_	30	prep	_	_
-32	Technology	Technology	PROPN	NNP	Number=Sing	31	pobj	_	SpaceAfter=No
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	NE=B-ORG
+29	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	30	compound	_	NE=I-ORG
+30	Institute	Institute	PROPN	NNP	Number=Sing	27	pobj	_	NE=I-ORG
+31	of	of	ADP	IN	_	30	prep	_	NE=I-ORG
+32	Technology	Technology	PROPN	NNP	Number=Sing	31	pobj	_	NE=I-ORG|SpaceAfter=No
 33	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 51
@@ -1526,13 +1526,13 @@
 # sent_id = 54
 # text = On January 14, 1923, Olin Gilfillan (my most trusted field lieutenant and a brilliant, hard-working man) and I set out on horseback from Lovington, New Mexico, and headed toward the Mescalero Ridge.
 1	On	on	ADP	IN	_	26	prep	_	_
-2	January	January	PROPN	NNP	Number=Sing	1	pobj	_	_
-3	14	14	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
-4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
-5	1923	1923	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	January	January	PROPN	NNP	Number=Sing	1	pobj	_	NE=B-DATE
+3	14	14	NUM	CD	NumType=Card	2	nummod	_	NE=I-DATE|SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	NE=I-DATE
+5	1923	1923	NUM	CD	NumType=Card	2	nummod	_	NE=I-DATE|SpaceAfter=No
 6	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
-7	Olin	Olin	PROPN	NNP	Number=Sing	8	compound	_	_
-8	Gilfillan	Gilfillan	PROPN	NNP	Number=Sing	26	nsubj	_	_
+7	Olin	Olin	PROPN	NNP	Number=Sing	8	compound	_	NE=B-PERSON
+8	Gilfillan	Gilfillan	PROPN	NNP	Number=Sing	26	nsubj	_	NE=I-PERSON
 9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
 10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	poss	_	_
 11	most	most	ADV	RBS	Degree=Sup	12	advmod	_	_
@@ -1555,17 +1555,17 @@
 28	on	on	ADP	IN	_	26	prep	_	_
 29	horseback	horseback	NOUN	NN	Number=Sing	28	pobj	_	_
 30	from	from	ADP	IN	_	26	prep	_	_
-31	Lovington	Lovington	PROPN	NNP	Number=Sing	30	pobj	_	SpaceAfter=No
+31	Lovington	Lovington	PROPN	NNP	Number=Sing	30	pobj	_	NE=B-GPE|SpaceAfter=No
 32	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
-33	New	New	PROPN	NNP	Number=Sing	34	compound	_	_
-34	Mexico	Mexico	PROPN	NNP	Number=Sing	31	appos	_	SpaceAfter=No
+33	New	New	PROPN	NNP	Number=Sing	34	compound	_	NE=B-GPE
+34	Mexico	Mexico	PROPN	NNP	Number=Sing	31	appos	_	NE=I-GPE|SpaceAfter=No
 35	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
 36	and	and	CCONJ	CC	ConjType=Cmp	26	cc	_	_
 37	headed	head	VERB	VBD	Tense=Past|VerbForm=Fin	26	conj	_	_
 38	toward	toward	ADP	IN	_	37	prep	_	_
-39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
-40	Mescalero	Mescalero	PROPN	NNP	Number=Sing	41	compound	_	_
-41	Ridge	Ridge	PROPN	NNP	Number=Sing	38	pobj	_	SpaceAfter=No
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	NE=B-FAC
+40	Mescalero	Mescalero	PROPN	NNP	Number=Sing	41	compound	_	NE=I-FAC
+41	Ridge	Ridge	PROPN	NNP	Number=Sing	38	pobj	_	NE=I-FAC|SpaceAfter=No
 42	.	.	PUNCT	.	PunctType=Peri	26	punct	_	_
 
 # sent_id = 55
@@ -1585,8 +1585,8 @@
 13	and	and	CCONJ	CC	ConjType=Cmp	12	cc	_	_
 14	grub	grub	NOUN	NN	Number=Sing	12	conj	_	_
 15	for	for	ADP	IN	_	10	prep	_	_
-16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
-17	week	week	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	NE=B-DATE
+17	week	week	NOUN	NN	Number=Sing	15	pobj	_	NE=I-DATE|SpaceAfter=No
 18	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 56
@@ -1602,7 +1602,7 @@
 9	part	part	NOUN	NN	Number=Sing	6	dobj	_	_
 10	of	of	ADP	IN	_	9	prep	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-12	Ridge	Ridge	PROPN	NNP	Number=Sing	10	pobj	_	SpaceAfter=No
+12	Ridge	Ridge	PROPN	NNP	Number=Sing	10	pobj	_	NE=B-ORG|SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 14	and	and	CCONJ	CC	ConjType=Cmp	2	cc	_	_
 15	report	report	VERB	VB	VerbForm=Inf	2	conj	_	_
@@ -1640,7 +1640,7 @@
 23	company	company	NOUN	NN	Number=Sing	21	pobj	_	_
 24	in	in	ADP	IN	_	18	prep	_	_
 25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	poss	_	_
-26	Chicago	Chicago	PROPN	NNP	Number=Sing	27	compound	_	_
+26	Chicago	Chicago	PROPN	NNP	Number=Sing	27	compound	_	NE=B-GPE
 27	office	office	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
 28	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
 
@@ -1648,7 +1648,7 @@
 # text = We left Lovington in the morning, and after a leisurely trip with a few stops for “sighting,” made camp in a little arroyo leading up to the Ridge.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	left	leave	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-3	Lovington	Lovington	PROPN	NNP	Number=Sing	2	dobj	_	_
+3	Lovington	Lovington	PROPN	NNP	Number=Sing	2	dobj	_	NE=B-PERSON
 4	in	in	ADP	IN	_	2	prep	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	morning	morning	NOUN	NN	Number=Sing	4	pobj	_	SpaceAfter=No
@@ -1677,13 +1677,13 @@
 29	up	up	ADP	IN	_	28	prep	_	_
 30	to	to	ADP	IN	_	29	prep	_	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
-32	Ridge	Ridge	PROPN	NNP	Number=Sing	30	pobj	_	SpaceAfter=No
+32	Ridge	Ridge	PROPN	NNP	Number=Sing	30	pobj	_	NE=B-LOC|SpaceAfter=No
 33	.	.	PUNCT	.	PunctType=Peri	22	punct	_	_
 
 # sent_id = 59
 # text = The day had been wonderfully clear, and in the early twilight I worked on my notes while Olin built a small fire of cedar and mesquite and prepared the coffee and bacon.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
-2	day	day	NOUN	NN	Number=Sing	4	nsubj	_	_
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	NE=B-DATE
+2	day	day	NOUN	NN	Number=Sing	4	nsubj	_	NE=I-DATE
 3	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	ROOT	_	_
 5	wonderfully	wonderfully	ADV	RB	_	6	advmod	_	_
@@ -1700,7 +1700,7 @@
 16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	poss	_	_
 17	notes	note	NOUN	NNS	Number=Plur	15	pobj	_	_
 18	while	while	SCONJ	IN	_	20	mark	_	_
-19	Olin	Olin	PROPN	NNP	Number=Sing	20	nsubj	_	_
+19	Olin	Olin	PROPN	NNP	Number=Sing	20	nsubj	_	NE=B-PERSON
 20	built	build	VERB	VBD	Tense=Past|VerbForm=Fin	14	advcl	_	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
 22	small	small	ADJ	JJ	Degree=Pos	23	amod	_	_
@@ -1731,8 +1731,8 @@
 10	various	various	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	things	thing	NOUN	NNS	Number=Plur	9	pobj	_	_
 12	until	until	ADP	IN	_	8	prep	_	_
-13	about	about	ADV	RB	_	14	advmod	_	_
-14	nine	nine	NUM	CD	NumType=Card	12	pobj	_	SpaceAfter=No
+13	about	about	ADV	RB	_	14	advmod	_	NE=B-CARDINAL
+14	nine	nine	NUM	CD	NumType=Card	12	pobj	_	NE=I-CARDINAL|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
 16	when	when	SCONJ	WRB	_	18	advmod	_	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
@@ -1777,7 +1777,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
 3	hear	hear	VERB	VB	VerbForm=Inf	0	ROOT	_	_
-4	Olin	Olin	PROPN	NNP	Number=Sing	7	poss	_	SpaceAfter=No
+4	Olin	Olin	PROPN	NNP	Number=Sing	7	poss	_	NE=B-PERSON|SpaceAfter=No
 5	’s	’s	PART	POS	_	4	case	_	_
 6	steady	steady	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	breathing	breathing	NOUN	NN	Number=Sing	3	dobj	_	SpaceAfter=No
@@ -1916,9 +1916,9 @@
 # text = It was almost one o’clock.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
-3	almost	almost	ADV	RB	_	4	advmod	_	_
-4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
-5	o’clock	o’clock	NOUN	NN	Number=Sing	2	attr	_	SpaceAfter=No
+3	almost	almost	ADV	RB	_	4	advmod	_	NE=B-TIME
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	NE=I-TIME
+5	o’clock	o’clock	NOUN	NN	Number=Sing	2	attr	_	NE=I-TIME|SpaceAfter=No
 6	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 68
@@ -1933,7 +1933,7 @@
 
 # sent_id = 69
 # text = Olin was snoring peacefully, the coyotes were no longer serenading the moon, only a little breeze was moving the tops of the mesquite brushes.
-1	Olin	Olin	PROPN	NNP	Number=Sing	3	nsubj	_	_
+1	Olin	Olin	PROPN	NNP	Number=Sing	3	nsubj	_	NE=B-PERSON
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
 3	snoring	snore	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	20	ccomp	_	_
 4	peacefully	peacefully	ADV	RB	_	3	advmod	_	SpaceAfter=No
@@ -2215,7 +2215,7 @@
 5	mistaken	mistake	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 6	about	about	ADP	IN	_	5	prep	_	_
 7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	poss	_	_
-8	first	first	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	first	first	ADJ	JJ	Degree=Pos	9	amod	_	NE=B-ORDINAL
 9	impression	impression	NOUN	NN	Number=Sing	6	pobj	_	_
 10	of	of	ADP	IN	_	9	prep	_	_
 11	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	poss	_	_
@@ -2316,14 +2316,14 @@
 11	there	there	ADV	RB	PronType=Dem	10	advmod	_	_
 12	when	when	SCONJ	WRB	_	15	advmod	_	_
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
-14	first	first	ADV	RB	_	15	advmod	_	_
+14	first	first	ADV	RB	_	15	advmod	_	NE=B-ORDINAL
 15	arrived	arrive	VERB	VBD	Tense=Past|VerbForm=Fin	10	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
 
 # sent_id = 82
 # text = Imagine two geologists failing to see a rock of that size!
 1	Imagine	imagine	VERB	VB	VerbForm=Inf	0	ROOT	_	_
-2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	NE=B-CARDINAL
 3	geologists	geologist	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	failing	fail	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	1	ccomp	_	_
 5	to	to	PART	TO	_	6	aux	_	_
@@ -2357,8 +2357,8 @@
 5	by	by	ADP	IN	_	3	agent	_	_
 6	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	pobj	_	_
 7	during	during	ADP	IN	_	3	prep	_	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
-9	night	night	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	NE=B-TIME
+9	night	night	NOUN	NN	Number=Sing	7	pobj	_	NE=I-TIME|SpaceAfter=No
 10	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 11	while	while	SCONJ	IN	_	13	mark	_	_
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
@@ -2409,9 +2409,9 @@
 3	not	not	PART	RB	Polarity=Neg	4	neg	_	_
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	ccomp	_	_
 5	there	there	ADV	RB	PronType=Dem	4	advmod	_	_
-6	four	four	NUM	CD	NumType=Card	7	nummod	_	_
-7	hours	hour	NOUN	NNS	Number=Plur	8	npadvmod	_	_
-8	ago	ago	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	four	four	NUM	CD	NumType=Card	7	nummod	_	NE=B-TIME
+7	hours	hour	NOUN	NNS	Number=Plur	8	npadvmod	_	NE=I-TIME
+8	ago	ago	ADV	RB	_	4	advmod	_	NE=I-TIME|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
 10	it	it	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubjpass	_	_
 11	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	14	aux	_	_
@@ -2462,7 +2462,7 @@
 4	shot	shoot	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 5	at	at	ADP	IN	_	4	prep	_	_
 6	by	by	ADP	IN	_	4	agent	_	_
-7	Mexicans	Mexicans	PROPN	NNPS	Number=Plur	6	pobj	_	SpaceAfter=No
+7	Mexicans	Mexicans	PROPN	NNPS	Number=Plur	6	pobj	_	NE=B-NORP|SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 9	held	hold	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	advcl	_	_
 10	up	up	ADP	RP	_	9	prt	_	_
@@ -2492,17 +2492,17 @@
 4	shell	shell	NOUN	NN	Number=Sing	5	compound	_	_
 5	fire	fire	NOUN	NN	Number=Sing	31	nsubj	_	_
 6	on	on	ADP	IN	_	5	prep	_	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
-8	Western	Western	PROPN	NNP	Number=Sing	9	compound	_	_
-9	Front	Front	PROPN	NNP	Number=Sing	6	pobj	_	SpaceAfter=No
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	NE=B-ORG
+8	Western	Western	PROPN	NNP	Number=Sing	9	compound	_	NE=I-ORG
+9	Front	Front	PROPN	NNP	Number=Sing	6	pobj	_	NE=I-ORG|SpaceAfter=No
 10	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 11	where	where	SCONJ	WRB	_	14	advmod	_	_
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	14	aux	_	_
 14	served	serve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	relcl	_	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
-16	last	last	ADJ	JJ	Degree=Pos	17	amod	_	_
-17	month	month	NOUN	NN	Number=Sing	14	dobj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	NE=B-DATE
+16	last	last	ADJ	JJ	Degree=Pos	17	amod	_	NE=I-DATE
+17	month	month	NOUN	NN	Number=Sing	14	dobj	_	NE=I-DATE
 18	of	of	ADP	IN	_	17	prep	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 20	war	war	NOUN	NN	Number=Sing	18	pobj	_	_
@@ -2511,9 +2511,9 @@
 23	infantry	infantry	NOUN	NN	Number=Sing	24	compound	_	_
 24	captain	captain	NOUN	NN	Number=Sing	21	pobj	_	_
 25	in	in	ADP	IN	_	24	prep	_	_
-26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
-27	8th	8th	ADJ	JJ	Degree=Pos	28	amod	_	_
-28	Division	Division	PROPN	NNP	Number=Sing	25	pobj	_	SpaceAfter=No
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	NE=B-ORG
+27	8th	8th	ADJ	JJ	Degree=Pos	28	amod	_	NE=I-ORG
+28	Division	Division	PROPN	NNP	Number=Sing	25	pobj	_	NE=I-ORG|SpaceAfter=No
 29	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 30	ever	ever	ADV	RB	_	31	advmod	_	_
 31	made	make	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -2531,7 +2531,7 @@
 4	once	once	ADV	RB	NumType=Mult	3	advmod	_	_
 5	by	by	ADP	IN	_	3	agent	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
-7	French	french	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	French	french	ADJ	JJ	Degree=Pos	8	amod	_	NE=B-NORP
 8	government	government	NOUN	NN	Number=Sing	5	pobj	_	_
 9	for	for	ADP	IN	_	3	prep	_	_
 10	bravery	bravery	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
@@ -2583,17 +2583,17 @@
 16	instilled	instill	VERB	VBD	Tense=Past|VerbForm=Fin	14	relcl	_	_
 17	in	in	ADP	IN	_	16	prep	_	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
-19	horses--	horses--	NOUN	NNS	Number=Plur	17	pobj	_	_
+19	horses--	horses--	NOUN	NNS	Number=Plur	17	pobj	_	NE=B-PERSON
 
 # sent_id = 95
 # text = My first impulse was to waken Olin and tell him of this startling phenomenon.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	poss	_	_
-2	first	first	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	first	first	ADJ	JJ	Degree=Pos	3	amod	_	NE=B-ORDINAL
 3	impulse	impulse	NOUN	NN	Number=Sing	4	nsubj	_	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	to	to	PART	TO	_	6	aux	_	_
 6	waken	waken	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-7	Olin	Olin	PROPN	NNP	Number=Sing	6	dobj	_	_
+7	Olin	Olin	PROPN	NNP	Number=Sing	6	dobj	_	NE=B-PERSON
 8	and	and	CCONJ	CC	ConjType=Cmp	6	cc	_	_
 9	tell	tell	VERB	VB	VerbForm=Inf	6	conj	_	_
 10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	dobj	_	_
@@ -2641,7 +2641,7 @@
 # sent_id = 97
 # text = How Olin would laugh at me if I roused him because of some foolish fancy about an innocent boulder that had been there all the time.
 1	How	how	SCONJ	WRB	_	4	advmod	_	_
-2	Olin	Olin	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Olin	Olin	PROPN	NNP	Number=Sing	4	nsubj	_	NE=B-PERSON
 3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
 4	laugh	laugh	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 5	at	at	ADP	IN	_	4	prep	_	_
@@ -2725,7 +2725,7 @@
 20	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
 21	or	or	CCONJ	CC	ConjType=Cmp	15	cc	_	_
 22	arouse	arouse	VERB	VB	VerbForm=Inf	15	conj	_	_
-23	Olin	Olin	PROPN	NNP	Number=Sing	22	dobj	_	_
+23	Olin	Olin	PROPN	NNP	Number=Sing	22	dobj	_	NE=B-PERSON
 24	and	and	CCONJ	CC	ConjType=Cmp	22	cc	_	_
 25	get	get	VERB	VB	VerbForm=Inf	22	conj	_	_
 26	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	poss	_	_
@@ -3203,8 +3203,8 @@
 # sent_id = 119
 # text = After several minutes of futile crawling around, I realized that I must be in the middle of some tremendous room, and that it was a waste of time trying to find a wall or outlet.
 1	After	after	ADP	IN	_	10	prep	_	_
-2	several	several	ADJ	JJ	Degree=Pos	3	amod	_	_
-3	minutes	minute	NOUN	NNS	Number=Plur	1	pobj	_	_
+2	several	several	ADJ	JJ	Degree=Pos	3	amod	_	NE=B-TIME
+3	minutes	minute	NOUN	NNS	Number=Plur	1	pobj	_	NE=I-TIME
 4	of	of	ADP	IN	_	3	prep	_	_
 5	futile	futile	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	crawling	crawl	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	pcomp	_	_
@@ -3249,7 +3249,7 @@
 4	knew	know	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	that	that	SCONJ	IN	_	11	mark	_	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
-7	Stygian	stygian	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	Stygian	stygian	ADJ	JJ	Degree=Pos	8	amod	_	NE=B-NORP
 8	blackness	blackness	NOUN	NN	Number=Sing	11	nsubj	_	_
 9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
 10	effectually	effectually	ADV	RB	_	11	advmod	_	_
@@ -3358,8 +3358,8 @@
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 5	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
 6	seized	seize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
-7	Olin	Olin	PROPN	NNP	Number=Sing	8	compound	_	_
-8	Gilfillan	Gilfillan	PROPN	NNP	Number=Sing	6	dobj	_	_
+7	Olin	Olin	PROPN	NNP	Number=Sing	8	compound	_	NE=B-PERSON
+8	Gilfillan	Gilfillan	PROPN	NNP	Number=Sing	6	dobj	_	NE=I-PERSON
 9	also	also	ADV	RB	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
@@ -3467,7 +3467,7 @@
 11	noticed	notice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	relcl	_	_
 12	when	when	SCONJ	WRB	_	15	advmod	_	_
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-14	first	first	ADV	RB	_	15	advmod	_	_
+14	first	first	ADV	RB	_	15	advmod	_	NE=B-ORDINAL
 15	regained	regain	VERB	VBD	Tense=Past|VerbForm=Fin	11	advcl	_	_
 16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	poss	_	_
 17	senses	sense	NOUN	NNS	Number=Plur	15	dobj	_	SpaceAfter=No
@@ -3666,7 +3666,7 @@
 3	why	why	SCONJ	WRB	_	9	advmod	_	_
 4	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
 5	n’t	not	PART	RB	Polarity=Neg	6	neg	_	_
-6	Olin	Olin	PROPN	NNP	Number=Sing	9	nsubj	_	_
+6	Olin	Olin	PROPN	NNP	Number=Sing	9	nsubj	_	NE=B-PERSON
 7	or	or	CCONJ	CC	ConjType=Cmp	6	cc	_	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	conj	_	_
 9	noticed	notice	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -3749,16 +3749,16 @@
 11	southeastern	southeastern	ADJ	JJ	Degree=Pos	12	amod	_	_
 12	part	part	NOUN	NN	Number=Sing	9	pobj	_	_
 13	of	of	ADP	IN	_	12	prep	_	_
-14	New	New	PROPN	NNP	Number=Sing	15	compound	_	_
-15	Mexico	Mexico	PROPN	NNP	Number=Sing	13	pobj	_	SpaceAfter=No
+14	New	New	PROPN	NNP	Number=Sing	15	compound	_	NE=B-GPE
+15	Mexico	Mexico	PROPN	NNP	Number=Sing	13	pobj	_	NE=I-GPE|SpaceAfter=No
 16	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 143
 # text = The mighty Carlsbad Cavern itself has a great number of branching chambers that have never been explored.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	mighty	mighty	ADJ	JJ	Degree=Pos	4	amod	_	_
-3	Carlsbad	Carlsbad	PROPN	NNP	Number=Sing	4	compound	_	_
-4	Cavern	Cavern	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	Carlsbad	Carlsbad	PROPN	NNP	Number=Sing	4	compound	_	NE=B-LOC
+4	Cavern	Cavern	PROPN	NNP	Number=Sing	6	nsubj	_	NE=I-LOC
 5	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	appos	_	_
 6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
@@ -3814,9 +3814,9 @@
 2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
 3	places	place	NOUN	NNS	Number=Plur	1	pobj	_	_
 4	near	near	ADP	IN	_	3	prep	_	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
-6	Carlsbad	Carlsbad	PROPN	NNP	Number=Sing	7	compound	_	_
-7	Cavern	Cavern	PROPN	NNP	Number=Sing	4	pobj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	NE=B-FAC
+6	Carlsbad	Carlsbad	PROPN	NNP	Number=Sing	7	compound	_	NE=I-FAC
+7	Cavern	Cavern	PROPN	NNP	Number=Sing	4	pobj	_	NE=I-FAC
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	roof	roof	NOUN	NN	Number=Sing	11	nsubj	_	_
 10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -3893,7 +3893,7 @@
 42	prey	prey	NOUN	NN	Number=Sing	40	dobj	_	_
 43	for	for	ADP	IN	_	40	prep	_	_
 44	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	46	poss	_	_
-45	first	first	ADJ	JJ	Degree=Pos	46	amod	_	_
+45	first	first	ADJ	JJ	Degree=Pos	46	amod	_	NE=B-ORDINAL
 46	attempt	attempt	NOUN	NN	Number=Sing	43	pobj	_	SpaceAfter=No
 47	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
 
@@ -4111,10 +4111,10 @@
 28	if	if	SCONJ	IN	_	30	mark	_	_
 29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 30	took	take	VERB	VBD	Tense=Past|VerbForm=Fin	13	advcl	_	_
-31	half	half	DET	PDT	_	35	predet	_	_
+31	half	half	DET	PDT	_	35	predet	_	NE=B-CARDINAL
 32	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
-33	United	United	PROPN	NNP	Number=Sing	34	compound	_	_
-34	States	States	PROPN	NNP	Number=Sing	35	compound	_	_
+33	United	United	PROPN	NNP	Number=Sing	34	compound	_	NE=B-GPE
+34	States	States	PROPN	NNP	Number=Sing	35	compound	_	NE=I-GPE
 35	army	army	NOUN	NN	Number=Sing	30	dobj	_	SpaceAfter=No
 36	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
 
@@ -4504,7 +4504,7 @@
 4	for	for	ADP	IN	_	2	prep	_	_
 5	having	having	AUX	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	aux	_	_
 6	called	call	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	pcomp	_	_
-7	Olin	Olin	PROPN	NNP	Number=Sing	6	oprd	_	SpaceAfter=No
+7	Olin	Olin	PROPN	NNP	Number=Sing	6	oprd	_	NE=B-PERSON|SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
 9	for	for	ADP	IN	_	6	prep	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
@@ -4557,8 +4557,8 @@
 32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 34	probably	probably	ADV	RB	_	33	advmod	_	_
-35	only	only	ADV	RB	_	36	advmod	_	_
-36	one	one	NUM	CD	NumType=Card	33	attr	_	_
+35	only	only	ADV	RB	_	36	advmod	_	NE=B-CARDINAL
+36	one	one	NUM	CD	NumType=Card	33	attr	_	NE=I-CARDINAL
 37	of	of	ADP	IN	_	36	prep	_	_
 38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	poss	_	_
 39	captors	captor	NOUN	NNS	Number=Plur	37	pobj	_	SpaceAfter=No
@@ -5196,7 +5196,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
 7	sort	sort	NOUN	NN	Number=Sing	5	pobj	_	_
 8	of	of	ADP	IN	_	7	prep	_	_
-9	sixth	sixth	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	sixth	sixth	ADJ	JJ	Degree=Pos	10	amod	_	NE=B-ORDINAL
 10	sense	sense	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 12	and	and	CCONJ	CC	ConjType=Cmp	4	cc	_	_
@@ -5329,7 +5329,7 @@
 13	dwellers	dweller	NOUN	NNS	Number=Plur	2	ccomp	_	_
 14	on	on	ADP	IN	_	13	prep	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-16	Earth	Earth	PROPN	NNP	Number=Sing	14	pobj	_	SpaceAfter=No
+16	Earth	Earth	PROPN	NNP	Number=Sing	14	pobj	_	NE=B-LOC|SpaceAfter=No
 17	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 206
@@ -5446,9 +5446,9 @@
 28	necessary--	necessary--	PROPN	NNP	Number=Sing	26	ccomp	_	SpaceAfter=No
 29	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	26	punct	_	_
 30	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	26	punct	_	SpaceAfter=No
-31	Just	just	ADV	RB	_	33	advmod	_	_
-32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
-33	minute	minute	NOUN	NN	Number=Sing	26	npadvmod	_	SpaceAfter=No
+31	Just	just	ADV	RB	_	33	advmod	_	NE=B-TIME
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	NE=I-TIME
+33	minute	minute	NOUN	NN	Number=Sing	26	npadvmod	_	NE=I-TIME|SpaceAfter=No
 34	,	,	PUNCT	,	PunctType=Comm	37	punct	_	SpaceAfter=No
 35	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	37	punct	_	_
 36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	_	_
@@ -5794,7 +5794,7 @@
 # text = You speak English very well, and only human beings can talk.
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
 2	speak	speak	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-3	English	English	PROPN	NNP	Number=Sing	2	dobj	_	_
+3	English	English	PROPN	NNP	Number=Sing	2	dobj	_	NE=B-LANGUAGE
 4	very	very	ADV	RB	_	5	advmod	_	_
 5	well	well	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
@@ -5905,14 +5905,14 @@
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
 8	know	know	VERB	VBP	Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 9	as	as	ADP	IN	_	3	prep	_	_
-10	Venus	Venus	PROPN	NNP	Number=Sing	9	pobj	_	_
-11	about	about	ADV	RB	_	13	advmod	_	_
-12	one	one	NUM	CD	NumType=Card	13	compound	_	_
-13	hundred	hundred	NUM	CD	NumType=Card	3	dep	_	_
+10	Venus	Venus	PROPN	NNP	Number=Sing	9	pobj	_	NE=B-LOC
+11	about	about	ADV	RB	_	13	advmod	_	NE=B-CARDINAL
+12	one	one	NUM	CD	NumType=Card	13	compound	_	NE=I-CARDINAL
+13	hundred	hundred	NUM	CD	NumType=Card	3	dep	_	NE=I-CARDINAL
 14	of	of	ADP	IN	_	13	prep	_	_
 15	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	poss	_	_
-16	years	year	NOUN	NNS	Number=Plur	17	npadvmod	_	_
-17	ago	ago	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	years	year	NOUN	NNS	Number=Plur	17	npadvmod	_	NE=B-DATE
+17	ago	ago	ADV	RB	_	13	advmod	_	NE=I-DATE|SpaceAfter=No
 18	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 19	and	and	CCONJ	CC	ConjType=Cmp	3	cc	_	_
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubjpass	_	_
@@ -5968,10 +5968,10 @@
 37	now	now	ADV	RB	_	35	advmod	_	SpaceAfter=No
 38	,	,	PUNCT	,	PunctType=Comm	35	punct	_	_
 39	Mister	Mister	PROPN	NNP	Number=Sing	43	compound	_	_
-40	Stan	Stan	PROPN	NNP	Number=Sing	43	compound	_	SpaceAfter=No
-41	-	-	PUNCT	HYPH	PunctType=Dash	43	punct	_	SpaceAfter=No
-42	lee	lee	PROPN	NNP	Number=Sing	43	compound	_	_
-43	Murduck	Murduck	PROPN	NNP	Number=Sing	29	dep	_	_
+40	Stan	Stan	PROPN	NNP	Number=Sing	43	compound	_	NE=B-PERSON|SpaceAfter=No
+41	-	-	PUNCT	HYPH	PunctType=Dash	43	punct	_	NE=I-PERSON|SpaceAfter=No
+42	lee	lee	PROPN	NNP	Number=Sing	43	compound	_	NE=I-PERSON
+43	Murduck	Murduck	PROPN	NNP	Number=Sing	29	dep	_	NE=I-PERSON
 44	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	46	punct	_	SpaceAfter=No
 45	that	that	PRON	DT	Number=Sing|PronType=Dem	46	nsubj	_	_
 46	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	parataxis	_	_
@@ -6065,14 +6065,14 @@
 # text = It is Oomlag-Tharnar-Illnag, or Oomlag for short.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	compound	_	SpaceAfter=No
-4	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
-5	Tharnar	Tharnar	PROPN	NNP	Number=Sing	7	compound	_	SpaceAfter=No
-6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
-7	Illnag	Illnag	PROPN	NNP	Number=Sing	2	attr	_	SpaceAfter=No
+3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	compound	_	NE=B-ORG|SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	NE=I-ORG|SpaceAfter=No
+5	Tharnar	Tharnar	PROPN	NNP	Number=Sing	7	compound	_	NE=I-ORG|SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	NE=I-ORG|SpaceAfter=No
+7	Illnag	Illnag	PROPN	NNP	Number=Sing	2	attr	_	NE=I-ORG|SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 9	or	or	CCONJ	CC	ConjType=Cmp	7	cc	_	_
-10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	conj	_	_
+10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	conj	_	NE=B-ORG
 11	for	for	ADP	IN	_	10	prep	_	_
 12	short	short	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
 13	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
@@ -6117,7 +6117,7 @@
 27	in	in	ADP	IN	_	26	prep	_	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 29	dark	dark	ADJ	JJ	Degree=Pos	30	amod	_	_
-30	first	first	ADV	RB	_	27	pobj	_	SpaceAfter=No
+30	first	first	ADV	RB	_	27	pobj	_	NE=B-ORDINAL|SpaceAfter=No
 31	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
 32	so	so	SCONJ	IN	_	38	mark	_	_
 33	that	that	SCONJ	IN	_	38	mark	_	_
@@ -6190,7 +6190,7 @@
 13	what	what	PRON	WP	_	14	nsubj	_	_
 14	becomes	become	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 15	of	of	ADP	IN	_	14	prep	_	_
-16	us--‘involuntary	us--‘involuntary	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	us--‘involuntary	us--‘involuntary	ADJ	JJ	Degree=Pos	17	amod	_	NE=B-PERSON
 17	visitors	visitor	NOUN	NNS	Number=Plur	15	pobj	_	SpaceAfter=No
 18	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	5	punct	_	SpaceAfter=No
 19	?	?	PUNCT	.	PunctType=Peri	5	punct	_	SpaceAfter=No
@@ -6308,7 +6308,7 @@
 19	parents	parent	NOUN	NNS	Number=Plur	20	nsubj	_	_
 20	came	come	VERB	VBD	Tense=Past|VerbForm=Fin	16	ccomp	_	_
 21	from	from	ADP	IN	_	20	prep	_	_
-22	Venus	Venus	PROPN	NNP	Number=Sing	21	pobj	_	SpaceAfter=No
+22	Venus	Venus	PROPN	NNP	Number=Sing	21	pobj	_	NE=B-LOC|SpaceAfter=No
 23	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
 24	that	that	SCONJ	IN	_	27	mark	_	_
 25	others	other	NOUN	NNS	Number=Plur	27	nsubjpass	_	_
@@ -6516,7 +6516,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	voice	voice	NOUN	NN	Number=Sing	7	nsubj	_	_
 10	of	of	ADP	IN	_	9	prep	_	_
-11	Oomlag	Oomlag	PROPN	NNP	Number=Sing	10	pobj	_	SpaceAfter=No
+11	Oomlag	Oomlag	PROPN	NNP	Number=Sing	10	pobj	_	NE=B-ORG|SpaceAfter=No
 12	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
 
 # sent_id = 253
@@ -6567,10 +6567,10 @@
 22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	pobj	_	_
 23	to	to	PART	TO	_	24	aux	_	_
 24	spend	spend	VERB	VB	VerbForm=Inf	20	xcomp	_	_
-25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
-26	next	next	ADJ	JJ	Degree=Pos	28	amod	_	_
-27	few	few	ADJ	JJ	Degree=Pos	28	amod	_	_
-28	years	year	NOUN	NNS	Number=Plur	24	dobj	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	NE=B-DATE
+26	next	next	ADJ	JJ	Degree=Pos	28	amod	_	NE=I-DATE
+27	few	few	ADJ	JJ	Degree=Pos	28	amod	_	NE=I-DATE
+28	years	year	NOUN	NNS	Number=Plur	24	dobj	_	NE=I-DATE
 29	underground	underground	ADV	RB	_	24	advmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
 
@@ -6759,7 +6759,7 @@
 11	planet	planet	NOUN	NN	Number=Sing	9	pobj	_	_
 12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
 13	call	call	VERB	VBP	Tense=Pres|VerbForm=Fin	11	relcl	_	_
-14	Venus	Venus	PROPN	NNP	Number=Sing	13	dobj	_	SpaceAfter=No
+14	Venus	Venus	PROPN	NNP	Number=Sing	13	dobj	_	NE=B-LOC|SpaceAfter=No
 15	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
 
 # sent_id = 262
@@ -6892,14 +6892,14 @@
 10	than	than	ADP	IN	_	9	prep	_	_
 11	ours	our	NOUN	NNS	Number=Plur	10	pobj	_	SpaceAfter=No
 12	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
-13	some	some	DET	DT	_	15	det	_	_
-14	10	10	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
-15	%	%	NOUN	NN	Number=Sing	5	npadvmod	_	SpaceAfter=No
+13	some	some	DET	DT	_	15	det	_	NE=B-PERCENT
+14	10	10	NUM	CD	NumType=Card	15	nummod	_	NE=I-PERCENT|SpaceAfter=No
+15	%	%	NOUN	NN	Number=Sing	5	npadvmod	_	NE=I-PERCENT|SpaceAfter=No
 16	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 17	and	and	CCONJ	CC	ConjType=Cmp	5	cc	_	_
 18	though	though	ADV	RB	_	21	advmod	_	_
-19	almost	almost	ADV	RB	_	20	advmod	_	_
-20	half	half	ADV	RB	_	21	advmod	_	_
+19	almost	almost	ADV	RB	_	20	advmod	_	NE=B-CARDINAL
+20	half	half	ADV	RB	_	21	advmod	_	NE=I-CARDINAL
 21	again	again	ADV	RB	_	5	advmod	_	_
 22	as	as	ADV	RB	_	23	advmod	_	_
 23	far	far	ADV	RB	_	24	advmod	_	_
@@ -6987,7 +6987,7 @@
 30	masters	master	NOUN	NNS	Number=Plur	27	attr	_	_
 31	of	of	ADP	IN	_	30	prep	_	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
-33	two	two	NUM	CD	NumType=Card	34	nummod	_	_
+33	two	two	NUM	CD	NumType=Card	34	nummod	_	NE=B-CARDINAL
 34	planets	planet	NOUN	NNS	Number=Plur	31	pobj	_	SpaceAfter=No
 35	.	.	PUNCT	.	PunctType=Peri	27	punct	_	_
 
@@ -7024,7 +7024,7 @@
 29	again	again	ADV	RB	_	27	advmod	_	_
 30	for	for	ADP	IN	_	27	prep	_	_
 31	untold	untold	ADJ	JJ	Degree=Pos	32	amod	_	_
-32	centuries	century	NOUN	NNS	Number=Plur	30	pobj	_	SpaceAfter=No
+32	centuries	century	NOUN	NNS	Number=Plur	30	pobj	_	NE=B-DATE|SpaceAfter=No
 33	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
 
 # sent_id = 271
@@ -7050,7 +7050,7 @@
 19	planet	planet	NOUN	NN	Number=Sing	16	pobj	_	_
 20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
 21	call	call	VERB	VBP	Tense=Pres|VerbForm=Fin	15	relcl	_	_
-22	Mars	Mars	PROPN	NNP	Number=Sing	21	dobj	_	SpaceAfter=No
+22	Mars	Mars	PROPN	NNP	Number=Sing	21	dobj	_	NE=B-LOC|SpaceAfter=No
 23	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
 
 # sent_id = 272
@@ -7084,7 +7084,7 @@
 27	see	see	VERB	VB	VerbForm=Inf	25	xcomp	_	_
 28	that	that	SCONJ	IN	_	33	mark	_	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
-30	Martian	martian	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	Martian	martian	ADJ	JJ	Degree=Pos	31	amod	_	NE=B-NORP
 31	civilization	civilization	NOUN	NN	Number=Sing	33	nsubjpass	_	_
 32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	auxpass	_	_
 33	broken	break	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	27	ccomp	_	_
@@ -7153,19 +7153,19 @@
 9	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 10	such	such	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	as	as	ADP	IN	_	5	prep	_	_
-12	Saturn	Saturn	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+12	Saturn	Saturn	PROPN	NNP	Number=Sing	11	pobj	_	NE=B-PRODUCT|SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
-14	Neptune	Neptune	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
+14	Neptune	Neptune	PROPN	NNP	Number=Sing	12	conj	_	NE=B-LOC|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
 16	and	and	CCONJ	CC	ConjType=Cmp	14	cc	_	_
-17	Uranus	Uranus	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+17	Uranus	Uranus	PROPN	NNP	Number=Sing	14	conj	_	NE=B-LOC|SpaceAfter=No
 18	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
 19	and	and	CCONJ	CC	ConjType=Cmp	12	cc	_	_
 20	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	poss	_	_
 21	smaller	small	ADJ	JJR	Degree=Cmp	22	amod	_	_
 22	neighbor	neighbor	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
-24	Mercury	Mercury	PROPN	NNP	Number=Sing	22	appos	_	SpaceAfter=No
+24	Mercury	Mercury	PROPN	NNP	Number=Sing	22	appos	_	NE=B-ORG|SpaceAfter=No
 25	,	,	PUNCT	,	PunctType=Comm	29	punct	_	_
 26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubjpass	_	_
 27	may	may	AUX	MD	VerbForm=Fin	29	aux	_	_
@@ -7216,18 +7216,18 @@
 1	Though	though	SCONJ	IN	_	3	mark	_	_
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	weigh	weigh	VERB	VBP	Tense=Pres|VerbForm=Fin	20	advcl	_	_
-4	several	several	ADJ	JJ	Degree=Pos	5	amod	_	_
-5	pounds	pound	NOUN	NNS	Number=Plur	3	dobj	_	_
+4	several	several	ADJ	JJ	Degree=Pos	5	amod	_	NE=B-QUANTITY
+5	pounds	pound	NOUN	NNS	Number=Plur	3	dobj	_	NE=I-QUANTITY
 6	more	more	ADJ	JJR	Degree=Cmp	3	advmod	_	_
 7	here	here	ADV	RB	PronType=Dem	3	advmod	_	_
 8	on	on	ADP	IN	_	7	prep	_	_
 9	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	poss	_	_
-10	Earth	Earth	PROPN	NNP	Number=Sing	8	pobj	_	_
+10	Earth	Earth	PROPN	NNP	Number=Sing	8	pobj	_	NE=B-LOC
 11	than	than	SCONJ	IN	_	14	mark	_	_
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
 14	on	on	ADP	IN	_	3	advcl	_	_
-15	Venus	Venus	PROPN	NNP	Number=Sing	14	pobj	_	SpaceAfter=No
+15	Venus	Venus	PROPN	NNP	Number=Sing	14	pobj	_	NE=B-LOC|SpaceAfter=No
 16	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
 17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	poss	_	_
 18	only	only	ADJ	JJ	Degree=Pos	19	amod	_	_
@@ -7348,7 +7348,7 @@
 21	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	poss	_	_
 22	choice	choice	NOUN	NN	Number=Sing	25	nsubj	_	_
 23	of	of	ADP	IN	_	22	prep	_	_
-24	English	English	PROPN	NNP	Number=Sing	23	pobj	_	_
+24	English	English	PROPN	NNP	Number=Sing	23	pobj	_	NE=B-LANGUAGE
 25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 26	excellent	excellent	ADJ	JJ	Degree=Pos	25	acomp	_	_
 27	and	and	CCONJ	CC	ConjType=Cmp	25	cc	_	_
@@ -7377,7 +7377,7 @@
 10	become	become	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	relcl	_	_
 11	insane	insane	ADJ	JJ	Degree=Pos	10	acomp	_	_
 12	from	from	ADP	IN	_	11	prep	_	_
-13	overstudy	overstudy	PROPN	NNP	Number=Sing	12	pobj	_	SpaceAfter=No
+13	overstudy	overstudy	PROPN	NNP	Number=Sing	12	pobj	_	NE=B-GPE|SpaceAfter=No
 14	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 15	and	and	CCONJ	CC	ConjType=Cmp	3	cc	_	_
 16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
@@ -7458,7 +7458,7 @@
 10	man	man	NOUN	NN	Number=Sing	7	pobj	_	_
 11	obsessed	obsess	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	acl	_	_
 12	on	on	ADP	IN	_	11	prep	_	_
-13	one	one	NUM	CD	NumType=Card	14	nummod	_	_
+13	one	one	NUM	CD	NumType=Card	14	nummod	_	NE=B-CARDINAL
 14	subject	subject	NOUN	NN	Number=Sing	12	pobj	_	_
 15	than	than	ADP	IN	_	11	prep	_	_
 16	with	with	ADP	IN	_	15	prep	_	_
@@ -7563,7 +7563,7 @@
 12	fear	fear	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 14	for	for	ADP	IN	_	5	prep	_	_
-15	Oomlag	Oomlag	PROPN	NNP	Number=Sing	18	poss	_	SpaceAfter=No
+15	Oomlag	Oomlag	PROPN	NNP	Number=Sing	18	poss	_	NE=B-ORG|SpaceAfter=No
 16	’s	’s	PART	POS	_	15	case	_	_
 17	next	next	ADJ	JJ	Degree=Pos	18	amod	_	_
 18	remark	remark	NOUN	NN	Number=Sing	14	pobj	_	_
@@ -7581,9 +7581,9 @@
 5	say	say	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 6	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
-8	Stan	Stan	PROPN	NNP	Number=Sing	10	compound	_	SpaceAfter=No
-9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
-10	lee	lee	PROPN	NNP	Number=Sing	5	npadvmod	_	SpaceAfter=No
+8	Stan	Stan	PROPN	NNP	Number=Sing	10	compound	_	NE=B-PERSON|SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	NE=I-PERSON|SpaceAfter=No
+10	lee	lee	PROPN	NNP	Number=Sing	5	npadvmod	_	NE=I-PERSON|SpaceAfter=No
 11	?	?	PUNCT	.	PunctType=Peri	5	punct	_	SpaceAfter=No
 12	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	5	punct	_	_
 
@@ -7732,8 +7732,8 @@
 4	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
 5	there	there	PRON	EX	_	6	expl	_	_
 6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
-7	only	only	ADV	RB	_	8	advmod	_	_
-8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+7	only	only	ADV	RB	_	8	advmod	_	NE=B-CARDINAL
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	NE=I-CARDINAL
 9	thing	thing	NOUN	NN	Number=Sing	6	attr	_	_
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 11	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
@@ -7783,7 +7783,7 @@
 1	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	4	punct	_	SpaceAfter=No
 2	Sure	sure	ADV	RB	_	4	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
-4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-ORG|SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	8	punct	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	8	punct	_	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -7850,7 +7850,7 @@
 10	,	,	PUNCT	,	PunctType=Comm	12	punct	_	SpaceAfter=No
 11	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	12	punct	_	_
 12	remarked	remark	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-13	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+13	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	nsubj	_	NE=B-ORG|SpaceAfter=No
 14	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
 15	dryly	dryly	ADV	RB	_	12	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
@@ -7917,9 +7917,9 @@
 
 # sent_id = 306
 # text = About a minute passed, but nothing happened to break the impenetrable darkness or my keyed-up sense of suspense.
-1	About	about	ADV	RB	_	2	advmod	_	_
-2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
-3	minute	minute	NOUN	NN	Number=Sing	4	npadvmod	_	_
+1	About	about	ADV	RB	_	2	advmod	_	NE=B-TIME
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	NE=I-TIME
+3	minute	minute	NOUN	NN	Number=Sing	4	npadvmod	_	NE=I-TIME
 4	passed	pass	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 6	but	but	CCONJ	CC	ConjType=Cmp	4	cc	_	_
@@ -7958,15 +7958,15 @@
 1	Stand	stand	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	up	up	ADP	RP	_	1	prt	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
-4	Stan	Stan	PROPN	NNP	Number=Sing	6	compound	_	SpaceAfter=No
-5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
-6	lee	lee	PROPN	NNP	Number=Sing	1	npadvmod	_	SpaceAfter=No
+4	Stan	Stan	PROPN	NNP	Number=Sing	6	compound	_	NE=B-PERSON|SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	NE=I-PERSON|SpaceAfter=No
+6	lee	lee	PROPN	NNP	Number=Sing	1	npadvmod	_	NE=I-PERSON|SpaceAfter=No
 7	!	!	PUNCT	.	PunctType=Peri	1	punct	_	SpaceAfter=No
 8	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	1	punct	_	_
 
 # sent_id = 309
 # text = Oomlag ordered, at the same time grasping my right elbow with his lean, powerful fingers.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	ordered	order	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 4	at	at	ADP	IN	_	2	prep	_	_
@@ -7999,7 +7999,7 @@
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	faced	face	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	dobj	_	_
-13	half	half	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	half	half	ADJ	JJ	Degree=Pos	14	amod	_	NE=B-CARDINAL
 14	way	way	NOUN	NN	Number=Sing	15	npadvmod	_	_
 15	around	around	ADV	RB	_	11	advmod	_	_
 16	and	and	CCONJ	CC	ConjType=Cmp	11	cc	_	_
@@ -8094,7 +8094,7 @@
 
 # sent_id = 316
 # text = Oomlag whispered, and there was nothing to do but obey.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	whispered	whisper	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 4	and	and	CCONJ	CC	ConjType=Cmp	2	cc	_	_
@@ -8184,9 +8184,9 @@
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
 4	taken	take	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	advcl	_	_
-5	about	about	ADV	RB	_	7	advmod	_	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	_
-7	hundred	hundred	NUM	CD	NumType=Card	8	nummod	_	_
+5	about	about	ADV	RB	_	7	advmod	_	NE=B-CARDINAL
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	NE=I-CARDINAL
+7	hundred	hundred	NUM	CD	NumType=Card	8	nummod	_	NE=I-CARDINAL
 8	steps	step	NOUN	NNS	Number=Plur	4	dobj	_	SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
@@ -8199,7 +8199,7 @@
 
 # sent_id = 321
 # text = Oomlag was right behind me.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	right	right	ADV	RB	_	4	advmod	_	_
 4	behind	behind	ADP	IN	_	2	prep	_	_
@@ -8279,8 +8279,8 @@
 9	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
 10	walked	walk	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	_
 11	fully	fully	ADV	RB	_	12	advmod	_	_
-12	five	five	NUM	CD	NumType=Card	13	nummod	_	_
-13	minutes	minute	NOUN	NNS	Number=Plur	10	dobj	_	_
+12	five	five	NUM	CD	NumType=Card	13	nummod	_	NE=B-TIME
+13	minutes	minute	NOUN	NNS	Number=Plur	10	dobj	_	NE=I-TIME
 14	in	in	ADP	IN	_	10	prep	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 16	dense	dense	ADJ	JJ	Degree=Pos	17	amod	_	_
@@ -8357,14 +8357,14 @@
 28	and	and	CCONJ	CC	ConjType=Cmp	27	cc	_	_
 29	whispering	whisper	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	27	conj	_	_
 30	to	to	ADP	IN	_	29	prep	_	_
-31	one	one	NUM	CD	NumType=Card	30	pobj	_	_
+31	one	one	NUM	CD	NumType=Card	30	pobj	_	NE=B-CARDINAL
 32	another	another	DET	DT	_	31	det	_	SpaceAfter=No
 33	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 328
 # text = Suddenly Oomlag’s hand grasped my shoulder and stopped me in my tracks.
 1	Suddenly	suddenly	ADV	RB	_	5	advmod	_	_
-2	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	poss	_	SpaceAfter=No
+2	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	poss	_	NE=B-ORG|SpaceAfter=No
 3	’s	’s	PART	POS	_	2	case	_	_
 4	hand	hand	NOUN	NN	Number=Sing	5	nsubj	_	_
 5	grasped	grasp	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -8452,7 +8452,7 @@
 
 # sent_id = 332
 # text = First I could make out several shadowy, tall figures standing about on all sides, and the outlines of two enormous white stalagmites.
-1	First	first	ADV	RB	_	4	advmod	_	_
+1	First	first	ADV	RB	_	4	advmod	_	NE=B-ORDINAL
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
 4	make	make	VERB	VB	VerbForm=Inf	0	ROOT	_	_
@@ -8472,7 +8472,7 @@
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
 19	outlines	outline	NOUN	NNS	Number=Plur	4	conj	_	_
 20	of	of	ADP	IN	_	19	prep	_	_
-21	two	two	NUM	CD	NumType=Card	24	nummod	_	_
+21	two	two	NUM	CD	NumType=Card	24	nummod	_	NE=B-CARDINAL
 22	enormous	enormous	ADJ	JJ	Degree=Pos	24	amod	_	_
 23	white	white	ADJ	JJ	Degree=Pos	24	amod	_	_
 24	stalagmites	stalagmite	NOUN	NNS	Number=Plur	20	pobj	_	SpaceAfter=No
@@ -8565,7 +8565,7 @@
 # sent_id = 335
 # text = The two stalagmites flanked this throne on either side, and other bizarre creatures were thronged in the space between the stalagmites and below the throne.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
-2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	NE=B-CARDINAL
 3	stalagmites	stalagmite	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	flanked	flank	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
@@ -8602,13 +8602,13 @@
 6	to	to	PART	TO	_	7	aux	_	_
 7	describe	describe	VERB	VB	VerbForm=Inf	3	advcl	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-9	Field	Field	PROPN	NNP	Number=Sing	10	compound	_	_
-10	General	General	PROPN	NNP	Number=Sing	7	dobj	_	_
+9	Field	Field	PROPN	NNP	Number=Sing	10	compound	_	NE=B-ORG
+10	General	General	PROPN	NNP	Number=Sing	7	dobj	_	NE=I-ORG
 11	commanding	command	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	acl	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	hordes	horde	NOUN	NNS	Number=Plur	11	dobj	_	_
 14	from	from	ADP	IN	_	11	prep	_	_
-15	Venus	Venus	PROPN	NNP	Number=Sing	14	pobj	_	_
+15	Venus	Venus	PROPN	NNP	Number=Sing	14	pobj	_	NE=B-LOC
 16	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
 17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	relcl	_	_
 18	to	to	PART	TO	_	19	aux	_	_
@@ -8616,10 +8616,10 @@
 20	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	poss	_	_
 21	earth	earth	NOUN	NN	Number=Sing	19	dobj	_	_
 22	in	in	ADP	IN	_	19	prep	_	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	quantmod	_	_
-24	few	few	ADJ	JJ	Degree=Pos	26	nummod	_	_
-25	short	short	ADJ	JJ	Degree=Pos	26	amod	_	_
-26	years	year	NOUN	NNS	Number=Plur	22	pobj	_	SpaceAfter=No
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	quantmod	_	NE=B-DATE
+24	few	few	ADJ	JJ	Degree=Pos	26	nummod	_	NE=I-DATE
+25	short	short	ADJ	JJ	Degree=Pos	26	amod	_	NE=I-DATE
+26	years	year	NOUN	NNS	Number=Plur	22	pobj	_	NE=I-DATE|SpaceAfter=No
 27	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 337
@@ -8631,7 +8631,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	revelation	revelation	NOUN	NN	Number=Sing	4	pobj	_	_
 7	that	that	SCONJ	IN	_	9	mark	_	_
-8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	NE=B-ORG
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	_
 10	indeed	indeed	ADV	RB	_	9	advmod	_	_
 11	no	no	DET	DT	_	12	det	_	_
@@ -8639,7 +8639,7 @@
 13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
 14	but	but	CCONJ	CC	ConjType=Cmp	12	cc	_	_
 15	really	really	ADV	RB	_	16	advmod	_	_
-16	one	one	NUM	CD	NumType=Card	12	conj	_	_
+16	one	one	NUM	CD	NumType=Card	12	conj	_	NE=B-CARDINAL
 17	of	of	ADP	IN	_	16	prep	_	_
 18	an	an	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
 19	invincible	invincible	ADJ	JJ	Degree=Pos	20	amod	_	_
@@ -8659,7 +8659,7 @@
 3	General	General	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 5	as	as	SCONJ	IN	_	8	mark	_	_
-6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-ORG
 7	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
 8	termed	term	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	advcl	_	_
 9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	dobj	_	SpaceAfter=No
@@ -8681,8 +8681,8 @@
 4	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 5	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
 6	over	over	ADP	IN	_	7	quantmod	_	_
-7	seven	seven	NUM	CD	NumType=Card	8	nummod	_	_
-8	feet	foot	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+7	seven	seven	NUM	CD	NumType=Card	8	nummod	_	NE=B-QUANTITY
+8	feet	foot	NOUN	NNS	Number=Plur	3	appos	_	NE=I-QUANTITY|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 10	with	with	ADP	IN	_	3	prep	_	_
 11	unbelievably	unbelievably	ADV	RB	_	12	advmod	_	_
@@ -8822,7 +8822,7 @@
 8	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 10	front	front	ADJ	JJ	Degree=Pos	11	amod	_	_
-11	four	four	NUM	CD	NumType=Card	13	nsubj	_	_
+11	four	four	NUM	CD	NumType=Card	13	nsubj	_	NE=B-CARDINAL
 12	evidently	evidently	ADV	RB	_	13	advmod	_	_
 13	filed	file	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 14	to	to	ADP	IN	_	13	prep	_	_
@@ -9039,7 +9039,7 @@
 
 # sent_id = 350
 # text = Oomlag stepped forward and saluted his commander with a sweeping motion of his right arm.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	stepped	step	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	forward	forward	ADV	RB	_	2	advmod	_	_
 4	and	and	CCONJ	CC	ConjType=Cmp	2	cc	_	_
@@ -9097,7 +9097,7 @@
 # sent_id = 352
 # text = Finally Oomlag turned to me.
 1	Finally	finally	ADV	RB	_	3	advmod	_	_
-2	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	nsubj	_	NE=B-ORG
 3	turned	turn	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 4	to	to	ADP	IN	_	3	prep	_	_
 5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	pobj	_	SpaceAfter=No
@@ -9123,15 +9123,15 @@
 16	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
 17	stepping	step	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	15	advcl	_	_
 18	to	to	ADP	IN	_	17	prep	_	_
-19	one	one	NUM	CD	NumType=Card	20	nummod	_	_
+19	one	one	NUM	CD	NumType=Card	20	nummod	_	NE=B-CARDINAL
 20	side	side	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
 21	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
 
 # sent_id = 354
 # text = The Field General regarded me intently for several moments.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
-2	Field	Field	PROPN	NNP	Number=Sing	3	compound	_	_
-3	General	General	PROPN	NNP	Number=Sing	4	nsubj	_	_
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	NE=B-ORG
+2	Field	Field	PROPN	NNP	Number=Sing	3	compound	_	NE=I-ORG
+3	General	General	PROPN	NNP	Number=Sing	4	nsubj	_	NE=I-ORG
 4	regarded	regard	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	dobj	_	_
 6	intently	intently	ADV	RB	_	4	advmod	_	_
@@ -9218,7 +9218,7 @@
 22	accent	accent	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
 23	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
 24	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	poss	_	_
-25	English	English	PROPN	NNP	Number=Sing	27	nsubj	_	_
+25	English	English	PROPN	NNP	Number=Sing	27	nsubj	_	NE=B-LANGUAGE
 26	quite	quite	ADV	RB	_	27	advmod	_	_
 27	limited	limited	ADJ	JJ	Degree=Pos	17	ccomp	_	_
 28	and	and	CCONJ	CC	ConjType=Cmp	27	cc	_	_
@@ -9288,7 +9288,7 @@
 2	short	short	ADJ	JJ	Degree=Pos	3	amod	_	_
 3	interjection	interjection	NOUN	NN	Number=Sing	7	nsubj	_	_
 4	by	by	ADP	IN	_	3	prep	_	_
-5	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	pobj	_	_
+5	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	pobj	_	NE=B-ORG
 6	evidently	evidently	ADV	RB	_	7	advmod	_	_
 7	explained	explain	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 8	to	to	ADP	IN	_	7	prep	_	_
@@ -9384,7 +9384,7 @@
 7	rapid	rapid	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	words	word	NOUN	NNS	Number=Plur	4	dobj	_	_
 9	to	to	ADP	IN	_	8	prep	_	_
-10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	pobj	_	SpaceAfter=No
+10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	pobj	_	NE=B-ORG|SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
 12	who	who	PRON	WP	_	13	nsubj	_	_
 13	said	say	VERB	VBD	Tense=Past|VerbForm=Fin	10	relcl	_	_
@@ -9420,13 +9420,13 @@
 6	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-9	roughly	roughly	ADV	RB	_	10	advmod	_	_
-10	208	208	NUM	CD	NumType=Card	8	attr	_	_
+9	roughly	roughly	ADV	RB	_	10	advmod	_	NE=B-CARDINAL
+10	208	208	NUM	CD	NumType=Card	8	attr	_	NE=I-CARDINAL
 11	and	and	CCONJ	CC	ConjType=Cmp	10	cc	_	_
-12	225	225	NUM	CD	NumType=Card	10	conj	_	SpaceAfter=No
+12	225	225	NUM	CD	NumType=Card	10	conj	_	NE=B-CARDINAL|SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
 14	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	advcl	_	_
-15	16	16	NUM	CD	NumType=Card	14	dobj	_	_
+15	16	16	NUM	CD	NumType=Card	14	dobj	_	NE=B-CARDINAL
 16	for	for	ADP	IN	_	14	prep	_	_
 17	oxygen	oxygen	NOUN	NN	Number=Sing	16	pobj	_	_
 18	as	as	ADP	IN	_	14	prep	_	_
@@ -9491,9 +9491,9 @@
 5	,	,	PUNCT	,	PunctType=Comm	7	punct	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	7	punct	_	_
 7	said	say	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-9	Field	Field	PROPN	NNP	Number=Sing	10	compound	_	_
-10	General	General	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	NE=B-ORG
+9	Field	Field	PROPN	NNP	Number=Sing	10	compound	_	NE=I-ORG
+10	General	General	PROPN	NNP	Number=Sing	7	nsubj	_	NE=I-ORG|SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 12	curtly	curtly	ADV	RB	_	7	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
@@ -9504,7 +9504,7 @@
 18	own	own	ADJ	JJ	Degree=Pos	19	amod	_	_
 19	tongue	tongue	NOUN	NN	Number=Sing	16	pobj	_	_
 20	to	to	ADP	IN	_	14	prep	_	_
-21	Oomlag	Oomlag	PROPN	NNP	Number=Sing	20	pobj	_	SpaceAfter=No
+21	Oomlag	Oomlag	PROPN	NNP	Number=Sing	20	pobj	_	NE=B-ORG|SpaceAfter=No
 22	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
 
 # sent_id = 374
@@ -9542,9 +9542,9 @@
 13	short	short	ADJ	JJ	Degree=Pos	14	amod	_	_
 14	conversation	conversation	NOUN	NN	Number=Sing	11	pobj	_	_
 15	with	with	ADP	IN	_	14	prep	_	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
-17	Field	Field	PROPN	NNP	Number=Sing	18	compound	_	_
-18	General	General	PROPN	NNP	Number=Sing	15	pobj	_	SpaceAfter=No
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	NE=B-ORG
+17	Field	Field	PROPN	NNP	Number=Sing	18	compound	_	NE=I-ORG
+18	General	General	PROPN	NNP	Number=Sing	15	pobj	_	NE=I-ORG|SpaceAfter=No
 19	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
 20	now	now	ADV	RB	_	21	advmod	_	_
 21	broke	break	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -9553,9 +9553,9 @@
 24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
 25	groups	group	NOUN	NNS	Number=Plur	23	pobj	_	_
 26	of	of	ADP	IN	_	25	prep	_	_
-27	four	four	NUM	CD	NumType=Card	26	pobj	_	_
-28	or	or	CCONJ	CC	ConjType=Cmp	27	cc	_	_
-29	five	five	NUM	CD	NumType=Card	27	conj	_	_
+27	four	four	NUM	CD	NumType=Card	26	pobj	_	NE=B-CARDINAL
+28	or	or	CCONJ	CC	ConjType=Cmp	27	cc	_	NE=I-CARDINAL
+29	five	five	NUM	CD	NumType=Card	27	conj	_	NE=B-CARDINAL
 30	and	and	CCONJ	CC	ConjType=Cmp	21	cc	_	_
 31	walked	walk	VERB	VBD	Tense=Past|VerbForm=Fin	21	conj	_	_
 32	off	off	ADP	RP	_	31	prt	_	_
@@ -9577,17 +9577,17 @@
 9	executive	executive	ADJ	JJ	Degree=Pos	10	amod	_	_
 10	chamber	chamber	NOUN	NN	Number=Sing	7	attr	_	_
 11	of	of	ADP	IN	_	10	prep	_	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
-13	Field	Field	PROPN	NNP	Number=Sing	14	compound	_	_
-14	General	General	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	NE=B-ORG
+13	Field	Field	PROPN	NNP	Number=Sing	14	compound	_	NE=I-ORG
+14	General	General	PROPN	NNP	Number=Sing	11	pobj	_	NE=I-ORG|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 16	branched	branch	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-17	four	four	NUM	CD	NumType=Card	18	nummod	_	_
+17	four	four	NUM	CD	NumType=Card	18	nummod	_	NE=B-CARDINAL
 18	tunnels	tunnel	NOUN	NNS	Number=Plur	16	dobj	_	SpaceAfter=No
 19	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
-20	about	about	ADV	RB	_	21	advmod	_	_
-21	twenty	twenty	NUM	CD	NumType=Card	22	nummod	_	_
-22	feet	foot	NOUN	NNS	Number=Plur	18	appos	_	_
+20	about	about	ADV	RB	_	21	advmod	_	NE=B-QUANTITY
+21	twenty	twenty	NUM	CD	NumType=Card	22	nummod	_	NE=I-QUANTITY
+22	feet	foot	NOUN	NNS	Number=Plur	18	appos	_	NE=I-QUANTITY
 23	in	in	ADP	IN	_	22	prep	_	_
 24	height	height	NOUN	NN	Number=Sing	23	pobj	_	_
 25	and	and	CCONJ	CC	ConjType=Cmp	22	cc	_	_
@@ -9600,9 +9600,9 @@
 32	at	at	ADP	IN	_	31	prep	_	_
 33	intervals	interval	NOUN	NNS	Number=Plur	32	pobj	_	_
 34	of	of	ADP	IN	_	33	prep	_	_
-35	some	some	DET	DT	_	36	quantmod	_	_
-36	hundred	hundred	NUM	CD	NumType=Card	37	nummod	_	_
-37	feet	foot	NOUN	NNS	Number=Plur	34	pobj	_	_
+35	some	some	DET	DT	_	36	quantmod	_	NE=B-QUANTITY
+36	hundred	hundred	NUM	CD	NumType=Card	37	nummod	_	NE=I-QUANTITY
+37	feet	foot	NOUN	NNS	Number=Plur	34	pobj	_	NE=I-QUANTITY
 38	by	by	ADP	IN	_	33	prep	_	_
 39	octagonal	octagonal	ADJ	JJ	Degree=Pos	40	amod	_	_
 40	globes	globe	NOUN	NNS	Number=Plur	38	pobj	_	SpaceAfter=No
@@ -9621,18 +9621,18 @@
 53	an	an	DET	DT	Definite=Ind|PronType=Art	54	det	_	_
 54	angle	angle	NOUN	NN	Number=Sing	52	pobj	_	_
 55	of	of	ADP	IN	_	54	prep	_	_
-56	45	45	NUM	CD	NumType=Card	57	nummod	_	_
-57	degrees	degree	NOUN	NNS	Number=Plur	55	pobj	_	SpaceAfter=No
+56	45	45	NUM	CD	NumType=Card	57	nummod	_	NE=B-QUANTITY
+57	degrees	degree	NOUN	NNS	Number=Plur	55	pobj	_	NE=I-QUANTITY|SpaceAfter=No
 58	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
 
 # sent_id = 377
 # text = Down one of these tunnels Oomlag now bade me walk, himself striding along beside me, like some over-fantastic figure in a parade of mummers.
 1	Down	down	ADV	RB	_	8	prep	_	_
-2	one	one	NUM	CD	NumType=Card	1	pobj	_	_
+2	one	one	NUM	CD	NumType=Card	1	pobj	_	NE=B-CARDINAL
 3	of	of	ADP	IN	_	2	prep	_	_
 4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
 5	tunnels	tunnel	NOUN	NNS	Number=Plur	3	pobj	_	_
-6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-ORG
 7	now	now	ADV	RB	_	8	advmod	_	_
 8	bade	bid	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	dobj	_	_
@@ -9672,9 +9672,9 @@
 11	tunnel	tunnel	NOUN	NN	Number=Sing	12	nsubj	_	_
 12	branched	branch	VERB	VBD	Tense=Past|VerbForm=Fin	8	pcomp	_	_
 13	from	from	ADP	IN	_	12	prep	_	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-15	Executive	Executive	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Chamber	Chamber	PROPN	NNP	Number=Sing	13	pobj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NE=B-ORG
+15	Executive	Executive	PROPN	NNP	Number=Sing	16	compound	_	NE=I-ORG
+16	Chamber	Chamber	PROPN	NNP	Number=Sing	13	pobj	_	NE=I-ORG
 17	when	when	SCONJ	WRB	_	19	advmod	_	_
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 19	noticed	notice	VERB	VBD	Tense=Past|VerbForm=Fin	4	advcl	_	_
@@ -9716,7 +9716,7 @@
 4	,	,	PUNCT	,	PunctType=Comm	6	punct	_	SpaceAfter=No
 5	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	6	punct	_	_
 6	said	say	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	16	nsubj	_	NE=B-ORG|SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 9	in	in	ADP	IN	_	16	prep	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
@@ -9819,7 +9819,7 @@
 35	machine	machine	NOUN	NN	Number=Sing	32	pobj	_	_
 36	brought	bring	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	35	acl	_	_
 37	from	from	ADP	IN	_	36	prep	_	_
-38	Venus	Venus	PROPN	NNP	Number=Sing	37	pobj	_	SpaceAfter=No
+38	Venus	Venus	PROPN	NNP	Number=Sing	37	pobj	_	NE=B-LOC|SpaceAfter=No
 39	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
 
 # sent_id = 382
@@ -9829,8 +9829,8 @@
 3	shall	shall	AUX	MD	VerbType=Mod	5	aux	_	_
 4	probably	probably	ADV	RB	_	5	advmod	_	_
 5	spend	spend	VERB	VB	VerbForm=Inf	14	advcl	_	_
-6	several	several	ADJ	JJ	Degree=Pos	7	amod	_	_
-7	years	year	NOUN	NNS	Number=Plur	5	dobj	_	_
+6	several	several	ADJ	JJ	Degree=Pos	7	amod	_	NE=B-DATE
+7	years	year	NOUN	NNS	Number=Plur	5	dobj	_	NE=I-DATE
 8	down	down	ADV	RB	_	9	advmod	_	_
 9	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
 10	with	with	ADP	IN	_	5	prep	_	_
@@ -9862,9 +9862,9 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	way	way	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
-5	Stan	Stan	PROPN	NNP	Number=Sing	7	compound	_	SpaceAfter=No
-6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
-7	lee	lee	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+5	Stan	Stan	PROPN	NNP	Number=Sing	7	compound	_	NE=B-PERSON|SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	NE=I-PERSON|SpaceAfter=No
+7	lee	lee	PROPN	NNP	Number=Sing	10	nsubj	_	NE=I-PERSON|SpaceAfter=No
 8	--	--	PUNCT	:	_	7	punct	_	SpaceAfter=No
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	forgot	forget	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -9941,9 +9941,9 @@
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	poss	_	_
 10	introduction	introduction	NOUN	NN	Number=Sing	8	pobj	_	_
 11	to	to	ADP	IN	_	10	prep	_	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
-13	Executive	Executive	PROPN	NNP	Number=Sing	14	compound	_	_
-14	Chamber	Chamber	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	NE=B-ORG
+13	Executive	Executive	PROPN	NNP	Number=Sing	14	compound	_	NE=I-ORG
+14	Chamber	Chamber	PROPN	NNP	Number=Sing	11	pobj	_	NE=I-ORG|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 17	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	18	aux	_	_
@@ -9977,7 +9977,7 @@
 9	monstrous	monstrous	ADJ	JJ	Degree=Pos	10	amod	_	_
 10	men	man	NOUN	NNS	Number=Plur	7	dobj	_	_
 11	of	of	ADP	IN	_	10	prep	_	_
-12	Venus	Venus	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+12	Venus	Venus	PROPN	NNP	Number=Sing	11	pobj	_	NE=B-LOC|SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 14	and	and	CCONJ	CC	ConjType=Cmp	3	cc	_	_
 15	this	this	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	_
@@ -10009,7 +10009,7 @@
 6	very	very	ADV	RB	_	7	advmod	_	_
 7	hungry	hungry	ADJ	JJ	Degree=Pos	5	acomp	_	SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
-9	Oomlag	Oomlag	PROPN	NNP	Number=Sing	5	npadvmod	_	SpaceAfter=No
+9	Oomlag	Oomlag	PROPN	NNP	Number=Sing	5	npadvmod	_	NE=B-ORG|SpaceAfter=No
 10	,	,	PUNCT	,	PunctType=Comm	13	punct	_	SpaceAfter=No
 11	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	13	punct	_	_
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
@@ -10046,14 +10046,14 @@
 # text = I followed Oomlag down this main tunnel about a quarter of a mile to where a smaller tunnel branched to the right.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	followed	follow	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	dobj	_	_
+3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	dobj	_	NE=B-ORG
 4	down	down	ADP	RP	_	2	prep	_	_
 5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
 6	main	main	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	tunnel	tunnel	NOUN	NN	Number=Sing	4	pobj	_	_
-8	about	about	ADV	RB	_	9	advmod	_	_
-9	a	a	PRON	DT	Definite=Ind|PronType=Art	10	nummod	_	_
-10	quarter	quarter	NOUN	NN	Number=Sing	2	dobj	_	_
+8	about	about	ADV	RB	_	9	advmod	_	NE=B-CARDINAL
+9	a	a	PRON	DT	Definite=Ind|PronType=Art	10	nummod	_	NE=I-CARDINAL
+10	quarter	quarter	NOUN	NN	Number=Sing	2	dobj	_	NE=I-CARDINAL
 11	of	of	ADP	IN	_	10	prep	_	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
 13	mile	mile	NOUN	NN	Number=Sing	11	pobj	_	_
@@ -10070,8 +10070,8 @@
 
 # sent_id = 391
 # text = Some hundred paces we took down this, then found the way blocked by the usual dull-green hangings.
-1	Some	some	DET	DT	_	2	quantmod	_	_
-2	hundred	hundred	NUM	CD	NumType=Card	3	nummod	_	_
+1	Some	some	DET	DT	_	2	quantmod	_	NE=B-CARDINAL
+2	hundred	hundred	NUM	CD	NumType=Card	3	nummod	_	NE=I-CARDINAL
 3	paces	pace	NOUN	NNS	Number=Plur	10	nsubj	_	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	took	take	VERB	VBD	Tense=Past|VerbForm=Fin	3	relcl	_	_
@@ -10094,7 +10094,7 @@
 
 # sent_id = 392
 # text = Oomlag’s hands reached under his jacket, there was a rustling sound, and instantly the hangings parted, revealing doors like huge square blocks of cement.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	poss	_	SpaceAfter=No
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	poss	_	NE=B-ORG|SpaceAfter=No
 2	’s	’s	PART	POS	_	1	case	_	_
 3	hands	hand	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	reached	reach	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	ccomp	_	_
@@ -10147,20 +10147,20 @@
 2	entered	enter	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 4	chamber	chamber	NOUN	NN	Number=Sing	2	dobj	_	_
-5	about	about	ADP	IN	_	7	quantmod	_	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	_
-7	hundred	hundred	NUM	CD	NumType=Card	8	nummod	_	_
-8	feet	foot	NOUN	NNS	Number=Plur	9	npadvmod	_	_
-9	square	square	ADJ	JJ	Degree=Pos	2	advcl	_	_
+5	about	about	ADP	IN	_	7	quantmod	_	NE=B-QUANTITY
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	NE=I-QUANTITY
+7	hundred	hundred	NUM	CD	NumType=Card	8	nummod	_	NE=I-QUANTITY
+8	feet	foot	NOUN	NNS	Number=Plur	9	npadvmod	_	NE=I-QUANTITY
+9	square	square	ADJ	JJ	Degree=Pos	2	advcl	_	NE=I-QUANTITY
 10	and	and	CCONJ	CC	ConjType=Cmp	9	cc	_	_
-11	about	about	ADV	RB	_	12	advmod	_	_
-12	fifteen	fifteen	NUM	CD	NumType=Card	13	nummod	_	_
-13	feet	foot	NOUN	NNS	Number=Plur	14	npadvmod	_	_
+11	about	about	ADV	RB	_	12	advmod	_	NE=B-QUANTITY
+12	fifteen	fifteen	NUM	CD	NumType=Card	13	nummod	_	NE=I-QUANTITY
+13	feet	foot	NOUN	NNS	Number=Plur	14	npadvmod	_	NE=I-QUANTITY
 14	high	high	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 16	containing	contain	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	_
-17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
-18	dozen	dozen	NOUN	NN	Number=Sing	22	nummod	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	NE=B-CARDINAL
+18	dozen	dozen	NOUN	NN	Number=Sing	22	nummod	_	NE=I-CARDINAL
 19	large	large	ADJ	JJ	Degree=Pos	22	amod	_	SpaceAfter=No
 20	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
 21	round	round	ADJ	JJ	Degree=Pos	22	amod	_	_
@@ -10232,12 +10232,12 @@
 # sent_id = 397
 # text = At one of these rock tables Oomlag and I seated ourselves.
 1	At	at	ADP	IN	_	10	prep	_	_
-2	one	one	NUM	CD	NumType=Card	1	pobj	_	_
+2	one	one	NUM	CD	NumType=Card	1	pobj	_	NE=B-CARDINAL
 3	of	of	ADP	IN	_	2	prep	_	_
 4	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
 5	rock	rock	NOUN	NN	Number=Sing	6	compound	_	_
 6	tables	table	NOUN	NNS	Number=Plur	3	pobj	_	_
-7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	1	pobj	_	_
+7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	1	pobj	_	NE=B-ORG
 8	and	and	CCONJ	CC	ConjType=Cmp	1	cc	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	seated	seat	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -10319,7 +10319,7 @@
 8	extreme	extreme	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	interest	interest	NOUN	NN	Number=Sing	7	pobj	_	_
 10	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
-11	first	first	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	first	first	ADJ	JJ	Degree=Pos	12	amod	_	NE=B-ORDINAL
 12	person	person	NOUN	NN	Number=Sing	6	dobj	_	_
 13	of	of	ADP	IN	_	12	prep	_	_
 14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	poss	_	_
@@ -10343,7 +10343,7 @@
 32	these	these	DET	DT	Number=Plur|PronType=Dem	35	det	_	_
 33	terribly	terribly	ADV	RB	_	34	advmod	_	_
 34	efficient	efficient	ADJ	JJ	Degree=Pos	35	amod	_	_
-35	Venusians	Venusians	PROPN	NNPS	Number=Plur	31	pobj	_	SpaceAfter=No
+35	Venusians	Venusians	PROPN	NNPS	Number=Plur	31	pobj	_	NE=B-NORP|SpaceAfter=No
 36	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
 
 # sent_id = 401
@@ -10368,7 +10368,7 @@
 2	seemed	seem	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	of	of	ADP	IN	_	2	prep	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
-5	Spanish	spanish	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Spanish	spanish	ADJ	JJ	Degree=Pos	6	amod	_	NE=B-NORP
 6	type	type	NOUN	NN	Number=Sing	3	pobj	_	SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
 8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	poss	_	_
@@ -10551,7 +10551,7 @@
 3	,	,	PUNCT	,	PunctType=Comm	5	punct	_	SpaceAfter=No
 4	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	5	punct	_	_
 5	said	say	VERB	VBD	Tense=Past|VerbForm=Fin	15	parataxis	_	_
-6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+6	Oomlag	Oomlag	PROPN	NNP	Number=Sing	5	nsubj	_	NE=B-ORG|SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
 8	arranging	arrange	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	15	csubj	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
@@ -10561,7 +10561,7 @@
 13	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
 14	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	15	punct	_	SpaceAfter=No
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-16	one	one	NUM	CD	NumType=Card	15	attr	_	_
+16	one	one	NUM	CD	NumType=Card	15	attr	_	NE=B-CARDINAL
 17	of	of	ADP	IN	_	16	prep	_	_
 18	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	poss	_	_
 19	most	most	ADV	RBS	Degree=Sup	20	advmod	_	_
@@ -10576,9 +10576,9 @@
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	ROOT	_	_
 4	with	with	ADP	IN	_	3	prep	_	_
 5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	pobj	_	_
-6	almost	almost	ADV	RB	_	7	advmod	_	_
-7	five	five	NUM	CD	NumType=Card	8	nummod	_	_
-8	years	year	NOUN	NNS	Number=Plur	3	npadvmod	_	SpaceAfter=No
+6	almost	almost	ADV	RB	_	7	advmod	_	NE=B-DATE
+7	five	five	NUM	CD	NumType=Card	8	nummod	_	NE=I-DATE
+8	years	year	NOUN	NNS	Number=Plur	3	npadvmod	_	NE=I-DATE|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 10	and	and	CCONJ	CC	ConjType=Cmp	3	cc	_	_
 11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -10587,9 +10587,9 @@
 14	in	in	ADP	IN	_	13	prep	_	_
 15	teaching	teach	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	14	pcomp	_	_
 16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	dobj	_	_
-17	Spanish	spanish	ADJ	JJ	Degree=Pos	15	dobj	_	_
+17	Spanish	spanish	ADJ	JJ	Degree=Pos	15	dobj	_	NE=B-LANGUAGE
 18	and	and	CCONJ	CC	ConjType=Cmp	17	cc	_	_
-19	English	English	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+19	English	English	PROPN	NNP	Number=Sing	17	conj	_	NE=B-LANGUAGE|SpaceAfter=No
 20	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
 # sent_id = 411
@@ -10601,7 +10601,7 @@
 5	small	small	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	town	town	NOUN	NN	Number=Sing	3	pobj	_	_
 7	in	in	ADP	IN	_	6	prep	_	_
-8	Arizona	Arizona	PROPN	NNP	Number=Sing	7	pobj	_	SpaceAfter=No
+8	Arizona	Arizona	PROPN	NNP	Number=Sing	7	pobj	_	NE=B-GPE|SpaceAfter=No
 9	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 412
@@ -10734,7 +10734,7 @@
 5	pale	pale	ADJ	JJ	Degree=Pos	3	acomp	_	SpaceAfter=No
 6	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 7	for	for	ADP	IN	_	3	prep	_	_
-8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	NE=B-CARDINAL
 9	thing	thing	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
 10	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
 
@@ -10743,7 +10743,7 @@
 1	Tell	tell	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	dobj	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
-4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	npadvmod	_	SpaceAfter=No
+4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	npadvmod	_	NE=B-ORG|SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 6	what	what	PRON	WP	_	7	attr	_	_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
@@ -10829,7 +10829,7 @@
 5	,	,	PUNCT	,	PunctType=Comm	7	punct	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	7	punct	_	_
 7	said	say	VERB	VBD	Tense=Past|VerbForm=Fin	22	parataxis	_	_
-8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	7	nsubj	_	NE=B-ORG|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 10	stretching	stretch	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
 11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	poss	_	_
@@ -10986,7 +10986,7 @@
 
 # sent_id = 433
 # text = Oomlag grinned horribly, his yellow lips baring his sharp teeth.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	grinned	grin	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	horribly	horribly	ADV	RB	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
@@ -11126,7 +11126,7 @@
 13	before	before	ADV	RB	_	11	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
 15	from	from	ADP	IN	_	11	prep	_	_
-16	Venus	Venus	PROPN	NNP	Number=Sing	15	pobj	_	SpaceAfter=No
+16	Venus	Venus	PROPN	NNP	Number=Sing	15	pobj	_	NE=B-LOC|SpaceAfter=No
 17	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
 
 # sent_id = 441
@@ -11135,7 +11135,7 @@
 2	scientists	scientist	NOUN	NNS	Number=Plur	4	nsubj	_	_
 3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	spent	spend	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
-5	centuries	century	NOUN	NNS	Number=Plur	4	dobj	_	_
+5	centuries	century	NOUN	NNS	Number=Plur	4	dobj	_	NE=B-DATE
 6	in	in	ADP	IN	_	4	prep	_	_
 7	perfecting	perfect	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	pcomp	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
@@ -11168,7 +11168,7 @@
 8	position	position	NOUN	NN	Number=Sing	5	dobj	_	_
 9	of	of	ADP	IN	_	8	prep	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-11	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+11	two	two	NUM	CD	NumType=Card	12	nummod	_	NE=B-CARDINAL
 12	planets	planet	NOUN	NNS	Number=Plur	9	pobj	_	SpaceAfter=No
 13	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
@@ -11179,7 +11179,7 @@
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 20	sun	sun	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
 21	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
-22	Venus	Venus	PROPN	NNP	Number=Sing	20	conj	_	_
+22	Venus	Venus	PROPN	NNP	Number=Sing	20	conj	_	NE=B-LOC
 23	and	and	CCONJ	CC	ConjType=Cmp	22	cc	_	_
 24	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	poss	_	_
 25	earth	earth	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
@@ -11312,8 +11312,8 @@
 6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 7	an	an	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
 8	element	element	NOUN	NN	Number=Sing	6	dobj	_	_
-9	about	about	ADP	IN	_	10	advmod	_	_
-10	half	half	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+9	about	about	ADP	IN	_	10	advmod	_	NE=B-CARDINAL
+10	half	half	ADJ	JJ	Degree=Pos	12	amod	_	NE=I-CARDINAL|SpaceAfter=No
 11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
 12	way	way	NOUN	NN	Number=Sing	6	npadvmod	_	_
 13	in	in	ADP	IN	_	6	prep	_	_
@@ -11555,7 +11555,7 @@
 8	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	acl	_	_
 9	by	by	ADP	IN	_	8	agent	_	_
 10	these	these	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
-11	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+11	two	two	NUM	CD	NumType=Card	12	nummod	_	NE=B-CARDINAL
 12	elements	element	NOUN	NNS	Number=Plur	9	pobj	_	_
 13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
 14	repel	repel	VERB	VB	VerbForm=Inf	36	advcl	_	_
@@ -11586,7 +11586,7 @@
 39	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	38	dobj	_	_
 40	away	away	ADV	RB	_	38	advmod	_	_
 41	from	from	ADP	IN	_	40	prep	_	_
-42	Venus	Venus	PROPN	NNP	Number=Sing	41	pobj	_	_
+42	Venus	Venus	PROPN	NNP	Number=Sing	41	pobj	_	NE=B-LOC
 43	and	and	CCONJ	CC	ConjType=Cmp	41	cc	_	_
 44	toward	toward	ADP	IN	_	41	conj	_	_
 45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
@@ -11699,7 +11699,7 @@
 7	each	each	PRON	DT	_	14	nsubjpass	_	_
 8	of	of	ADP	IN	_	7	prep	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-10	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+10	two	two	NUM	CD	NumType=Card	12	nummod	_	NE=B-CARDINAL
 11	combining	combine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	12	amod	_	_
 12	elements	element	NOUN	NNS	Number=Plur	8	pobj	_	_
 13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	auxpass	_	_
@@ -11834,11 +11834,11 @@
 # sent_id = 466
 # text = Countless thousands of my fellow Venusians were crowded as close as they could get to obtain a last glimpse of the travelers.
 1	Countless	countless	ADJ	JJ	Degree=Pos	2	amod	_	_
-2	thousands	thousand	NOUN	NNS	Number=Plur	7	nsubj	_	_
+2	thousands	thousand	NOUN	NNS	Number=Plur	7	nsubj	_	NE=B-CARDINAL
 3	of	of	ADP	IN	_	2	prep	_	_
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	poss	_	_
 5	fellow	fellow	ADJ	JJ	Degree=Pos	6	amod	_	_
-6	Venusians	Venusians	PROPN	NNPS	Number=Plur	3	pobj	_	_
+6	Venusians	Venusians	PROPN	NNPS	Number=Plur	3	pobj	_	NE=B-NORP
 7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	auxpass	_	_
 8	crowded	crowd	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 9	as	as	ADV	RB	_	10	advmod	_	_
@@ -11941,10 +11941,10 @@
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	took	take	VERB	VBD	Tense=Past|VerbForm=Fin	12	ccomp	_	_
 16	exactly	exactly	ADV	RB	_	17	advmod	_	_
-17	six	six	NUM	CD	NumType=Card	15	dobj	_	_
+17	six	six	NUM	CD	NumType=Card	15	dobj	_	NE=B-CARDINAL
 18	of	of	ADP	IN	_	17	prep	_	_
 19	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	poss	_	_
-20	months	month	NOUN	NNS	Number=Plur	18	pobj	_	_
+20	months	month	NOUN	NNS	Number=Plur	18	pobj	_	NE=B-DATE
 21	for	for	SCONJ	IN	_	25	mark	_	_
 22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	poss	_	_
 23	people	people	NOUN	NNS	Number=Plur	25	nsubj	_	_
@@ -12025,8 +12025,8 @@
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
 8	part	part	NOUN	NN	Number=Sing	6	dobj	_	_
 9	of	of	ADP	IN	_	8	prep	_	_
-10	New	New	PROPN	NNP	Number=Sing	11	compound	_	_
-11	Mexico	Mexico	PROPN	NNP	Number=Sing	9	pobj	_	SpaceAfter=No
+10	New	New	PROPN	NNP	Number=Sing	11	compound	_	NE=B-GPE
+11	Mexico	Mexico	PROPN	NNP	Number=Sing	9	pobj	_	NE=I-GPE|SpaceAfter=No
 12	?	?	PUNCT	.	PunctType=Peri	6	punct	_	SpaceAfter=No
 13	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	6	punct	_	_
 
@@ -12097,7 +12097,7 @@
 10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
 11	element	element	NOUN	NN	Number=Sing	9	dobj	_	_
 12	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	13	punct	_	SpaceAfter=No
-13	Venusite	Venusite	PROPN	NNP	Number=Sing	11	appos	_	SpaceAfter=No
+13	Venusite	Venusite	PROPN	NNP	Number=Sing	11	appos	_	NE=B-PERSON|SpaceAfter=No
 14	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	13	punct	_	_
 15	which	which	PRON	WDT	_	26	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
@@ -12159,8 +12159,8 @@
 32	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	33	poss	_	_
 33	earth	earth	NOUN	NN	Number=Sing	31	pobj	_	SpaceAfter=No
 34	,	,	PUNCT	,	PunctType=Comm	27	punct	_	_
-35	30,000,000	30,000,000	NUM	CD	NumType=Card	36	nummod	_	_
-36	miles	mile	NOUN	NNS	Number=Plur	37	npadvmod	_	_
+35	30,000,000	30,000,000	NUM	CD	NumType=Card	36	nummod	_	NE=B-QUANTITY
+36	miles	mile	NOUN	NNS	Number=Plur	37	npadvmod	_	NE=I-QUANTITY
 37	away	away	ADV	RB	_	27	advmod	_	SpaceAfter=No
 38	,	,	PUNCT	,	PunctType=Comm	40	punct	_	_
 39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	auxpass	_	_
@@ -12193,7 +12193,7 @@
 13	in	in	ADP	IN	_	12	prep	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 15	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	16	punct	_	SpaceAfter=No
-16	Venusite	Venusite	PROPN	NNP	Number=Sing	13	pobj	_	SpaceAfter=No
+16	Venusite	Venusite	PROPN	NNP	Number=Sing	13	pobj	_	NE=B-PERSON|SpaceAfter=No
 17	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	5	punct	_	_
 18	to	to	PART	TO	_	19	aux	_	_
 19	start	start	VERB	VB	VerbForm=Inf	5	advcl	_	_
@@ -12329,9 +12329,9 @@
 4	put	put	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	poss	_	_
 6	people	people	NOUN	NNS	Number=Plur	4	dative	_	_
-7	several	several	ADJ	JJ	Degree=Pos	8	amod	_	_
-8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	_
-9	miles	mile	NOUN	NNS	Number=Plur	10	npadvmod	_	_
+7	several	several	ADJ	JJ	Degree=Pos	8	amod	_	NE=B-QUANTITY
+8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	NE=I-QUANTITY
+9	miles	mile	NOUN	NNS	Number=Plur	10	npadvmod	_	NE=I-QUANTITY
 10	west	west	ADV	RB	_	4	advmod	_	_
 11	of	of	ADP	IN	_	10	prep	_	_
 12	here	here	ADV	RB	PronType=Dem	11	pcomp	_	SpaceAfter=No
@@ -12344,7 +12344,7 @@
 19	of	of	ADP	IN	_	18	prep	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
 21	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	22	punct	_	SpaceAfter=No
-22	Venusite	Venusite	PROPN	NNP	Number=Sing	19	pobj	_	SpaceAfter=No
+22	Venusite	Venusite	PROPN	NNP	Number=Sing	19	pobj	_	NE=B-PERSON|SpaceAfter=No
 23	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	22	punct	_	_
 24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
 25	managed	manage	VERB	VBD	Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -12384,7 +12384,7 @@
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	noticed	notice	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 10	that	that	SCONJ	IN	_	12	mark	_	_
-11	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	nsubj	_	_
+11	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	nsubj	_	NE=B-ORG
 12	reached	reach	VERB	VBD	Tense=Past|VerbForm=Fin	9	ccomp	_	_
 13	under	under	ADP	IN	_	12	prep	_	_
 14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	poss	_	_
@@ -12451,9 +12451,9 @@
 6	exposing	expose	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
 8	contrivance	contrivance	NOUN	NN	Number=Sing	6	dobj	_	_
-9	about	about	ADV	RB	_	10	advmod	_	_
-10	18	18	NUM	CD	NumType=Card	11	nummod	_	_
-11	inches	inch	NOUN	NNS	Number=Plur	12	npadvmod	_	_
+9	about	about	ADV	RB	_	10	advmod	_	NE=B-QUANTITY
+10	18	18	NUM	CD	NumType=Card	11	nummod	_	NE=I-QUANTITY
+11	inches	inch	NOUN	NNS	Number=Plur	12	npadvmod	_	NE=I-QUANTITY
 12	square	square	ADJ	JJ	Degree=Pos	8	amod	_	_
 13	at	at	ADP	IN	_	12	prep	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
@@ -12500,10 +12500,10 @@
 # text = Several slits about half an inch wide radiated from the center of the dome, and from these slits little flashes of light darted with bewildering rapidity.
 1	Several	several	ADJ	JJ	Degree=Pos	2	amod	_	_
 2	slits	slit	NOUN	NNS	Number=Plur	8	nsubj	_	_
-3	about	about	ADP	IN	_	5	advmod	_	_
-4	half	half	DET	PDT	_	5	quantmod	_	_
-5	an	an	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
-6	inch	inch	NOUN	NN	Number=Sing	7	npadvmod	_	_
+3	about	about	ADP	IN	_	5	advmod	_	NE=B-QUANTITY
+4	half	half	DET	PDT	_	5	quantmod	_	NE=I-QUANTITY
+5	an	an	DET	DT	Definite=Ind|PronType=Art	6	det	_	NE=I-QUANTITY
+6	inch	inch	NOUN	NN	Number=Sing	7	npadvmod	_	NE=I-QUANTITY
 7	wide	wide	ADV	RB	_	8	advmod	_	_
 8	radiated	radiate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 9	from	from	ADP	IN	_	8	prep	_	_
@@ -12545,7 +12545,7 @@
 14	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
 15	and	and	CCONJ	CC	ConjType=Cmp	6	cc	_	_
 16	these	these	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
-17	Oomlag	Oomlag	PROPN	NNP	Number=Sing	19	nsubj	_	_
+17	Oomlag	Oomlag	PROPN	NNP	Number=Sing	19	nsubj	_	NE=B-ORG
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 19	manipulating	manipulate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	conj	_	_
 20	with	with	ADP	IN	_	19	prep	_	_
@@ -12585,7 +12585,7 @@
 5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	8	punct	_	_
 7	continued	continue	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	amod	_	_
-8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	appos	_	NE=B-ORG|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 10	pressing	press	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	acl	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
@@ -12631,7 +12631,7 @@
 23	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	poss	_	_
 24	indispensable	indispensable	ADJ	JJ	Degree=Pos	26	amod	_	_
 25	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	26	punct	_	SpaceAfter=No
-26	Venusite	venusite	NOUN	NN	Number=Sing	22	pobj	_	SpaceAfter=No
+26	Venusite	venusite	NOUN	NN	Number=Sing	22	pobj	_	NE=B-PERSON|SpaceAfter=No
 27	,	,	PUNCT	,	PunctType=Comm	18	punct	_	SpaceAfter=No
 28	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	18	punct	_	_
 29	in	in	ADP	IN	_	18	prep	_	_
@@ -12654,7 +12654,7 @@
 8	proportions	proportion	NOUN	NNS	Number=Plur	6	appos	_	_
 9	of	of	ADP	IN	_	8	prep	_	_
 10	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	9	punct	_	SpaceAfter=No
-11	Venusite	Venusite	PROPN	NNP	Number=Sing	9	pobj	_	SpaceAfter=No
+11	Venusite	Venusite	PROPN	NNP	Number=Sing	9	pobj	_	NE=B-PERSON|SpaceAfter=No
 12	,	,	PUNCT	,	PunctType=Comm	11	punct	_	SpaceAfter=No
 13	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	2	punct	_	_
 14	which	which	PRON	WDT	_	15	nsubj	_	_
@@ -12721,7 +12721,7 @@
 9	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
 10	controlled	control	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	acl	_	_
 11	by	by	ADP	IN	_	10	agent	_	_
-12	one	one	NUM	CD	NumType=Card	13	nummod	_	_
+12	one	one	NUM	CD	NumType=Card	13	nummod	_	NE=B-CARDINAL
 13	button	button	NOUN	NN	Number=Sing	11	pobj	_	_
 14	which	which	PRON	WDT	_	17	nsubjpass	_	_
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	auxpass	_	_
@@ -12843,7 +12843,7 @@
 4	dared	dare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 5	to	to	PART	TO	_	6	aux	_	_
 6	ask	ask	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	6	dobj	_	_
+7	Oomlag	Oomlag	PROPN	NNP	Number=Sing	6	dobj	_	NE=B-ORG
 8	what	what	PRON	WP	_	11	attr	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	vegetables	vegetable	NOUN	NNS	Number=Plur	11	nsubj	_	_
@@ -12870,7 +12870,7 @@
 
 # sent_id = 504
 # text = Oomlag, seeing that I had finished, manipulated a button on his wireless set, and in a moment the girl appeared to remove the dishes.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	NE=B-ORG|SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 3	seeing	see	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	advcl	_	_
 4	that	that	SCONJ	IN	_	7	mark	_	_
@@ -12938,7 +12938,7 @@
 10	soup	soup	NOUN	NN	Number=Sing	11	compound	_	_
 11	dish	dish	NOUN	NN	Number=Sing	7	dobj	_	SpaceAfter=No
 12	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
-13	one	one	NUM	CD	NumType=Card	19	nsubj	_	_
+13	one	one	NUM	CD	NumType=Card	19	nsubj	_	NE=B-CARDINAL
 14	of	of	ADP	IN	_	13	prep	_	_
 15	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	poss	_	_
 16	soft	soft	ADJ	JJ	Degree=Pos	18	amod	_	_
@@ -13009,7 +13009,7 @@
 10	between	between	ADP	IN	_	8	prep	_	_
 11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	pobj	_	_
 12	and	and	CCONJ	CC	ConjType=Cmp	11	cc	_	_
-13	Oomlag	Oomlag	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+13	Oomlag	Oomlag	PROPN	NNP	Number=Sing	11	conj	_	NE=B-ORG|SpaceAfter=No
 14	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	slipped	slip	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
@@ -13057,7 +13057,7 @@
 
 # sent_id = 511
 # text = Oomlag had buttoned up his jacket and was regarding me with an expression, as it seemed, of amused contempt.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	3	nsubj	_	NE=B-ORG
 2	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	3	aux	_	_
 3	buttoned	button	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 4	up	up	ADP	RP	_	3	prt	_	_
@@ -13177,7 +13177,7 @@
 
 # sent_id = 518
 # text = HE leaned forward, his cold, glittering, pupil-less eyes close to mine.
-1	HE	HE	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	HE	HE	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-PERSON
 2	leaned	lean	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	forward	forward	ADV	RB	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
@@ -13198,10 +13198,10 @@
 # sent_id = 519
 # text = “August 21, 1931!
 1	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	2	punct	_	SpaceAfter=No
-2	August	August	PROPN	NNP	Number=Sing	0	ROOT	_	_
-3	21	21	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
-4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
-5	1931	1931	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	August	August	PROPN	NNP	Number=Sing	0	ROOT	_	NE=B-DATE
+3	21	21	NUM	CD	NumType=Card	2	nummod	_	NE=I-DATE|SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	NE=I-DATE
+5	1931	1931	NUM	CD	NumType=Card	2	nummod	_	NE=I-DATE|SpaceAfter=No
 6	!	!	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 520
@@ -13232,7 +13232,7 @@
 17	charges	charge	NOUN	NNS	Number=Plur	2	appos	_	_
 18	of	of	ADP	IN	_	17	prep	_	_
 19	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	18	punct	_	SpaceAfter=No
-20	Venusite	venusite	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+20	Venusite	venusite	NOUN	NN	Number=Sing	18	pobj	_	NE=B-PERSON|SpaceAfter=No
 21	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	20	punct	_	_
 22	in	in	ADP	IN	_	17	prep	_	_
 23	place	place	NOUN	NN	Number=Sing	22	pobj	_	_
@@ -13268,7 +13268,7 @@
 3	date	date	NOUN	NN	Number=Sing	1	pobj	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	6	punct	_	SpaceAfter=No
-6	Venusite	Venusite	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+6	Venusite	Venusite	PROPN	NNP	Number=Sing	12	nsubj	_	NE=B-PERSON|SpaceAfter=No
 7	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	6	punct	_	_
 8	under	under	ADP	IN	_	6	prep	_	_
 9	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
@@ -13321,7 +13321,7 @@
 6	destroyed	destroy	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	_
 7	by	by	ADP	IN	_	6	agent	_	_
 8	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	11	punct	_	SpaceAfter=No
-9	Venusite	venusite	ADJ	JJ	Degree=Pos	11	nmod	_	SpaceAfter=No
+9	Venusite	venusite	ADJ	JJ	Degree=Pos	11	nmod	_	NE=B-PERSON|SpaceAfter=No
 10	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	11	punct	_	_
 11	guns	gun	NOUN	NNS	Number=Plur	7	pobj	_	SpaceAfter=No
 12	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
@@ -13374,7 +13374,7 @@
 19	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
 20	scarce	scarce	ADJ	JJ	Degree=Pos	14	amod	_	_
 21	on	on	ADP	IN	_	20	prep	_	_
-22	Venus	Venus	PROPN	NNP	Number=Sing	21	pobj	_	SpaceAfter=No
+22	Venus	Venus	PROPN	NNP	Number=Sing	21	pobj	_	NE=B-LOC|SpaceAfter=No
 23	.	.	PUNCT	.	PunctType=Peri	1	punct	_	_
 
 # sent_id = 528
@@ -13392,10 +13392,10 @@
 11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	pobj	_	_
 12	back	back	ADV	RB	_	8	advmod	_	_
 13	to	to	ADP	IN	_	12	prep	_	_
-14	Venus	Venus	PROPN	NNP	Number=Sing	13	pobj	_	_
+14	Venus	Venus	PROPN	NNP	Number=Sing	13	pobj	_	NE=B-LOC
 15	to	to	PART	TO	_	16	aux	_	_
 16	bring	bring	VERB	VB	VerbForm=Inf	8	advcl	_	_
-17	thousands	thousand	NOUN	NNS	Number=Plur	16	dobj	_	_
+17	thousands	thousand	NOUN	NNS	Number=Plur	16	dobj	_	NE=B-CARDINAL
 18	here	here	ADV	RB	PronType=Dem	16	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
 
@@ -13426,7 +13426,7 @@
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	law	law	NOUN	NN	Number=Sing	2	attr	_	_
 5	of	of	ADP	IN	_	4	prep	_	_
-6	Nature	nature	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+6	Nature	nature	NOUN	NN	Number=Sing	5	pobj	_	NE=B-WORK_OF_ART|SpaceAfter=No
 7	.	.	PUNCT	.	PunctType=Peri	2	punct	_	SpaceAfter=No
 8	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	2	punct	_	_
 
@@ -13558,7 +13558,7 @@
 14	and	and	CCONJ	CC	ConjType=Cmp	8	cc	_	_
 15	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	poss	_	_
 16	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	17	punct	_	SpaceAfter=No
-17	Venusite	venusite	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+17	Venusite	venusite	NOUN	NN	Number=Sing	8	conj	_	NE=B-PERSON|SpaceAfter=No
 18	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	17	punct	_	_
 19	not	not	PART	RB	Polarity=Neg	20	neg	_	_
 20	what	what	PRON	WP	_	23	pobj	_	_
@@ -13612,10 +13612,10 @@
 9	of	of	ADP	IN	_	8	prep	_	_
 10	tunnels	tunnel	NOUN	NNS	Number=Plur	9	pobj	_	_
 11	in	in	ADP	IN	_	8	prep	_	_
-12	such	such	DET	PDT	_	15	amod	_	_
-13	a	a	DET	DT	Definite=Ind|PronType=Art	14	quantmod	_	_
-14	few	few	ADJ	JJ	Degree=Pos	15	amod	_	_
-15	years	year	NOUN	NNS	Number=Plur	11	pobj	_	SpaceAfter=No
+12	such	such	DET	PDT	_	15	amod	_	NE=B-DATE
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	quantmod	_	NE=I-DATE
+14	few	few	ADJ	JJ	Degree=Pos	15	amod	_	NE=I-DATE
+15	years	year	NOUN	NNS	Number=Plur	11	pobj	_	NE=I-DATE|SpaceAfter=No
 16	.	.	PUNCT	.	PunctType=Peri	5	punct	_	SpaceAfter=No
 17	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	5	punct	_	_
 
@@ -13629,7 +13629,7 @@
 
 # sent_id = 539
 # text = Oomlag was busy manipulating his wireless contraption.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	busy	busy	ADJ	JJ	Degree=Pos	2	acomp	_	_
 4	manipulating	manipulate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	xcomp	_	_
@@ -13668,7 +13668,7 @@
 1	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	3	punct	_	SpaceAfter=No
 2	There	there	PRON	EX	_	3	expl	_	_
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	NE=B-CARDINAL
 5	thing	thing	NOUN	NN	Number=Sing	3	attr	_	_
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	humans	human	NOUN	NNS	Number=Plur	6	appos	_	_
@@ -13781,7 +13781,7 @@
 7	malevolent	malevolent	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	expression	expression	NOUN	NN	Number=Sing	5	pobj	_	_
 9	in	in	ADP	IN	_	8	prep	_	_
-10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	poss	_	SpaceAfter=No
+10	Oomlag	Oomlag	PROPN	NNP	Number=Sing	12	poss	_	NE=B-ORG|SpaceAfter=No
 11	’s	’s	PART	POS	_	10	case	_	_
 12	eyes	eye	NOUN	NNS	Number=Plur	9	pobj	_	SpaceAfter=No
 13	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
@@ -14054,7 +14054,7 @@
 17	to	to	PART	TO	_	18	aux	_	_
 18	return	return	VERB	VB	VerbForm=Inf	16	xcomp	_	_
 19	to	to	ADP	IN	_	18	prep	_	_
-20	Venus	Venus	PROPN	NNP	Number=Sing	19	pobj	_	_
+20	Venus	Venus	PROPN	NNP	Number=Sing	19	pobj	_	NE=B-LOC
 21	or	or	CCONJ	CC	ConjType=Cmp	18	cc	_	_
 22	defend	defend	VERB	VB	VerbForm=Inf	18	conj	_	_
 23	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	22	dobj	_	SpaceAfter=No
@@ -14068,7 +14068,7 @@
 4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 5	sufficient	sufficient	ADJ	JJ	Degree=Pos	7	amod	_	_
 6	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	7	punct	_	SpaceAfter=No
-7	Venusite	venusite	NOUN	NN	Number=Sing	4	dobj	_	SpaceAfter=No
+7	Venusite	venusite	NOUN	NN	Number=Sing	4	dobj	_	NE=B-PERSON|SpaceAfter=No
 8	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	7	punct	_	_
 9	to	to	PART	TO	_	10	aux	_	_
 10	do	do	VERB	VB	VerbForm=Inf	7	relcl	_	_
@@ -14076,8 +14076,8 @@
 12	work	work	NOUN	NN	Number=Sing	10	dobj	_	_
 13	here	here	ADV	RB	PronType=Dem	10	advmod	_	_
 14	for	for	ADP	IN	_	10	prep	_	_
-15	twenty	twenty	NUM	CD	NumType=Card	16	nummod	_	_
-16	years	year	NOUN	NNS	Number=Plur	17	npadvmod	_	_
+15	twenty	twenty	NUM	CD	NumType=Card	16	nummod	_	NE=B-DATE
+16	years	year	NOUN	NNS	Number=Plur	17	npadvmod	_	NE=I-DATE
 17	more	more	ADV	RBR	Degree=Cmp	14	pobj	_	SpaceAfter=No
 18	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 19	destroy	destroy	VERB	VB	VerbForm=Inf	4	conj	_	_
@@ -14094,14 +14094,14 @@
 30	projectile	projectile	NOUN	NN	Number=Sing	28	dobj	_	_
 31	back	back	ADV	RB	_	28	advmod	_	_
 32	to	to	ADP	IN	_	31	prep	_	_
-33	Venus	Venus	PROPN	NNP	Number=Sing	32	pobj	_	_
+33	Venus	Venus	PROPN	NNP	Number=Sing	32	pobj	_	NE=B-LOC
 34	with	with	ADP	IN	_	28	prep	_	_
 35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
 36	alloy	alloy	NOUN	NN	Number=Sing	34	pobj	_	_
 37	needed	need	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	36	acl	_	_
 38	to	to	PART	TO	_	39	aux	_	_
 39	construct	construct	VERB	VB	VerbForm=Inf	37	advcl	_	_
-40	hundreds	hundred	NOUN	NNS	Number=Plur	39	dobj	_	_
+40	hundreds	hundred	NOUN	NNS	Number=Plur	39	dobj	_	NE=B-CARDINAL
 41	more	more	ADJ	JJR	Degree=Cmp	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
 
@@ -14181,7 +14181,7 @@
 
 # sent_id = 567
 # text = Oomlag rose to his feet.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	rose	rise	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	to	to	ADP	IN	_	2	prep	_	_
 4	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	poss	_	_
@@ -14222,7 +14222,7 @@
 5	take	take	VERB	VB	VerbForm=Inf	3	xcomp	_	_
 6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	dobj	_	_
 7	elsewhere	elsewhere	ADV	RB	_	5	advmod	_	_
-8	first	first	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	first	first	ADV	RB	_	5	advmod	_	NE=B-ORDINAL|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 10	but	but	CCONJ	CC	ConjType=Cmp	3	cc	_	_
 11	now	now	ADV	RB	_	14	advmod	_	_
@@ -14298,15 +14298,15 @@
 3	down	down	ADP	RP	_	2	prt	_	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
 5	perhaps	perhaps	ADV	RB	_	7	advmod	_	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	_
-7	half	half	ADJ	JJ	Degree=Pos	8	amod	_	_
-8	mile	mile	NOUN	NN	Number=Sing	2	npadvmod	_	SpaceAfter=No
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	quantmod	_	NE=B-QUANTITY
+7	half	half	ADJ	JJ	Degree=Pos	8	amod	_	NE=I-QUANTITY
+8	mile	mile	NOUN	NN	Number=Sing	2	npadvmod	_	NE=I-QUANTITY|SpaceAfter=No
 9	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 10	passing	pass	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	_
 11	many	many	ADJ	JJ	Degree=Pos	15	nsubj	_	_
 12	of	of	ADP	IN	_	11	prep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
-14	Venusians	Venusians	PROPN	NNPS	Number=Plur	12	pobj	_	_
+14	Venusians	Venusians	PROPN	NNPS	Number=Plur	12	pobj	_	NE=B-NORP
 15	hurrying	hurry	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	ccomp	_	_
 16	back	back	ADV	RB	_	15	advmod	_	_
 17	and	and	CCONJ	CC	ConjType=Cmp	16	cc	_	_
@@ -14366,7 +14366,7 @@
 13	other	other	ADJ	JJ	Degree=Pos	11	pobj	_	_
 14	or	or	CCONJ	CC	ConjType=Cmp	11	cc	_	_
 15	to	to	ADP	IN	_	11	conj	_	_
-16	Oomlag	Oomlag	PROPN	NNP	Number=Sing	15	pobj	_	SpaceAfter=No
+16	Oomlag	Oomlag	PROPN	NNP	Number=Sing	15	pobj	_	NE=B-ORG|SpaceAfter=No
 17	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
 
 # sent_id = 579
@@ -14414,7 +14414,7 @@
 
 # sent_id = 581
 # text = Oomlag gave a short signal with his wireless, the curtain parted, the usual stone doors slid silently open, and we entered a tremendous, brilliantly lighted room.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	gave	give	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 4	short	short	ADJ	JJ	Degree=Pos	5	amod	_	_
@@ -14467,8 +14467,8 @@
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	took	take	VERB	VBD	Tense=Past|VerbForm=Fin	6	ccomp	_	_
 19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	dative	_	_
-20	several	several	ADJ	JJ	Degree=Pos	21	amod	_	_
-21	seconds	second	NOUN	NNS	Number=Plur	18	npadvmod	_	_
+20	several	several	ADJ	JJ	Degree=Pos	21	amod	_	NE=B-TIME
+21	seconds	second	NOUN	NNS	Number=Plur	18	npadvmod	_	NE=I-TIME
 22	to	to	PART	TO	_	23	aux	_	_
 23	adjust	adjust	VERB	VB	VerbForm=Inf	18	xcomp	_	_
 24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	poss	_	_
@@ -14487,7 +14487,7 @@
 5	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 6	blinking	blink	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
-8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Oomlag	Oomlag	PROPN	NNP	Number=Sing	9	nsubj	_	NE=B-ORG
 9	spoke	speak	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	quantmod	_	_
 11	few	few	ADJ	JJ	Degree=Pos	13	amod	_	_
@@ -14496,7 +14496,7 @@
 14	to	to	ADP	IN	_	9	prep	_	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
 16	huge	huge	ADJ	JJ	Degree=Pos	17	amod	_	_
-17	Venusian	venusian	NOUN	NN	Number=Sing	14	pobj	_	_
+17	Venusian	venusian	NOUN	NN	Number=Sing	14	pobj	_	NE=B-NORP
 18	who	who	PRON	WP	_	21	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
@@ -14514,9 +14514,9 @@
 32	like	like	ADP	IN	_	31	prep	_	_
 33	that	that	PRON	DT	Number=Sing|PronType=Dem	32	pobj	_	_
 34	which	which	PRON	WDT	_	41	pobj	_	_
-35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
-36	Field	Field	PROPN	NNP	Number=Sing	37	compound	_	_
-37	General	General	PROPN	NNP	Number=Sing	40	nsubj	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	NE=B-ORG
+36	Field	Field	PROPN	NNP	Number=Sing	37	compound	_	NE=I-ORG
+37	General	General	PROPN	NNP	Number=Sing	40	nsubj	_	NE=I-ORG
 38	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	40	aux	_	_
 39	been	be	AUX	VBN	Tense=Past|VerbForm=Part	40	aux	_	_
 40	toying	toy	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	31	relcl	_	_
@@ -14552,11 +14552,11 @@
 2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
 3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	ROOT	_	_
-5	at	at	ADV	RB	_	6	advmod	_	_
-6	least	least	ADV	RBS	Degree=Sup	8	advmod	_	_
-7	five	five	NUM	CD	NumType=Card	8	compound	_	_
-8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	_
-9	feet	foot	NOUN	NNS	Number=Plur	10	npadvmod	_	_
+5	at	at	ADV	RB	_	6	advmod	_	NE=B-CARDINAL
+6	least	least	ADV	RBS	Degree=Sup	8	advmod	_	NE=I-CARDINAL
+7	five	five	NUM	CD	NumType=Card	8	compound	_	NE=I-CARDINAL
+8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	NE=I-CARDINAL
+9	feet	foot	NOUN	NNS	Number=Plur	10	npadvmod	_	NE=I-CARDINAL
 10	across	across	ADV	RB	_	4	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
 12	perfectly	perfectly	ADV	RB	_	13	advmod	_	_
@@ -14571,9 +14571,9 @@
 21	cave	cave	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
 22	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
 23	for	for	SCONJ	IN	_	29	mark	_	_
-24	hundreds	hundred	NOUN	NNS	Number=Plur	29	nsubj	_	_
-25	of	of	ADP	IN	_	24	prep	_	_
-26	feet	foot	NOUN	NNS	Number=Plur	25	pobj	_	_
+24	hundreds	hundred	NOUN	NNS	Number=Plur	29	nsubj	_	NE=B-QUANTITY
+25	of	of	ADP	IN	_	24	prep	_	NE=I-QUANTITY
+26	feet	foot	NOUN	NNS	Number=Plur	25	pobj	_	NE=I-QUANTITY
 27	above	above	ADP	IN	_	24	prep	_	_
 28	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	pobj	_	_
 29	gleamed	gleam	VERB	VBD	Tense=Past|VerbForm=Fin	4	advcl	_	_
@@ -14599,9 +14599,9 @@
 9	at	at	ADP	IN	_	8	prep	_	_
 10	intervals	interval	NOUN	NNS	Number=Plur	9	pobj	_	_
 11	of	of	ADP	IN	_	10	prep	_	_
-12	about	about	ADV	RB	_	13	advmod	_	_
-13	ten	ten	NUM	CD	NumType=Card	14	nummod	_	_
-14	feet	foot	NOUN	NNS	Number=Plur	11	pobj	_	SpaceAfter=No
+12	about	about	ADV	RB	_	13	advmod	_	NE=B-QUANTITY
+13	ten	ten	NUM	CD	NumType=Card	14	nummod	_	NE=I-QUANTITY
+14	feet	foot	NOUN	NNS	Number=Plur	11	pobj	_	NE=I-QUANTITY|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
 16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 17	round	round	ADJ	JJ	Degree=Pos	18	amod	_	_
@@ -14646,7 +14646,7 @@
 
 # sent_id = 588
 # text = Oomlag tapped me on the shoulder.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	tapped	tap	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	dobj	_	_
 4	on	on	ADP	IN	_	2	prep	_	_
@@ -14657,9 +14657,9 @@
 # sent_id = 589
 # text = “Stan-lee,” he said, grinning horribly, “you are now privileged to inspect the masterpiece of our civilization--the space flyer in which we came from Venus to your earth.
 1	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	8	punct	_	SpaceAfter=No
-2	Stan	Stan	PROPN	NNP	Number=Sing	4	compound	_	SpaceAfter=No
-3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
-4	lee	lee	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+2	Stan	Stan	PROPN	NNP	Number=Sing	4	compound	_	NE=B-PERSON|SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	NE=I-PERSON|SpaceAfter=No
+4	lee	lee	PROPN	NNP	Number=Sing	8	nsubj	_	NE=I-PERSON|SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	8	punct	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	8	punct	_	_
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -14689,7 +14689,7 @@
 31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 32	came	come	VERB	VBD	Tense=Past|VerbForm=Fin	28	relcl	_	_
 33	from	from	ADP	IN	_	32	prep	_	_
-34	Venus	Venus	PROPN	NNP	Number=Sing	33	pobj	_	_
+34	Venus	Venus	PROPN	NNP	Number=Sing	33	pobj	_	NE=B-LOC
 35	to	to	ADP	IN	_	32	prep	_	_
 36	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	37	poss	_	_
 37	earth	earth	NOUN	NN	Number=Sing	35	pobj	_	SpaceAfter=No
@@ -14749,7 +14749,7 @@
 
 # sent_id = 593
 # text = Half of them are supplying power to those round transformers you see, which in turn transmit the invisible energy to the lights in the various rooms and hallways nearby.
-1	Half	half	NOUN	NN	Number=Sing	5	nsubj	_	_
+1	Half	half	NOUN	NN	Number=Sing	5	nsubj	_	NE=B-CARDINAL
 2	of	of	ADP	IN	_	1	prep	_	_
 3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	pobj	_	_
 4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -14831,8 +14831,8 @@
 16	and	and	CCONJ	CC	ConjType=Cmp	15	cc	_	_
 17	ready	ready	ADJ	JJ	Degree=Pos	15	conj	_	_
 18	for	for	ADP	IN	_	17	prep	_	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
-20	day	day	NOUN	NN	Number=Sing	18	pobj	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	NE=B-DATE
+20	day	day	NOUN	NN	Number=Sing	18	pobj	_	NE=I-DATE
 21	in	in	ADP	IN	_	24	prep	_	_
 22	which	which	PRON	WDT	_	21	pobj	_	_
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
@@ -14849,21 +14849,21 @@
 6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
 7	be	be	AUX	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
 8	:	:	PUNCT	:	_	2	punct	_	_
-9	August	August	PROPN	NNP	Number=Sing	2	npadvmod	_	_
-10	21	21	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
-11	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
-12	1931	1931	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	August	August	PROPN	NNP	Number=Sing	2	npadvmod	_	NE=B-DATE
+10	21	21	NUM	CD	NumType=Card	9	nummod	_	NE=I-DATE|SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	9	punct	_	NE=I-DATE
+12	1931	1931	NUM	CD	NumType=Card	9	nummod	_	NE=I-DATE|SpaceAfter=No
 13	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
 # sent_id = 597
 # text = On that day our kinsmen on Venus will carefully observe your earth, and will witness the well-timed explosions.
 1	On	on	ADP	IN	_	10	prep	_	_
-2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
-3	day	day	NOUN	NN	Number=Sing	1	pobj	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	NE=B-DATE
+3	day	day	NOUN	NN	Number=Sing	1	pobj	_	NE=I-DATE
 4	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	poss	_	_
 5	kinsmen	kinsman	NOUN	NNS	Number=Plur	10	nsubj	_	_
 6	on	on	ADP	IN	_	5	prep	_	_
-7	Venus	Venus	PROPN	NNP	Number=Sing	6	pobj	_	_
+7	Venus	Venus	PROPN	NNP	Number=Sing	6	pobj	_	NE=B-LOC
 8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
 9	carefully	carefully	ADV	RB	_	10	advmod	_	_
 10	observe	observe	VERB	VB	VerbForm=Inf	0	ROOT	_	_
@@ -14944,14 +14944,14 @@
 2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
 3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	ROOT	_	_
-5	at	at	ADP	IN	_	6	advmod	_	_
-6	least	least	ADV	RBS	Degree=Sup	7	advmod	_	_
-7	eighty	eighty	NUM	CD	NumType=Card	8	nummod	_	_
-8	feet	foot	NOUN	NNS	Number=Plur	4	attr	_	_
+5	at	at	ADP	IN	_	6	advmod	_	NE=B-QUANTITY
+6	least	least	ADV	RBS	Degree=Sup	7	advmod	_	NE=I-QUANTITY
+7	eighty	eighty	NUM	CD	NumType=Card	8	nummod	_	NE=I-QUANTITY
+8	feet	foot	NOUN	NNS	Number=Plur	4	attr	_	NE=I-QUANTITY
 9	in	in	ADP	IN	_	8	prep	_	_
 10	height	height	NOUN	NN	Number=Sing	9	pobj	_	_
 11	by	by	ADP	IN	_	8	prep	_	_
-12	thirty	thirty	NUM	CD	NumType=Card	11	pobj	_	_
+12	thirty	thirty	NUM	CD	NumType=Card	11	pobj	_	NE=B-CARDINAL
 13	in	in	ADP	IN	_	12	prep	_	_
 14	width	width	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
@@ -14960,9 +14960,9 @@
 18	octagon	octagon	NOUN	NN	Number=Sing	8	appos	_	_
 19	to	to	ADP	IN	_	18	prep	_	_
 20	within	within	ADP	IN	_	19	prep	_	_
-21	about	about	ADV	RB	_	22	advmod	_	_
-22	fifteen	fifteen	NUM	CD	NumType=Card	23	nummod	_	_
-23	feet	foot	NOUN	NNS	Number=Plur	20	pobj	_	_
+21	about	about	ADV	RB	_	22	advmod	_	NE=B-QUANTITY
+22	fifteen	fifteen	NUM	CD	NumType=Card	23	nummod	_	NE=I-QUANTITY
+23	feet	foot	NOUN	NNS	Number=Plur	20	pobj	_	NE=I-QUANTITY
 24	of	of	ADP	IN	_	23	prep	_	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
 26	top	top	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
@@ -15005,10 +15005,10 @@
 11	in	in	ADP	IN	_	10	prep	_	_
 12	clusters	cluster	NOUN	NNS	Number=Plur	11	pobj	_	_
 13	of	of	ADP	IN	_	12	prep	_	_
-14	eight	eight	NUM	CD	NumType=Card	13	pobj	_	SpaceAfter=No
+14	eight	eight	NUM	CD	NumType=Card	13	pobj	_	NE=B-CARDINAL|SpaceAfter=No
 15	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 16	which	which	PRON	WDT	_	20	nsubj	_	_
-17	Oomlag	Oomlag	PROPN	NNP	Number=Sing	19	nsubj	_	_
+17	Oomlag	Oomlag	PROPN	NNP	Number=Sing	19	nsubj	_	NE=B-ORG
 18	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	19	aux	_	_
 19	said	say	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	ccomp	_	_
 20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
@@ -15060,7 +15060,7 @@
 # text = The big Venusian who had admitted us to the room, and who apparently was the sole guardian of this valuable chamber with its vital apparatus, stepped ahead of us and pointed one of the round objects he carried at the side of the flyer.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	big	big	ADJ	JJ	Degree=Pos	3	amod	_	_
-3	Venusian	venusian	NOUN	NN	Number=Sing	28	nsubj	_	_
+3	Venusian	venusian	NOUN	NN	Number=Sing	28	nsubj	_	NE=B-NORP
 4	who	who	PRON	WP	_	6	nsubj	_	_
 5	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
 6	admitted	admit	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	relcl	_	_
@@ -15109,7 +15109,7 @@
 # sent_id = 608
 # text = Instantly two doors flew out, making an opening about four feet wide and six feet high into the projectile.
 1	Instantly	instantly	ADV	RB	_	4	advmod	_	_
-2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	NE=B-CARDINAL
 3	doors	door	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	flew	fly	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 5	out	out	ADV	RB	_	4	prt	_	SpaceAfter=No
@@ -15117,13 +15117,13 @@
 7	making	make	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	advcl	_	_
 8	an	an	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	opening	opening	NOUN	NN	Number=Sing	7	dobj	_	_
-10	about	about	ADV	RB	_	11	quantmod	_	_
-11	four	four	NUM	CD	NumType=Card	12	nummod	_	_
-12	feet	foot	NOUN	NNS	Number=Plur	13	npadvmod	_	_
+10	about	about	ADV	RB	_	11	quantmod	_	NE=B-QUANTITY
+11	four	four	NUM	CD	NumType=Card	12	nummod	_	NE=I-QUANTITY
+12	feet	foot	NOUN	NNS	Number=Plur	13	npadvmod	_	NE=I-QUANTITY
 13	wide	wide	ADJ	JJ	Degree=Pos	9	amod	_	_
 14	and	and	CCONJ	CC	ConjType=Cmp	13	cc	_	_
-15	six	six	NUM	CD	NumType=Card	16	nummod	_	_
-16	feet	foot	NOUN	NNS	Number=Plur	17	npadvmod	_	_
+15	six	six	NUM	CD	NumType=Card	16	nummod	_	NE=B-QUANTITY
+16	feet	foot	NOUN	NNS	Number=Plur	17	npadvmod	_	NE=I-QUANTITY
 17	high	high	ADJ	JJ	Degree=Pos	13	conj	_	_
 18	into	into	ADP	IN	_	17	prep	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
@@ -15132,9 +15132,9 @@
 
 # sent_id = 609
 # text = Stooping, Oomlag entered, and I followed close behind him.
-1	Stooping	Stooping	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+1	Stooping	Stooping	PROPN	NNP	Number=Sing	4	nsubj	_	NE=B-PERSON|SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
-3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	nsubj	_	NE=B-ORG
 4	entered	enter	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
 6	and	and	CCONJ	CC	ConjType=Cmp	4	cc	_	_
@@ -15214,19 +15214,19 @@
 8	octagonal	octagonal	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	chamber	chamber	NOUN	NN	Number=Sing	4	pobj	_	_
 10	some	some	DET	DT	_	13	quantmod	_	_
-11	twenty	twenty	NUM	CD	NumType=Card	13	compound	_	SpaceAfter=No
-12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
-13	five	five	NUM	CD	NumType=Card	14	nummod	_	_
-14	feet	foot	NOUN	NNS	Number=Plur	15	npadvmod	_	_
+11	twenty	twenty	NUM	CD	NumType=Card	13	compound	_	NE=B-QUANTITY|SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	NE=I-QUANTITY|SpaceAfter=No
+13	five	five	NUM	CD	NumType=Card	14	nummod	_	NE=I-QUANTITY
+14	feet	foot	NOUN	NNS	Number=Plur	15	npadvmod	_	NE=I-QUANTITY
 15	across	across	ADV	RB	_	3	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
 17	with	with	ADP	IN	_	3	prep	_	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
 19	metallic	metallic	ADJ	JJ	Degree=Pos	20	amod	_	_
 20	ceiling	ceiling	NOUN	NN	Number=Sing	17	pobj	_	_
-21	about	about	ADV	RB	_	22	advmod	_	_
-22	twelve	twelve	NUM	CD	NumType=Card	23	nummod	_	_
-23	feet	foot	NOUN	NNS	Number=Plur	24	npadvmod	_	_
+21	about	about	ADV	RB	_	22	advmod	_	NE=B-QUANTITY
+22	twelve	twelve	NUM	CD	NumType=Card	23	nummod	_	NE=I-QUANTITY
+23	feet	foot	NOUN	NNS	Number=Plur	24	npadvmod	_	NE=I-QUANTITY
 24	from	from	ADP	IN	_	20	prep	_	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
 26	floor	floor	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
@@ -15244,9 +15244,9 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 9	circular	circular	ADJ	JJ	Degree=Pos	10	amod	_	_
 10	opening	opening	NOUN	NN	Number=Sing	7	attr	_	_
-11	about	about	ADV	RB	_	12	quantmod	_	_
-12	six	six	NUM	CD	NumType=Card	13	nummod	_	_
-13	feet	foot	NOUN	NNS	Number=Plur	10	appos	_	_
+11	about	about	ADV	RB	_	12	quantmod	_	NE=B-QUANTITY
+12	six	six	NUM	CD	NumType=Card	13	nummod	_	NE=I-QUANTITY
+13	feet	foot	NOUN	NNS	Number=Plur	10	appos	_	NE=I-QUANTITY
 14	in	in	ADP	IN	_	13	prep	_	_
 15	diameter	diameter	NOUN	NN	Number=Sing	14	pobj	_	_
 16	through	through	ADP	IN	_	18	prep	_	_
@@ -15401,14 +15401,14 @@
 28	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
 29	descending	descend	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	20	advcl	_	_
 30	in	in	ADP	IN	_	29	prep	_	_
-31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
-32	few	few	ADJ	JJ	Degree=Pos	33	amod	_	_
-33	seconds	second	NOUN	NNS	Number=Plur	30	pobj	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	NE=B-TIME
+32	few	few	ADJ	JJ	Degree=Pos	33	amod	_	NE=I-TIME
+33	seconds	second	NOUN	NNS	Number=Plur	30	pobj	_	NE=I-TIME
 34	with	with	ADP	IN	_	29	prep	_	_
 35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
 36	couple	couple	NOUN	NN	Number=Sing	34	pobj	_	_
 37	of	of	ADP	IN	_	36	prep	_	_
-38	Venusians	Venusians	PROPN	NNPS	Number=Plur	37	pobj	_	SpaceAfter=No
+38	Venusians	Venusians	PROPN	NNPS	Number=Plur	37	pobj	_	NE=B-NORP|SpaceAfter=No
 39	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
 
 # sent_id = 619
@@ -15443,7 +15443,7 @@
 
 # sent_id = 620
 # text = Oomlag had been watching me with smug satisfaction, evidently deriving much amusement from my open-mouthed expression of amazement.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	nsubj	_	NE=B-ORG
 2	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
 4	watching	watch	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	ROOT	_	_
@@ -15512,7 +15512,7 @@
 8	amount	amount	NOUN	NN	Number=Sing	6	pobj	_	_
 9	of	of	ADP	IN	_	8	prep	_	_
 10	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	9	punct	_	SpaceAfter=No
-11	Venusite	Venusite	PROPN	NNP	Number=Sing	9	pobj	_	SpaceAfter=No
+11	Venusite	Venusite	PROPN	NNP	Number=Sing	9	pobj	_	NE=B-PERSON|SpaceAfter=No
 12	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	3	punct	_	_
 13	introduced	introduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	27	advcl	_	_
 14	into	into	ADP	IN	_	13	prep	_	_
@@ -15540,7 +15540,7 @@
 5	power	power	NOUN	NN	Number=Sing	3	dobj	_	_
 6	of	of	ADP	IN	_	5	prep	_	_
 7	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	6	punct	_	SpaceAfter=No
-8	Venusite	Venusite	PROPN	NNP	Number=Sing	6	pobj	_	SpaceAfter=No
+8	Venusite	Venusite	PROPN	NNP	Number=Sing	6	pobj	_	NE=B-PERSON|SpaceAfter=No
 9	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	6	punct	_	_
 10	when	when	SCONJ	WRB	_	12	advmod	_	_
 11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
@@ -15690,7 +15690,7 @@
 25	supply	supply	NOUN	NN	Number=Sing	22	dobj	_	_
 26	of	of	ADP	IN	_	25	prep	_	_
 27	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	26	punct	_	SpaceAfter=No
-28	Venusite	Venusite	PROPN	NNP	Number=Sing	26	pobj	_	SpaceAfter=No
+28	Venusite	Venusite	PROPN	NNP	Number=Sing	26	pobj	_	NE=B-PERSON|SpaceAfter=No
 29	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	22	punct	_	_
 30	and	and	CCONJ	CC	ConjType=Cmp	22	cc	_	_
 31	have	have	VERB	VB	VerbForm=Inf	22	conj	_	_
@@ -15724,7 +15724,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	flyer----	flyer----	PROPN	NNP	Number=Sing	3	pobj	_	SpaceAfter=No
 6	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	2	punct	_	_
-7	OOMLAG	OOMLAG	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	OOMLAG	OOMLAG	PROPN	NNP	Number=Sing	8	nsubj	_	NE=B-ORG
 8	stopped	stop	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 9	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
 
@@ -15741,7 +15741,7 @@
 9	and	and	CCONJ	CC	ConjType=Cmp	7	cc	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 11	big	big	ADJ	JJ	Degree=Pos	13	amod	_	_
-12	Venusian	venusian	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	Venusian	venusian	ADJ	JJ	Degree=Pos	13	amod	_	NE=B-NORP
 13	guard	guard	NOUN	NN	Number=Sing	15	nsubj	_	_
 14	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	15	aux	_	_
 15	entered	enter	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -15750,7 +15750,7 @@
 18	in	in	ADP	RP	_	17	prt	_	_
 19	abruptly	abruptly	ADV	RB	_	17	advmod	_	_
 20	on	on	ADP	IN	_	17	prep	_	_
-21	Oomlag	Oomlag	PROPN	NNP	Number=Sing	23	poss	_	SpaceAfter=No
+21	Oomlag	Oomlag	PROPN	NNP	Number=Sing	23	poss	_	NE=B-ORG|SpaceAfter=No
 22	’s	’s	PART	POS	_	21	case	_	_
 23	talk	talk	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
 24	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
@@ -15779,7 +15779,7 @@
 
 # sent_id = 633
 # text = Oomlag scowled, and seemed to be considering what he had just heard.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	scowled	scowl	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 3	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
 4	and	and	CCONJ	CC	ConjType=Cmp	2	cc	_	_
@@ -15874,9 +15874,9 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
 7	moment	moment	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
 8	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
-9	Stan	Stan	PROPN	NNP	Number=Sing	11	compound	_	SpaceAfter=No
-10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
-11	lee	lee	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+9	Stan	Stan	PROPN	NNP	Number=Sing	11	compound	_	NE=B-PERSON|SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	NE=I-PERSON|SpaceAfter=No
+11	lee	lee	PROPN	NNP	Number=Sing	15	nsubj	_	NE=I-PERSON|SpaceAfter=No
 12	,	,	PUNCT	,	PunctType=Comm	15	punct	_	SpaceAfter=No
 13	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	15	punct	_	_
 14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
@@ -15916,7 +15916,7 @@
 9	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	followed	follow	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
-12	Oomlag	Oomlag	PROPN	NNP	Number=Sing	11	dobj	_	_
+12	Oomlag	Oomlag	PROPN	NNP	Number=Sing	11	dobj	_	NE=B-ORG
 13	and	and	CCONJ	CC	ConjType=Cmp	12	cc	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 15	guard	guard	NOUN	NN	Number=Sing	12	conj	_	_
@@ -15947,7 +15947,7 @@
 9	behind	behind	ADP	IN	_	8	prep	_	_
 10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	pobj	_	SpaceAfter=No
 11	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
-12	Oomlag	Oomlag	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	Oomlag	Oomlag	PROPN	NNP	Number=Sing	13	nsubj	_	NE=B-ORG
 13	spoke	speak	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	SpaceAfter=No
 14	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
 
@@ -16009,9 +16009,9 @@
 20	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
 21	to----	to----	NUM	CD	NumType=Card	1	cc	_	_
 22	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	25	punct	_	SpaceAfter=No
-23	Stan	Stan	PROPN	NNP	Number=Sing	25	compound	_	SpaceAfter=No
-24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
-25	lee	lee	PROPN	NNP	Number=Sing	1	conj	_	SpaceAfter=No
+23	Stan	Stan	PROPN	NNP	Number=Sing	25	compound	_	NE=B-PERSON|SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	NE=I-PERSON|SpaceAfter=No
+25	lee	lee	PROPN	NNP	Number=Sing	1	conj	_	NE=I-PERSON|SpaceAfter=No
 26	,	,	PUNCT	,	PunctType=Comm	28	punct	_	_
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
 28	see	see	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -16036,7 +16036,7 @@
 
 # sent_id = 646
 # text = Oomlag came closer, leering into my face.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	came	come	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	closer	close	ADV	RBR	Degree=Cmp	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
@@ -16071,7 +16071,7 @@
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 3	really	really	ADV	RB	_	2	advmod	_	_
 4	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	poss	_	_
-5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	NE=B-CARDINAL
 6	weakness	weakness	NOUN	NN	Number=Sing	2	attr	_	SpaceAfter=No
 7	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
 
@@ -16099,7 +16099,7 @@
 # text = That leaves two alternatives--either kill you, or let you go.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
 2	leaves	leave	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	NE=B-CARDINAL
 4	alternatives	alternative	NOUN	NNS	Number=Plur	2	dobj	_	SpaceAfter=No
 5	--	--	PUNCT	:	_	4	punct	_	SpaceAfter=No
 6	either	either	CCONJ	CC	ConjType=Cmp	7	preconj	_	_
@@ -16186,7 +16186,7 @@
 
 # sent_id = 656
 # text = Oomlag spoke suavely, mockingly.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-ORG
 2	spoke	speak	VERB	VBD	Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	suavely	suavely	ADV	RB	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
@@ -16223,7 +16223,7 @@
 # text = In the first place, no one would believe you, you would be considered mad.
 1	In	in	ADP	IN	_	9	prep	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
-3	first	first	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	first	first	ADJ	JJ	Degree=Pos	4	amod	_	NE=B-ORDINAL
 4	place	place	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 6	no	no	DET	DT	_	7	det	_	_
@@ -16243,7 +16243,7 @@
 # text = In the second place, you humans could do nothing to hinder us if you wished.
 1	In	in	ADP	IN	_	9	prep	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
-3	second	second	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	second	second	ADJ	JJ	Degree=Pos	4	amod	_	NE=B-ORDINAL
 4	place	place	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
 6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
@@ -16267,7 +16267,7 @@
 4	power	power	NOUN	NN	Number=Sing	2	dobj	_	_
 5	of	of	ADP	IN	_	4	prep	_	_
 6	‘	'	PUNCT	``	PunctSide=Ini|PunctType=Quot	5	punct	_	SpaceAfter=No
-7	Venusite	Venusite	PROPN	NNP	Number=Sing	5	pobj	_	SpaceAfter=No
+7	Venusite	Venusite	PROPN	NNP	Number=Sing	5	pobj	_	NE=B-PERSON|SpaceAfter=No
 8	.	.	PUNCT	.	PunctType=Peri	2	punct	_	SpaceAfter=No
 9	’	'	PUNCT	''	PunctSide=Fin|PunctType=Quot	2	punct	_	_
 
@@ -16431,7 +16431,7 @@
 
 # sent_id = 672
 # text = Oomlag’s ochre face came close to mine.
-1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	poss	_	SpaceAfter=No
+1	Oomlag	Oomlag	PROPN	NNP	Number=Sing	4	poss	_	NE=B-ORG|SpaceAfter=No
 2	’s	’s	PART	POS	_	1	case	_	_
 3	ochre	ochre	NOUN	NN	Number=Sing	4	compound	_	_
 4	face	face	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -16612,7 +16612,7 @@
 14	legible	legible	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
 15	:	:	PUNCT	:	_	18	punct	_	_
 16	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	18	punct	_	SpaceAfter=No
-17	India	India	PROPN	NNP	Number=Sing	18	nsubj	_	_
+17	India	India	PROPN	NNP	Number=Sing	18	nsubj	_	NE=B-GPE
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 19	safe	safe	ADJ	JJ	Degree=Pos	18	acomp	_	SpaceAfter=No
 20	.	.	PUNCT	.	PunctType=Peri	18	punct	_	SpaceAfter=No
@@ -16625,7 +16625,7 @@
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	setting	set	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	ROOT	_	_
 5	when	when	SCONJ	WRB	_	7	advmod	_	_
-6	Olin	Olin	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	Olin	Olin	PROPN	NNP	Number=Sing	7	nsubj	_	NE=B-PERSON
 7	appeared	appear	VERB	VBD	Tense=Past|VerbForm=Fin	4	advcl	_	_
 8	with	with	ADP	IN	_	7	prep	_	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
@@ -16683,7 +16683,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
 3	as	as	SCONJ	IN	_	6	mark	_	_
-4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	6	nsubj	_	_
+4	Oomlag	Oomlag	PROPN	NNP	Number=Sing	6	nsubj	_	NE=B-ORG
 5	had	have	AUX	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
 6	said	say	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
@@ -16693,7 +16693,7 @@
 1	Now	now	ADV	RB	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 3	in	in	ADP	IN	_	7	prep	_	_
-4	India	India	PROPN	NNP	Number=Sing	3	pobj	_	SpaceAfter=No
+4	India	India	PROPN	NNP	Number=Sing	3	pobj	_	NE=B-GPE|SpaceAfter=No
 5	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	write	write	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -16733,8 +16733,8 @@
 12	as	as	ADP	IN	_	10	prep	_	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
 14	second	second	ADJ	JJ	Degree=Pos	16	amod	_	_
-15	Jack	Jack	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Pansay	Pansay	PROPN	NNP	Number=Sing	12	pobj	_	_
+15	Jack	Jack	PROPN	NNP	Number=Sing	16	compound	_	NE=B-PERSON
+16	Pansay	Pansay	PROPN	NNP	Number=Sing	12	pobj	_	NE=I-PERSON
 17	with	with	ADP	IN	_	10	prep	_	_
 18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	poss	_	_
 19	phantom	phantom	ADJ	JJ	Degree=Pos	21	amod	_	_
@@ -16749,7 +16749,7 @@
 
 # sent_id = 692
 # text = Olin knows I disappeared--and I know what happened.
-1	Olin	Olin	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Olin	Olin	PROPN	NNP	Number=Sing	2	nsubj	_	NE=B-PERSON
 2	knows	know	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	disappeared	disappear	VERB	VBD	Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
@@ -16793,11 +16793,11 @@
 1	How	how	SCONJ	WRB	_	2	advmod	_	_
 2	wise	wise	ADJ	JJ	Degree=Pos	3	acomp	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
-4	Shakespeare	Shakespeare	PROPN	NNP	Number=Sing	3	nsubj	_	_
+4	Shakespeare	Shakespeare	PROPN	NNP	Number=Sing	3	nsubj	_	NE=B-PERSON
 5	when	when	SCONJ	WRB	_	7	advmod	_	_
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	3	advcl	_	_
-8	Hamlet	Hamlet	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Hamlet	Hamlet	PROPN	NNP	Number=Sing	9	nsubj	_	NE=B-WORK_OF_ART
 9	say	say	VERB	VB	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
 10	:	:	PUNCT	:	_	9	punct	_	_
 11	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	9	punct	_	SpaceAfter=No
@@ -16835,17 +16835,17 @@
 2	reference	reference	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
 4	to	to	ADP	IN	_	3	prep	_	_
-5	one	one	NUM	CD	NumType=Card	4	pobj	_	_
+5	one	one	NUM	CD	NumType=Card	4	pobj	_	NE=B-CARDINAL
 6	of	of	ADP	IN	_	5	prep	_	_
-7	Rudyard	Rudyard	PROPN	NNP	Number=Sing	8	compound	_	_
-8	Kipling	Kipling	PROPN	NNP	Number=Sing	11	poss	_	SpaceAfter=No
+7	Rudyard	Rudyard	PROPN	NNP	Number=Sing	8	compound	_	NE=B-PERSON
+8	Kipling	Kipling	PROPN	NNP	Number=Sing	11	poss	_	NE=I-PERSON|SpaceAfter=No
 9	’s	’s	PART	POS	_	8	case	_	_
 10	early	early	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	stories	story	NOUN	NNS	Number=Plur	6	pobj	_	_
 12	called	call	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
 13	“	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	16	punct	_	SpaceAfter=No
-14	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-15	Phantom	Phantom	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Rickshaw	Rickshaw	PROPN	NNP	Number=Sing	12	oprd	_	SpaceAfter=No
+14	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NE=B-WORK_OF_ART
+15	Phantom	Phantom	PROPN	NNP	Number=Sing	16	compound	_	NE=I-WORK_OF_ART
+16	Rickshaw	Rickshaw	PROPN	NNP	Number=Sing	12	oprd	_	NE=I-WORK_OF_ART|SpaceAfter=No
 17	.	.	PUNCT	.	PunctType=Peri	3	punct	_	SpaceAfter=No
 18	”	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	3	punct	_	SpaceAfter=No
