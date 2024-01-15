@@ -29,7 +29,6 @@ workflows:
   all:
     - install-dependencies
     - install-language
-    - validate-annotations
     - convert-raw-text
     - convert-annotations
     - split-data
@@ -41,7 +40,6 @@ workflows:
     - install-dependencies
     - install-language
   setup:
-    - validate-annotations
     - convert-raw-text
     - convert-annotations
     - split-data
@@ -61,11 +59,6 @@ commands:
     deps: ["assets/lang/${vars.lang}"]
     script: ["pip install -e assets/lang/${vars.lang}"]
 
-  - name: validate-annotations
-    help: "Validate the files exported from INCEpTION"
-    deps: ["assets/annotations"]
-    script: ["python scripts/validate_annotations.py assets/annotations"]
-
   - name: convert-raw-text
     help: "Convert raw text files to spaCy's format"
     script: ["python scripts/convert_text.py assets/text corpus/ ${vars.n_sents} ${vars.lang}"]
@@ -74,7 +67,9 @@ commands:
 
   - name: convert-annotations
     help: "Convert annotated data from INCEpTION to spaCy's format"
-    script: ["python scripts/convert_annotations.py assets/annotations corpus/ ${vars.n_sents} ${vars.lang}"]
+    script:
+      - "python scripts/validate_annotations.py assets/annotations"
+      - "python scripts/convert_annotations.py assets/annotations corpus/ ${vars.n_sents} ${vars.lang}"
     deps: ["assets/annotations"]
     outputs: ["corpus/all.spacy"]
 
