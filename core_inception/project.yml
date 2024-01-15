@@ -69,14 +69,14 @@ commands:
     help: "Convert annotated data from INCEpTION to spaCy's format"
     script:
       - "python scripts/validate_annotations.py assets/annotations"
-      - "python scripts/convert_annotations.py assets/annotations corpus/ ${vars.n_sents} ${vars.lang}"
+      - "spacy convert assets/annotations corpus/ --n-sents ${vars.n_sents} --lang ${vars.lang} --concatenate"
     deps: ["assets/annotations"]
-    outputs: ["corpus/all.spacy"]
+    outputs: ["corpus/annotations.spacy"]
 
   - name: split-data
     help: "Split the data into training, validation, and test sets"
-    script: ["python scripts/split_data.py corpus/all.spacy corpus/ ${vars.test_size} ${vars.lang}"]
-    deps: ["corpus/all.spacy"]
+    script: ["python scripts/split_data.py corpus/annotations.spacy corpus/ ${vars.test_size} ${vars.lang}"]
+    deps: ["corpus/annotations.spacy"]
     outputs:
       - "corpus/train.spacy"
       - "corpus/dev.spacy"
