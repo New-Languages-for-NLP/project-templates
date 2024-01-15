@@ -4,6 +4,12 @@
 
 This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data. It includes configuration for pretraining your model on raw text to improve its accuracy.
 
+To get started, clone this project using Weasel:
+`spacy project clone --repo https://github.com/New-Languages-for-NLP/project-templates.git my_project_name`
+
+Then, follow the instructions in the README in the assets directory to set up your project's assets.
+
+
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
@@ -20,7 +26,6 @@ Commands are only re-run if their inputs have changed.
 | --- | --- |
 | `install-dependencies` | Install python dependencies |
 | `install-language` | Install the language module from Cadet |
-| `validate-annotations` | Validate the files exported from INCEpTION |
 | `convert-raw-text` | Convert raw text files to spaCy's format |
 | `convert-annotations` | Convert annotated data from INCEpTION to spaCy's format |
 | `split-data` | Split the data into training, validation, and test sets |
@@ -40,9 +45,9 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `install-dependencies` &rarr; `install-language` &rarr; `validate-annotations` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` &rarr; `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
+| `all` | `install-dependencies` &rarr; `install-language` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` &rarr; `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
 | `install` | `install-dependencies` &rarr; `install-language` |
-| `setup` | `validate-annotations` &rarr; `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` |
+| `setup` | `convert-raw-text` &rarr; `convert-annotations` &rarr; `split-data` &rarr; `debug-data` |
 | `train` | `debug-config` &rarr; `pretrain-model` &rarr; `train-model` |
 
 ### 🗂 Assets
