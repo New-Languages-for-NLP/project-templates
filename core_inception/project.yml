@@ -1,5 +1,11 @@
 title: "Train new language core model with Cadet and INCEpTION"
-description: "This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data. It includes configuration for pretraining your model on raw text to improve its accuracy."
+description: |
+  This project template lets you train a part-of-speech tagger, dependency parser, and named entity recognizer for a new language from your Cadet and INCEpTION data. It includes configuration for pretraining your model on raw text to improve its accuracy.
+
+  To get started, clone this project using Weasel:
+  `spacy project clone --repo https://github.com/New-Languages-for-NLP/project-templates.git my_project_name`
+
+  Then, follow the instructions in the README in the assets directory to set up your project's assets.
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
