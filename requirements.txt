@@ -1,4 +1,4 @@
-spacy==3.7.2
+spacy==3.7.4
 spacy-transformers
 black
 pytest
